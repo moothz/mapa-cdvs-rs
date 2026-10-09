@@ -72,112 +72,112 @@
     "updated_at": 1791556426
   },
   "CDV00806_93880000_ARARICA": {
-    "lat": -29.6303451,
-    "lng": -50.9385089,
-    "method": "nominatim_cep",
-    "updated_at": 1791556429
+    "lat": -29.6373769,
+    "lng": -50.9415723,
+    "method": "nominatim_name",
+    "updated_at": 1791561680
   },
   "CDV01132_95940000_ARROIO DO MEIO": {
-    "lat": -29.3939248,
-    "lng": -51.9809574,
-    "method": "nominatim_cep",
-    "updated_at": 1791556431
+    "lat": -29.3105421,
+    "lng": -51.9006711,
+    "method": "nominatim_address",
+    "updated_at": 1791561682
   },
   "CDV00899_95940000_ARROIO DO MEIO": {
-    "lat": -29.3939248,
-    "lng": -51.9809574,
-    "method": "nominatim_cep",
-    "updated_at": 1791556432
+    "lat": -29.3105421,
+    "lng": -51.9006711,
+    "method": "nominatim_address",
+    "updated_at": 1791561684
   },
   "CDV01133_95940000_ARROIO DO MEIO": {
-    "lat": -29.3939248,
-    "lng": -51.9809574,
-    "method": "nominatim_cep",
-    "updated_at": 1791556433
+    "lat": -29.4108068,
+    "lng": -51.9481068,
+    "method": "nominatim_address",
+    "updated_at": 1791561687
   },
   "CDV00764_95585000_ARROIO DO SAL": {
-    "lat": -29.5380877,
-    "lng": -49.8844927,
-    "method": "nominatim_cep",
-    "updated_at": 1791556435
+    "lat": -29.5500523,
+    "lng": -49.8860423,
+    "method": "nominatim_address",
+    "updated_at": 1791561689
   },
   "CDV01135_95995000_ARVOREZINHA": {
-    "lat": -28.8742547,
-    "lng": -52.1805304,
-    "method": "nominatim_cep",
-    "updated_at": 1791556436
+    "lat": -28.8652626,
+    "lng": -52.1902497,
+    "method": "nominatim_address",
+    "updated_at": 1791561691
   },
   "CDV00313_96420160_BAGE": {
     "lat": -31.3471479,
     "lng": -54.0966922,
     "method": "nominatim_bairro",
-    "updated_at": 1791558445
+    "updated_at": 1791566100
   },
   "CDV01148_95599000_BALNEARIO PINHAL": {
-    "lat": -30.2499483,
-    "lng": -50.2372084,
-    "method": "nominatim_cep",
-    "updated_at": 1791556439
+    "lat": -30.2856139,
+    "lng": -50.2545365,
+    "method": "nominatim_address",
+    "updated_at": 1791566103
   },
   "CDV00319_99585000_BARRA FUNDA": {
-    "lat": -27.9257127,
-    "lng": -53.0367424,
-    "method": "nominatim_cep",
-    "updated_at": 1791556441
+    "lat": -27.9151726,
+    "lng": -52.9656383,
+    "method": "nominatim_address",
+    "updated_at": 1791566107
   },
   "CDV00898_99585000_BARRA FUNDA": {
     "lat": -27.9257127,
     "lng": -53.0367424,
     "method": "nominatim_cep",
-    "updated_at": 1791556442
+    "updated_at": 1791566114
   },
   "CDV00260_95702450_BENTO GONCALVES": {
     "lat": -29.183612,
     "lng": -51.5051657,
-    "method": "nominatim_cep",
-    "updated_at": 1791556443
+    "method": "nominatim_address",
+    "updated_at": 1791566118
   },
   "CDV00705_95707450_BENTO GONCALVES": {
-    "lat": -29.1441328,
-    "lng": -51.5355557,
+    "lat": -29.1465749,
+    "lng": -51.5322231,
     "method": "nominatim_address",
-    "updated_at": 1791558835
+    "updated_at": 1791566121
   },
   "CDV00922_95765000_BOM PRINCIPIO": {
-    "lat": -29.4731966,
-    "lng": -51.356551,
-    "method": "nominatim_cep",
-    "updated_at": 1791556447
+    "lat": -29.4469807,
+    "lng": -51.3615389,
+    "method": "nominatim_bairro",
+    "updated_at": 1791567752
   },
   "CDV00730_96570000_CACAPAVA DO SUL": {
     "lat": -30.5369351,
     "lng": -53.474495,
     "method": "nominatim_cep",
-    "updated_at": 1791556449
+    "updated_at": 1791567759
   },
   "CDV00875_97450000_CACEQUI": {
     "lat": -29.877744,
     "lng": -54.8459732,
     "method": "nominatim_address",
-    "updated_at": 1791558896
+    "updated_at": 1791567762
   },
   "CDV00247_96505142_CACHOEIRA DO SUL": {
     "lat": -30.0114303,
     "lng": -52.901503,
     "method": "nominatim_address",
-    "updated_at": 1791557989
+    "updated_at": 1791567766
   },
   "CDV00244_96505141_CACHOEIRA DO SUL": {
     "lat": -30.0114303,
     "lng": -52.901503,
     "method": "nominatim_address",
-    "updated_at": 1791558267
+    "updated_at": 1791567770
   },
   "CDV00782_96180000_CAMAQUA": {
-    "lat": -30.8478322,
-    "lng": -51.8079752,
-    "method": "nominatim_cep",
-    "updated_at": 1791556452
+    "lat": -30.8438095,
+    "lng": -51.8165082,
+    "method": "nominatim_address",
+    "updated_at": 1791567773
   },
   "CDV00945_96180000_CAMAQUA": {
     "lat": -30.8478322,
@@ -2379,7 +2379,7 @@
     "lat": -27.5003,
     "lng": -52.1448,
     "method": "municipio_centroid",
-    "updated_at": 1791558326
+    "updated_at": 1791568645
   },
   "CDV01001_98910000_TRES DE MAIO": {
     "lat": -27.7789239,

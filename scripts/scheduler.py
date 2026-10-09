@@ -6,6 +6,7 @@ import sys
 import time
 from datetime import datetime, timedelta
 
+from scripts.geocoder import atomic_write_json
 from scripts.scraper import (
     STATE_FILE,
     CDVS_FILE,
@@ -39,10 +40,8 @@ def load_state() -> dict:
     }
 
 def save_state(state: dict):
-    os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
     try:
-        with open(STATE_FILE, 'w', encoding='utf-8') as f:
-            json.dump(state, f, ensure_ascii=False, indent=2)
+        atomic_write_json(STATE_FILE, state, indent=2)
     except Exception as e:
         print(f"[Scheduler] Erro ao salvar scraper_state.json: {e}")
 
@@ -58,6 +57,14 @@ def main():
     print(" [Scheduler] Agendador de Coleta Distribuída Detran-RS")
     print(f" [Scheduler] Ciclo configurado: {cycle_days} dias para varredura completa")
     print("=" * 60)
+
+    # Inicia o servidor da API REST em segundo plano
+    try:
+        from scripts.api import start_background_api
+        api_port = int(os.getenv('API_PORT', '8000'))
+        start_background_api(host='0.0.0.0', port=api_port)
+    except Exception as e:
+        print(f"[Scheduler] Erro ao iniciar servidor da API: {e}")
 
     # Verifica se a base cdvs.json está vazia ou não existe
     if (not os.path.exists(CDVS_FILE) or os.path.getsize(CDVS_FILE) < 50) and bootstrap_on_start:

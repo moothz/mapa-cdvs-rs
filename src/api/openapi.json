@@ -1,0 +1,400 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "API Pública - Mapa CDVs RS",
+    "version": "1.1.0",
+    "description": "API pública para consulta e integração dos Centros de Desmanche de Veículos (CDVs) credenciados pelo DETRAN-RS no Rio Grande do Sul. Fornece acesso aos dados cadastrais consolidados, busca textual livre, consulta por proximidade geográfica (por coordenadas ou cidade), contatos diretos (WhatsApp/Telefone) e municípios do estado.",
+    "contact": {
+      "name": "Mapa CDVs RS",
+      "url": "https://github.com/moothz/mapa-cdvs-rs"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "/",
+      "description": "Servidor Atual"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Geral",
+      "description": "Metadados e informações do serviço"
+    },
+    {
+      "name": "CDVs",
+      "description": "Centros de Desmanche de Veículos credenciados"
+    },
+    {
+      "name": "Municípios",
+      "description": "Municípios do Estado do Rio Grande do Sul"
+    }
+  ],
+  "paths": {
+    "/api": {
+      "get": {
+        "tags": ["Geral"],
+        "summary": "Visão geral e status da API",
+        "description": "Retorna metadados gerais, links para documentação e catálogo de endpoints disponíveis.",
+        "responses": {
+          "200": {
+            "description": "Informações da API retornadas com sucesso.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiIndex"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/metadata": {
+      "get": {
+        "tags": ["Geral"],
+        "summary": "Metadados e estatísticas da base",
+        "description": "Retorna o total de credenciados cadastrados, timestamp ISO da última sincronização e fontes de dados.",
+        "responses": {
+          "200": {
+            "description": "Metadados retornados com sucesso.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Metadata"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/cdvs": {
+      "get": {
+        "tags": ["CDVs"],
+        "summary": "Lista completa de CDVs credenciados",
+        "description": "Retorna todos os estabelecimentos credenciados pelo DETRAN-RS com endereços, coordenadas de geolocalização (lat/lng) e canais de contato direto.",
+        "responses": {
+          "200": {
+            "description": "Lista de credenciados com coordenadas e contatos.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CDV"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/cdvs/search": {
+      "get": {
+        "tags": ["CDVs"],
+        "summary": "Busca textual livre em CDVs",
+        "description": "Realiza busca flexível e insensível a acentuação em todos os campos dos CDVs (nome fantasia, código do credenciamento, cidade, bairro, endereço, etc.).",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "description": "Termo de busca textual livre (ex: 'moto', 'erechim', 'auto pecas', 'CDV01002')",
+            "schema": {
+              "type": "string",
+              "example": "moto erechim"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "description": "Quantidade máxima de registros a retornar (padrão: 50, máx: 500)",
+            "schema": {
+              "type": "integer",
+              "default": 50,
+              "example": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Resultados da busca textual encontrados com sucesso.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchResult"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Parâmetro 'q' ausente ou inválido."
+          }
+        }
+      }
+    },
+    "/api/cdvs/nearby": {
+      "get": {
+        "tags": ["CDVs"],
+        "summary": "CDVs mais próximos por coordenada ou município",
+        "description": "Calcula a distância geográfica em linha reta (fórmula de Haversine) de todos os CDVs em relação a uma coordenada GPS (lat/lng) ou em relação ao centro de um município do RS informado, retornando os N estabelecimentos mais próximos ordenados por distância.",
+        "parameters": [
+          {
+            "name": "cidade",
+            "in": "query",
+            "required": false,
+            "description": "Nome do município do RS de referência (ex: 'Passo Fundo', 'Porto Alegre', 'Caxias do Sul')",
+            "schema": {
+              "type": "string",
+              "example": "Passo Fundo"
+            }
+          },
+          {
+            "name": "lat",
+            "in": "query",
+            "required": false,
+            "description": "Latitude de referência (quando não informada 'cidade')",
+            "schema": {
+              "type": "number",
+              "format": "float",
+              "example": -28.2576
+            }
+          },
+          {
+            "name": "lng",
+            "in": "query",
+            "required": false,
+            "description": "Longitude de referência (quando não informada 'cidade')",
+            "schema": {
+              "type": "number",
+              "format": "float",
+              "example": -52.4091
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "description": "Quantidade máxima de CDVs mais próximos a retornar (padrão: 15, máx: 200)",
+            "schema": {
+              "type": "integer",
+              "default": 15,
+              "example": 15
+            }
+          },
+          {
+            "name": "raio_km",
+            "in": "query",
+            "required": false,
+            "description": "Filtro opcional de raio máximo de distância em km",
+            "schema": {
+              "type": "number",
+              "format": "float",
+              "example": 50
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Lista dos CDVs mais próximos ordenados por distância em km.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NearbyResult"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Parâmetros de localização ausentes ou inválidos."
+          },
+          "404": {
+            "description": "Município não encontrado na base do Rio Grande do Sul."
+          }
+        }
+      }
+    },
+    "/api/cities": {
+      "get": {
+        "tags": ["Municípios"],
+        "summary": "Lista de municípios do Rio Grande do Sul",
+        "description": "Retorna os 497 municípios do Rio Grande do Sul mapeados com coordenadas de referência geográfica central.",
+        "responses": {
+          "200": {
+            "description": "Mapa de municípios indexados por nome em caixa alta.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "$ref": "#/components/schemas/City"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/suggestions": {
+      "post": {
+        "tags": ["Sugestões"],
+        "summary": "Sugerir novo número de contato para um CDV",
+        "description": "Permite que a comunidade sugira números de WhatsApp ou telefone fixo/celular para um credenciado. Passa por moderação administrativa antes de exibição pública.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["cdv_codigo", "nome_contato", "telefone"],
+                "properties": {
+                  "cdv_codigo": {
+                    "type": "string",
+                    "example": "CDV01002"
+                  },
+                  "nome_contato": {
+                    "type": "string",
+                    "example": "Setor de Vendas"
+                  },
+                  "telefone": {
+                    "type": "string",
+                    "example": "(54) 99626-7183"
+                  },
+                  "is_whatsapp": {
+                    "type": "boolean",
+                    "default": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Sugestão recebida com sucesso para moderação."
+          },
+          "400": {
+            "description": "Dados inválidos ou formato de telefone incorreto."
+          },
+          "404": {
+            "description": "Código do CDV não encontrado."
+          },
+          "429": {
+            "description": "Limite de envio atingido (Rate limit excedido)."
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ApiIndex": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "example": "API Pública - Mapa CDVs RS" },
+          "version": { "type": "string", "example": "1.1.0" },
+          "status": { "type": "string", "example": "online" },
+          "description": { "type": "string" },
+          "documentation": { "type": "string", "example": "/api/docs" },
+          "openapi": { "type": "string", "example": "/api/openapi.json" },
+          "endpoints": { "type": "object" },
+          "license": { "type": "string", "example": "MIT" },
+          "source": { "type": "string", "example": "https://github.com/moothz/mapa-cdvs-rs" }
+        }
+      },
+      "Metadata": {
+        "type": "object",
+        "properties": {
+          "total_cdvs": { "type": "integer", "example": 423, "description": "Total de credenciados catalogados" },
+          "ultima_atualizacao": { "type": "string", "format": "date-time", "example": "2026-10-09T12:32:51.184973", "description": "Data e hora ISO da última sincronização" },
+          "fonte": { "type": "string", "example": "Detran-RS Peça Legal (pecalegal.detran.rs.gov.br)" },
+          "repositorio": { "type": "string", "example": "https://github.com/moothz/mapa-cdvs-rs" }
+        }
+      },
+      "CDV": {
+        "type": "object",
+        "properties": {
+          "codigo": { "type": "string", "example": "CDV01002", "description": "Código do credenciamento junto ao DETRAN-RS" },
+          "nome": { "type": "string", "example": "4A MOTO PARTS", "description": "Razão social ou nome fantasia" },
+          "telefone": { "type": "string", "example": "54996267183", "description": "Telefone de contato sem caracteres especiais" },
+          "whatsapp": { "type": "string", "example": "54996267183", "description": "WhatsApp de contato se disponível" },
+          "whatsapp_url": { "type": "string", "example": "https://api.whatsapp.com/send?phone=5554996267183", "description": "URL direta para atendimento no WhatsApp" },
+          "email": { "type": "string", "example": "cdv01002@cdv.rs.gov.br", "description": "E-mail de contato cadastrado" },
+          "endereco": { "type": "string", "example": "RUA LEONILDO RONCHETTI 140", "description": "Logradouro e número" },
+          "complemento": { "type": "string", "example": "", "description": "Complemento do endereço" },
+          "bairro": { "type": "string", "example": "BELA VISTA", "description": "Bairro" },
+          "cep": { "type": "string", "example": "99.704-166", "description": "CEP formatado" },
+          "municipio": { "type": "string", "example": "ERECHIM/RS", "description": "Município e UF" },
+          "maps_url": { "type": "string", "example": "https://www.google.com/maps/search/?api=1&query=...", "description": "Link de busca no Google Maps" },
+          "coletado_em": { "type": "string", "format": "date-time", "example": "2026-10-09T11:36:10.461240" },
+          "lat": { "type": "number", "format": "float", "example": -27.6471601, "description": "Latitude geográfica" },
+          "lng": { "type": "number", "format": "float", "example": -52.257893, "description": "Longitude geográfica" },
+          "geo_method": { "type": "string", "example": "nominatim_bairro", "description": "Estratégia usada na geocodificação" }
+        }
+      },
+      "CDVWithDistance": {
+        "allOf": [
+          { "$ref": "#/components/schemas/CDV" },
+          {
+            "type": "object",
+            "properties": {
+              "distancia_km": {
+                "type": "number",
+                "format": "float",
+                "example": 1.25,
+                "description": "Distância em linha reta calculada em quilômetros"
+              }
+            }
+          }
+        ]
+      },
+      "SearchResult": {
+        "type": "object",
+        "properties": {
+          "termo": { "type": "string", "example": "moto erechim" },
+          "total_encontrados": { "type": "integer", "example": 5 },
+          "limit": { "type": "integer", "example": 50 },
+          "cdvs": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/CDV" }
+          }
+        }
+      },
+      "NearbyResult": {
+        "type": "object",
+        "properties": {
+          "referencia": {
+            "type": "object",
+            "properties": {
+              "tipo": { "type": "string", "example": "cidade" },
+              "cidade": { "type": "string", "example": "Passo Fundo" },
+              "lat": { "type": "number", "example": -28.2576 },
+              "lng": { "type": "number", "example": -52.4091 }
+            }
+          },
+          "total_encontrados": { "type": "integer", "example": 15 },
+          "limit": { "type": "integer", "example": 15 },
+          "cdvs": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/CDVWithDistance" }
+          }
+        }
+      },
+      "City": {
+        "type": "object",
+        "properties": {
+          "nome": { "type": "string", "example": "Aceguá", "description": "Nome do município" },
+          "lat": { "type": "number", "format": "float", "example": -31.8665, "description": "Latitude central do município" },
+          "lng": { "type": "number", "format": "float", "example": -54.1615, "description": "Longitude central do município" }
+        }
+      }
+    }
+  }
+}

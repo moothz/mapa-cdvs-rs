@@ -1,0 +1,31 @@
+name: "💡 Sugestão de Melhoria ou Funcionalidade"
+description: "Sugira uma ideia ou nova capacidade para o projeto."
+title: "[FEAT]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Adoramos ouvir ideias da comunidade para aprimorar o Mapa CDVs RS!
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Qual necessidade ou problema essa ideia resolve?"
+      description: "Uma explicação concisa do que você gostaria de ver melhorado."
+      placeholder: "Seria útil poder filtrar estabelecimentos que possuem guincho próprio..."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Solução Proposta"
+      description: "Como você imagina que essa funcionalidade deveria se comportar?"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternativas Consideradas"
+      description: "Alguma outra solução alternativa que você avaliou?"
+    validations:
+      required: false

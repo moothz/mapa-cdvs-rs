@@ -228,10 +228,10 @@
     "cep": "95.585-000",
     "municipio": "ARROIO DO SAL/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+ARROIO+DO+SAL%2C+AVENIDA+ARROIO+DO+SAL%2C+1510+CENTRO%2C+ARROIO+DO+SAL+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:33:48.633903",
-    "lat": -29.5380877,
-    "lng": -49.8844927,
-    "geo_method": "nominatim_cep"
+    "coletado_em": "2026-10-09T13:01:19.228506",
+    "lat": -29.5500523,
+    "lng": -49.8860423,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO DEMOLIDORA BARBOSA",
@@ -264,10 +264,10 @@
     "cep": "95.765-000",
     "municipio": "BOM PRINCIPIO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+BOM+PRINCIPIO%2C+RODOVIA+RS+122%2C+KM+30%2C+9245+SANTA+TERESINHA%2C+BOM+PRINCIPIO+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:34:05.989669",
-    "lat": -29.4731966,
-    "lng": -51.356551,
-    "geo_method": "nominatim_cep"
+    "coletado_em": "2026-10-09T14:42:27.091064",
+    "lat": -29.4469807,
+    "lng": -51.3615389,
+    "geo_method": "nominatim_bairro"
   },
   {
     "nome": "AUTO DEMOLIDORA BR",
@@ -1578,10 +1578,10 @@
     "cep": "95.702-450",
     "municipio": "BENTO GONCALVES/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=CDV+AUTO+MECANICA+TIETE+LTDA%2C+RUA+JOAO+STEFENON%2C+180+SANTA+HELENA%2C+BENTO+GONCALVES+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:33:58.358935",
+    "coletado_em": "2026-10-09T14:14:54.016186",
     "lat": -29.183612,
     "lng": -51.5051657,
-    "geo_method": "nominatim_cep"
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "CDV AUTO PECAS DALCIN",
@@ -1596,7 +1596,7 @@
     "cep": "96.505-142",
     "municipio": "CACHOEIRA DO SUL/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=CDV+AUTO+PECAS+DALCIN%2C+AVENIDA+DOS+IMIGRANTES%2C+1739+QUINTA+DA+BOA+VISTA%2C+CACHOEIRA+DO+SUL+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:34:05.990088",
+    "coletado_em": "2026-10-09T14:42:27.092685",
     "lat": -30.0114303,
     "lng": -52.901503,
     "geo_method": "nominatim_address"
@@ -1686,7 +1686,7 @@
     "cep": "96.570-000",
     "municipio": "CACAPAVA DO SUL/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=CDV+AUTO+PECAS+LEAL%2C+AVENIDA+AV.+SANTOS+DUMONT%2C+505+FIGUEIRAS%2C+CACAPAVA+DO+SUL+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:34:05.989848",
+    "coletado_em": "2026-10-09T14:42:27.091685",
     "lat": -30.5369351,
     "lng": -53.474495,
     "geo_method": "nominatim_cep"
@@ -2334,10 +2334,10 @@
     "cep": "96.180-000",
     "municipio": "CAMAQUA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=CDV+DEMOLIDORA+MULLER%2C+RUA+AMADO+PERES%2C+106+CENTENARIO%2C+CAMAQUA+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:34:05.990329",
-    "lat": -30.8478322,
-    "lng": -51.8079752,
-    "geo_method": "nominatim_cep"
+    "coletado_em": "2026-10-09T14:42:27.093722",
+    "lat": -30.8438095,
+    "lng": -51.8165082,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "CDV DEPOSITO PECAS SAO BORJA",
@@ -2712,10 +2712,10 @@
     "cep": "99.585-000",
     "municipio": "BARRA FUNDA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=CDV+GOIAS+AUTO+PECAS%2C+RODOVIA+BR+386%2C+128+INTERIOR%2C+BARRA+FUNDA+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:33:58.358715",
-    "lat": -27.9257127,
-    "lng": -53.0367424,
-    "geo_method": "nominatim_cep"
+    "coletado_em": "2026-10-09T14:14:54.015074",
+    "lat": -27.9151726,
+    "lng": -52.9656383,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "CDV GORDO CAMPAGNOLLO",
@@ -2982,10 +2982,10 @@
     "cep": "95.940-000",
     "municipio": "ARROIO DO MEIO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=CDV+JD+COMERCIO+DE+PECAS%2C+RODOVIA+RS+130%2C+11370+PALMAS%2C+ARROIO+DO+MEIO+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:33:48.633552",
-    "lat": -29.3939248,
-    "lng": -51.9809574,
-    "geo_method": "nominatim_cep"
+    "coletado_em": "2026-10-09T13:01:19.227055",
+    "lat": -29.3105421,
+    "lng": -51.9006711,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "CDV JOA'S CAR",
@@ -3306,7 +3306,7 @@
     "cep": "96.505-141",
     "municipio": "CACHOEIRA DO SUL/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=CDV+MOTO+PECAS+DALCIN%2C+AVENIDA+DOS+IMIGRANTES%2C+1737+MARINA%2C+CACHOEIRA+DO+SUL+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:34:05.990215",
+    "coletado_em": "2026-10-09T14:42:27.093176",
     "lat": -30.0114303,
     "lng": -52.901503,
     "geo_method": "nominatim_address"
@@ -4296,7 +4296,7 @@
     "cep": "96.420-160",
     "municipio": "BAGE/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=CDV+W.+PADILHA%2C+RUA+PROF+ANGELICA+GOMES+JARDIM%2C+521+CASTRO+ALVES%2C+BAGE+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:33:58.358436",
+    "coletado_em": "2026-10-09T14:14:54.008190",
     "lat": -31.3471479,
     "lng": -54.0966922,
     "geo_method": "nominatim_bairro"
@@ -5340,10 +5340,10 @@
     "cep": "95.995-000",
     "municipio": "ARVOREZINHA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=FURTUNATO+AUTO+PECAS%2C+AVENIDA+BARAO+DO+RIO+BRANCO%2C+542+CENTRO%2C+ARVOREZINHA+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:33:48.634011",
-    "lat": -28.8742547,
-    "lng": -52.1805304,
-    "geo_method": "nominatim_cep"
+    "coletado_em": "2026-10-09T13:01:19.228982",
+    "lat": -28.8652626,
+    "lng": -52.1902497,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "GALPÃO PEÇAS",
@@ -5358,10 +5358,10 @@
     "cep": "95.940-000",
     "municipio": "ARROIO DO MEIO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=GALP%C3%83O+PE%C3%87AS%2C+RODOVIA+RS-130%2C+4623+DOM+PEDRO+II%2C+ARROIO+DO+MEIO+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:33:48.633667",
-    "lat": -29.3939248,
-    "lng": -51.9809574,
-    "geo_method": "nominatim_cep"
+    "coletado_em": "2026-10-09T13:01:19.227506",
+    "lat": -29.3105421,
+    "lng": -51.9006711,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "GARAGEM DAS PEÇAS",
@@ -5394,7 +5394,7 @@
     "cep": "99.585-000",
     "municipio": "BARRA FUNDA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=GELAIN+RECICLADORA+DE+AUTOPE%C3%87A%2C+VIA+BR+386%2C+128+POSTO+DO+PINGO%2C+BARRA+FUNDA+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:33:58.358836",
+    "coletado_em": "2026-10-09T14:14:54.015679",
     "lat": -27.9257127,
     "lng": -53.0367424,
     "geo_method": "nominatim_cep"
@@ -5556,10 +5556,10 @@
     "cep": "95.599-000",
     "municipio": "BALNEARIO PINHAL/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=IMPERIO+POLACO%2C+++AV+PARAGUASSU%2C+2817+PRAIA+DO+MAGISTERIO%2C+BALNEARIO+PINHAL+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:33:58.358603",
-    "lat": -30.2499483,
-    "lng": -50.2372084,
-    "geo_method": "nominatim_cep"
+    "coletado_em": "2026-10-09T14:14:54.008875",
+    "lat": -30.2856139,
+    "lng": -50.2545365,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "IMPORTS POA COMÉRCIO DE PEÇAS",
@@ -6384,9 +6384,9 @@
     "cep": "95.707-450",
     "municipio": "BENTO GONCALVES/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=PESSALI+COM+DE+PECAS+USADAS%2C+RODOVIA+BR-470%2C+KM+214%2C30%2C+SAO+VENDELINO%2C+BENTO+GONCALVES+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:33:58.359033",
-    "lat": -29.1441328,
-    "lng": -51.5355557,
+    "coletado_em": "2026-10-09T14:14:54.016688",
+    "lat": -29.1465749,
+    "lng": -51.5322231,
     "geo_method": "nominatim_address"
   },
   {
@@ -6690,10 +6690,10 @@
     "cep": "93.880-000",
     "municipio": "ARARICA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=ROTA+239%2C+ESTRADA+RS+239%2C+2065+CAMPO+DA+BRAZINA%2C+ARARICA+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:33:48.633396",
-    "lat": -29.6303451,
-    "lng": -50.9385089,
-    "geo_method": "nominatim_cep"
+    "coletado_em": "2026-10-09T13:01:19.226532",
+    "lat": -29.6373769,
+    "lng": -50.9415723,
+    "geo_method": "nominatim_name"
   },
   {
     "nome": "RP COMÉRCIO DE AUTOPEÇAS LTDA",
@@ -6744,7 +6744,7 @@
     "cep": "97.450-000",
     "municipio": "CACEQUI/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Renova%2C+RUA+BORGES+DE+MEDEIROS%2C+344+POVO+NOVO%2C+CACEQUI+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:34:05.989970",
+    "coletado_em": "2026-10-09T14:42:27.092192",
     "lat": -29.877744,
     "lng": -54.8459732,
     "geo_method": "nominatim_address"
@@ -7320,10 +7320,10 @@
     "cep": "95.940-000",
     "municipio": "ARROIO DO MEIO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=V28+AUTO+DEMOLIDORA+LTDA%2C+RUA+MARECHAL+FLORIANO+PEIXOTO%2C+188+SAO+JOSE%2C+ARROIO+DO+MEIO+-+RS%2C+Brazil",
-    "coletado_em": "2026-10-09T11:33:48.633789",
-    "lat": -29.3939248,
-    "lng": -51.9809574,
-    "geo_method": "nominatim_cep"
+    "coletado_em": "2026-10-09T13:01:19.228067",
+    "lat": -29.4108068,
+    "lng": -51.9481068,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "VALE DAS PECAS",

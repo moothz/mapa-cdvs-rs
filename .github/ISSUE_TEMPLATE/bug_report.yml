@@ -1,0 +1,44 @@
+name: "🐛 Reportar um Problema (Bug)"
+description: "Crie um relatório para nos ajudar a identificar e corrigir falhas."
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por dedicar tempo para reportar este problema! Por favor, preencha as informações abaixo o mais detalhadamente possível.
+  - type: textarea
+    id: description
+    attributes:
+      label: "Descrição do Problema"
+      description: "Uma explicação clara e concisa do que aconteceu."
+      placeholder: "Ao clicar no botão de GPS em Passo Fundo, o mapa não..."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Passos para Reproduzir"
+      description: "Como podemos reproduzir o erro?"
+      placeholder: |
+        1. Acessar a aplicação
+        2. Selecionar o filtro 'X'
+        3. Clicar em 'Y'
+        4. O erro ocorre
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: "Ambiente / Navegador"
+      description: "Ex: Google Chrome 122 no Android, Firefox no Linux, etc."
+      placeholder: "Chrome 122 / Android 14"
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs ou Capturas de Tela"
+      description: "Cole aqui eventuais erros do console do navegador ou logs do container."
+    validations:
+      required: false

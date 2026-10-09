@@ -1,200 +1,107 @@
-# 🚗 Mapa CDVs RS - Centros de Desmanche Credenciados
+# 🚗 Mapa CDVs RS
 
+[![CI](https://github.com/moothz/mapa-cdvs-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/moothz/mapa-cdvs-rs/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](docker-compose.yml)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](Dockerfile)
-[![Leaflet](https://img.shields.io/badge/Leaflet-1.9.4-199900?logo=leaflet&logoColor=white)](https://leafletjs.com/)
-[![Nginx](https://img.shields.io/badge/Nginx-Alpine-009639?logo=nginx&logoColor=white)](nginx.conf)
 
-Aplicação web pública para visualização geográfica e busca inteligente por **proximidade** de todos os **Centros de Desmanche de Veículos (CDVs) credenciados pelo DETRAN-RS**.
+Agregador de Centros de Desmanche de Veículos (CDVs) credenciados pelo DETRAN no Rio Grande do Sul.
 
-🌐 **Acesse online:** [https://cdvsrs.moothz.win/](https://cdvsrs.moothz.win/)
-
-A plataforma organiza os estabelecimentos em um mapa interativo e permite ao cidadão encontrar desmanches credenciados mais próximos de sua localização atual (via GPS do celular/computador ou por cidade/CEP), facilitando o acesso a peças automotivas com procedência legal e rastreabilidade garantida.
+O objetivo do projeto é ajudar motoristas, mecânicos e pessoas que precisam de autopeças usadas a encontrar desmanches credenciados próximos de sua cidade, facilitando o contato direto (WhatsApp, telefone) e a rota até o local.
 
 ---
 
 > [!IMPORTANT]
-> ### ⚠️ Aviso de Utilidade Pública & Desvinculação Legal
-> **Este projeto é um agregador independente sem qualquer vínculo institucional ou comercial com o DETRAN-RS ou Governo do Estado do Rio Grande do Sul.**
->
-> As informações exibidas são públicas e coletadas periodicamente para facilitar a consulta por proximidade geográfica e incentivar o comércio legal de peças usadas.
->
-> 🔗 Para a consulta oficial direta na fonte, acesse o portal do DETRAN-RS:  
-> **[Peça Legal RS - Consulta de Credenciados](https://pecalegal.detran.rs.gov.br/cdv-portal/mod-consulta/credenciados.xhtml)**
+> **Aviso:** Este projeto é independente e não possui vínculo oficial ou comercial com o DETRAN-RS. Os dados são públicos e coletados para facilitar a localização geográfica. A consulta oficial pode ser feita diretamente no portal [DETRAN-RS Peça Legal](https://pecalegal.detran.rs.gov.br/cdv-portal/mod-consulta/credenciados.xhtml).
 
 ---
 
-## ✨ Funcionalidades
+## Recursos
 
-- **🗺️ Mapa Interativo Completo:**
-  - Marcadores de todos os CDVs credenciados no estado do Rio Grande do Sul.
-  - Agrupamento inteligente de pins (*Marker Clustering*) para áreas com grande concentração de credenciados (Porto Alegre, Vale dos Sinos, Serra, etc.).
-  - Totalmente gratuito e baseado em **OpenStreetMap + Leaflet.js** (sem limite de requisições ou cobranças de chaves de API).
-- **📍 Busca por Proximidade Instantânea:**
-  - **Localização via GPS:** Botão *"Usar minha localização"* obtém suas coordenadas atuais no navegador.
-  - **Busca por Cidade:** Digite qualquer um dos 497 municípios do RS com autocomplete instantâneo.
-  - **Cálculo de Distância:** Cálculo de distância em linha reta (fórmula de *Haversine*) executado diretamente no cliente em menos de 1ms, reordenando a lista do CDV mais próximo ao mais distante.
-  - **Filtro de Raio:** Filtre apenas CDVs em até 15 km, 30 km, 50 km, 100 km ou 200 km de você.
-- **⚡ Ações Rápidas em 1 Clique:**
-  - 💬 **WhatsApp:** Inicie uma conversa direta para orçar peças sem precisar cadastrar o contato.
-  - 📞 **Ligar:** Discagem imediata no smartphone.
-  - 🗺️ **Como Chegar:** Abre o trajeto e navegação ponto-a-ponto diretamente no **Google Maps** ou **Waze**.
-- **🛡️ Coleta Periódica Anti-Bloqueio (Espaçamento de 3 a 5 dias):**
-  - O coletor automatizado não sobrecarrega os servidores governamentais com varreduras em lote.
-  - As 71 páginas de credenciados são consultadas de forma **espaçada ao longo de 4 dias** (~1 página a cada 80 minutos com *jitter* aleatório).
-  - O estado da coleta é persistido em `data/scraper_state.json`. Se o serviço for reiniciado, ele continua exatamente da página onde parou.
-- **📱 100% Responsivo:**
-  - *Split view* (mapa e lista lateral) em telas grandes.
-  - Visualização otimizada com abas dinâmicas em smartphones.
-  - Esquema visual institucional com a identidade do Peça Legal e DETRAN-RS.
+- **Mapa e Localização:** Visualização de todos os CDVs credenciados no RS, com busca por cidade ou via GPS para ordenar pelos mais próximos.
+- **Contatos e Rotas:** Acesso direto a WhatsApp, telefone, rota no Google Maps e botão para baixar os dados do CDV em formato de contato para o celular (`.vcf`).
+- **Marcações Pessoais:** Opção de marcar locais como "Favorito" (marcador com coração) ou "Já visto" (opacidade reduzida no mapa), salvos no próprio navegador.
+- **Sugestão de Contatos:** Formulário para sugerir números de contato ou WhatsApp atualizados de um CDV, sujeitos à moderação.
+- **API Pública:** Endpoints para consulta de CDVs, busca textual e consulta por proximidade.
 
 ---
 
-## 🏛️ Arquitetura do Sistema
-
-```mermaid
-flowchart TD
-    subgraph Host / Docker Compose (Porta 3740)
-        ENV[".env"] --> COMPOSE[docker-compose.yml]
-        
-        subgraph Servico Web
-            NGINX["nginx:alpine (Servidor Web)"]
-            STATIC["Frontend Estático<br/>(Leaflet + Vanilla JS + CSS)"]
-            DATA["Base Consolidada<br/>(cdvs.json, cities_rs.json)"]
-            STATIC --> NGINX
-            DATA --> NGINX
-        end
-
-        subgraph Servico Coletor Periodico
-            SCRAPER["scraper (python:3.12-alpine)"]
-            SCHEDULER["scripts/scheduler.py<br/>Ciclo: 4 dias (espaçado)"]
-            SCRAPER --> SCHEDULER
-            SCHEDULER -->|1 req a cada ~80 min| DETRAN["DETRAN-RS Pecalegal"]
-            SCHEDULER -->|Persiste dados| DATA
-        end
-
-        subgraph Exposição Externa Opcional
-            TUNNEL["cloudflared (Cloudflare Tunnel)"]
-            TUNNEL -.->|HTTPS Reverso Seguro| NGINX
-        end
-    end
-
-    USER["Cidadão / Usuário"] -->|HTTP :3740 ou HTTPS Cloudflare| NGINX
-```
-
----
-
-## 🚀 Como Executar
+## Como Executar
 
 ### Pré-requisitos
-- [Docker](https://docs.docker.com/engine/install/) (v20+)
-- [Docker Compose](https://docs.docker.com/compose/) (v2+)
-- `make` (opcional, para atalhos)
+- Docker e Docker Compose instalados
+- `make` (opcional)
 
-### 1. Clonar o Repositório
+### Executando com Docker
+
+1. Clone o repositório:
 ```bash
 git clone https://github.com/moothz/mapa-cdvs-rs.git
 cd mapa-cdvs-rs
 ```
 
-### 2. Configurar Variáveis de Ambiente
-Copie o arquivo de exemplo:
+2. Crie o arquivo `.env`:
 ```bash
 cp .env.example .env
 ```
 
-Configurações disponíveis no `.env`:
-| Variável | Padrão | Descrição |
-|---|---|---|
-| `PORT` | `3740` | Porta local do host onde o Nginx responderá |
-| `SCRAPE_CYCLE_DAYS` | `4` | Tempo (em dias) para completar uma rodada das 71 páginas |
-| `SCRAPE_BOOTSTRAP_ON_START` | `false` | Se deve forçar varredura completa ao subir container vazio |
-| `CLOUDFLARE_TUNNEL_TOKEN` | *vazio* | Token para publicar externamente via Cloudflare Tunnel |
-
-### 3. Iniciar com Docker Compose (ou Makefile)
-Via `make`:
+3. Inicie os containers:
 ```bash
 make up
+# ou: docker compose up -d
 ```
 
-Ou diretamente via Docker Compose:
-```bash
-docker compose up -d web scraper
-```
-
-Acesse a aplicação no navegador em:  
-👉 **[http://localhost:3740](http://localhost:3740)**
+Acesse no navegador: **[http://localhost:3740](http://localhost:3740)**
 
 ---
 
-## 🛠️ Comandos Úteis do `Makefile`
+## Moderação de Sugestões
+
+Sugestões enviadas por usuários podem ser aprovadas de duas formas:
+
+1. **Painel Web:** Acesse `http://localhost:3740/admin` (usuário e senha definidos no `.env`).
+2. **Terminal / Make:**
+```bash
+make suggestions                          # Lista sugestões pendentes
+make approve-suggestion ID=sug_xxx        # Aprova e adiciona o contato ao CDV
+make reject-suggestion ID=sug_xxx         # Rejeita a sugestão
+```
+
+---
+
+## Comandos do Makefile
 
 | Comando | Descrição |
 |---|---|
 | `make up` | Sobe a aplicação em segundo plano na porta 3740 |
-| `make down` | Para todos os containers do projeto |
-| `make logs` | Visualiza logs unificados em tempo real |
-| `make logs-scraper` | Acompanha a execução do agendador do scraper |
-| `make scrape` | Força a consulta imediata da próxima página |
-| `make scrape-full` | Força uma varredura completa manual com delay educado |
-| `make build` | Reconstrói as imagens dos containers |
-| `make status` | Verifica saúde dos containers e ocupação da porta |
+| `make down` | Para os containers |
+| `make restart` | Reinicia os containers |
+| `make test` | Executa a suíte de testes no container |
+| `make test-local` | Executa a suíte de testes localmente |
+| `make lint` | Executa verificação de código com Ruff |
+| `make suggestions` | Lista sugestões de contato pendentes |
+| `make approve-suggestion ID=...` | Aprova sugestão e adiciona ao cadastro do CDV |
+| `make reject-suggestion ID=...` | Rejeita sugestão de contato |
+| `make logs` | Exibe logs unificados dos containers |
 
 ---
 
-## 🌐 Publicação Externa com Cloudflare Tunnel (Opcional)
+## API Pública
 
-Se desejar expor o agregador publicamente na internet com certificado SSL/HTTPS gratuito e sem abrir portas no seu roteador:
+A aplicação fornece endpoints REST para consulta dos dados:
 
-1. Crie um tunnel no painel do Cloudflare Zero Trust e obtenha o token do túnel.
-2. No seu arquivo `.env`, preencha:
-   ```ini
-   CLOUDFLARE_TUNNEL_TOKEN=seu_token_aqui
-   ```
-3. Inicie incluindo o container do túnel:
-   ```bash
-   make up-tunnel
-   ```
-
-O container `cloudflared` conectará diretamente à Cloudflare e apontará o tráfego de forma segura para o serviço `web`.
+| Endpoint | Método | Descrição |
+|---|---|---|
+| `/api/cdvs` | `GET` | Lista todos os CDVs credenciados |
+| `/api/cdvs/search?q={termo}` | `GET` | Busca textual (nome, código, município, endereço) |
+| `/api/cdvs/nearby?cidade={nome}` | `GET` | CDVs mais próximos de uma cidade |
+| `/api/cdvs/nearby?lat={lat}&lng={lng}` | `GET` | CDVs mais próximos por coordenada geográfica |
+| `/api/cities` | `GET` | Lista dos 497 municípios do RS com coordenadas |
+| `/api/suggestions` | `POST` | Envio de sugestão de telefone/WhatsApp |
+| `/api/docs` | `GET` | Documentação interativa Swagger |
 
 ---
 
-## 📁 Estrutura de Diretórios
+## Licença
 
-```
-mapa-cdvs-rs/
-├── .env.example               # Exemplo de variáveis de ambiente
-├── .gitignore                 # Arquivos ignorados pelo controle de versão
-├── docker-compose.yml         # Orquestração Docker (Nginx, Scraper, Tunnel)
-├── Dockerfile                 # Imagem Python para o crawler
-├── LICENSE                    # Licença MIT
-├── Makefile                   # Atalhos de gerenciamento
-├── nginx.conf                 # Configuração do Nginx com gzip e headers
-├── README.md                  # Este documento
-├── requirements.txt           # Dependências do coletor (requests, beautifulsoup4)
-├── data/
-│   ├── cdvs.json              # Base consolidada de todos os CDVs (dados + lat/lng)
-│   ├── cities_rs.json         # Coordenadas de referência dos 497 municípios do RS
-│   ├── geocache.json          # Cache de geocodificação de endereços
-│   ├── scraper_state.json     # Estado do ciclo distribuído de coleta
-│   └── metadata.json          # Data/hora e contadores da base
-├── scripts/
-│   ├── __init__.py
-│   ├── scraper.py             # Módulo de extração do portal Detran-RS
-│   ├── geocoder.py            # Geocodificador em camadas com cache
-│   └── scheduler.py           # Agendador contínuo com ciclo de 3 a 5 dias
-└── src/
-    ├── index.html             # Interface web principal
-    ├── styles.css             # Tema Detran-RS Peça Legal e responsividade
-    └── app.js                 # Lógica do mapa Leaflet, GPS e cálculo Haversine
-```
-
----
-
-## 📜 Licença
-
-Distribuído sob a licença livre **MIT**. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
-
-Desenvolvido por [@moothz](https://github.com/moothz).
+Distribuído sob a licença [MIT](LICENSE). Mantido por [@moothz](https://github.com/moothz).

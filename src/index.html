@@ -15,20 +15,27 @@
   <meta property="og:locale" content="pt_BR">
 
   <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20width=%22100%22%20height=%22100%22><text y=%22.9em%22 font-size=%2290%22>🚗</text></svg>">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="assets/mapa-cdv.png">
 
-  <!-- Fontes Google: Roboto -->
+  <!-- Preconnect para otimização de DNS e recursos -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://a.tile.openstreetmap.org">
+  <link rel="preconnect" href="https://b.tile.openstreetmap.org">
+  <link rel="preconnect" href="https://c.tile.openstreetmap.org">
+
+  <!-- Fontes Google: Roboto -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-  <!-- Leaflet CSS & MarkerCluster CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <!-- Leaflet CSS & MarkerCluster CSS com Subresource Integrity (SRI) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" integrity="sha384-pmjIAcz2bAn0xukfxADbZIb3t8oRT9Sv0rvO+BR5Csr6Dhqq+nZs59P0pPKQJkEV" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" integrity="sha384-wgw+aLYNQ7dlhK47ZPK7FRACiq7ROZwgFNg0m04avm4CaXS+Z9Y7nMu8yNjBKYC+" crossorigin="anonymous" />
 
   <!-- Estilos customizados -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=2.3">
 </head>
 <body>
   <div class="app-container">
@@ -36,7 +43,7 @@
     <header class="app-header">
       <div class="header-left">
         <div class="logo-badge">
-          <span class="icon">🚗</span>
+          <img src="assets/mapa-cdv.png" alt="Logo Mapa CDVs RS" class="logo-img">
         </div>
         <div class="header-title">
           <h1>Mapa dos CDVs Credenciados</h1>
@@ -88,9 +95,16 @@
 
           <div class="input-group">
             <label for="city-input">Cidade de Referência (RS):</label>
-            <div class="input-with-clear">
-              <input type="text" id="city-input" list="cities-datalist" placeholder="Ex: Santa Maria, Passo Fundo, Porto Alegre..." autocomplete="off">
-              <button type="button" class="btn-clear" id="btn-clear-city" onclick="clearLocationFilter()" title="Limpar localização">✕</button>
+            <div class="city-selector-combo">
+              <div class="input-with-clear">
+                <input type="text" id="city-input" list="cities-datalist" placeholder="Ex: Santa Maria, Passo Fundo..." autocomplete="off">
+                <button type="button" class="btn-clear" id="btn-clear-city" onclick="clearLocationFilter()" title="Limpar localização">✕</button>
+              </div>
+              <div class="city-picker-wrapper">
+                <select id="city-picker-select" class="city-picker-select" title="Escolha uma cidade da lista oficial do RS">
+                  <option value="">🗺️ Ou escolha na lista (497 cidades)...</option>
+                </select>
+              </div>
             </div>
             <datalist id="cities-datalist"></datalist>
           </div>
@@ -122,9 +136,16 @@
         <section class="search-box">
           <div class="search-input-wrapper">
             <span class="search-icon">🔍</span>
-            <input type="text" id="text-search" placeholder="Buscar por nome, código, bairro ou cidade..." oninput="applyFilters()">
+            <input type="text" id="text-search" placeholder="Buscar por nome, código, etc.">
           </div>
         </section>
+
+        <!-- Filtros Rápidos (Favoritos & Já Vistos) -->
+        <div class="filter-chips">
+          <button type="button" class="chip active" id="chip-filter-all" onclick="setQuickFilter('all')">Todos</button>
+          <button type="button" class="chip" id="chip-filter-favorites" onclick="setQuickFilter('favorites')">❤️ Favoritos (<span id="fav-count">0</span>)</button>
+          <button type="button" class="chip" id="chip-filter-unseen" onclick="setQuickFilter('unseen')">👁️ Ocultar vistos</button>
+        </div>
 
         <!-- Resumo dos Resultados -->
         <div class="results-header">
@@ -150,8 +171,16 @@
               🏛️ Portal Oficial Peça Legal RS
             </a>
             •
+            <a href="/api/docs" target="_blank" rel="noopener noreferrer">
+              ⚡ API Pública (Swagger)
+            </a>
+            •
             <a href="https://github.com/moothz/mapa-cdvs-rs" target="_blank" rel="noopener noreferrer">
               🐙 Código Aberto no GitHub
+            </a>
+            •
+            <a href="/admin" target="_blank" rel="noopener noreferrer">
+              🛡️ Moderação
             </a>
           </div>
           <div class="footer-copy">
@@ -172,11 +201,78 @@
     </main>
   </div>
 
-  <!-- Leaflet JS & MarkerCluster JS -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <!-- Modal de Ação de Contato (Abrir / Copiar) -->
+  <div class="modal-backdrop" id="contact-modal" style="display: none;" onclick="closeModalOnBackdrop(event, 'contact-modal')">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="contact-modal-title">💬 Opções de Contato</h3>
+        <button type="button" class="btn-close-modal" onclick="closeContactModal()" aria-label="Fechar">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-target-name" id="contact-modal-target-name"></p>
+        <div class="contact-number-display" id="contact-modal-number"></div>
+        <p class="contact-modal-hint" id="contact-modal-hint">Escolha uma ação para o número selecionado:</p>
+      </div>
+      <div class="modal-footer contact-modal-actions">
+        <button type="button" class="btn-modal-action btn-modal-primary" id="btn-contact-open">
+          🚀 Abrir
+        </button>
+        <button type="button" class="btn-modal-action btn-modal-secondary" id="btn-contact-copy">
+          📋 Copiar Número
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Sugestão de Contato -->
+  <div class="modal-backdrop" id="suggest-modal" style="display: none;" onclick="closeModalOnBackdrop(event, 'suggest-modal')">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>💡 Sugerir Número de Contato</h3>
+        <button type="button" class="btn-close-modal" onclick="closeSuggestModal()" aria-label="Fechar">✕</button>
+      </div>
+      <form id="suggest-form" onsubmit="submitSuggestion(event)">
+        <div class="modal-body">
+          <p class="modal-target-name" id="suggest-modal-target-name"></p>
+          <input type="hidden" id="suggest-cdv-code" value="">
+
+          <div class="form-group">
+            <label for="suggest-contact-name">Nome do Contato ou Setor: *</label>
+            <input type="text" id="suggest-contact-name" placeholder="Ex: Peças, Vendedor Carlos, Oficina..." required maxlength="100">
+          </div>
+
+          <div class="form-group">
+            <label for="suggest-phone">Telefone / Celular com DDD: *</label>
+            <input type="tel" id="suggest-phone" placeholder="(54) 99999-9999" required maxlength="18">
+            <small class="form-help">Informe telefone fixo ou celular brasileiro com DDD (10 ou 11 dígitos).</small>
+          </div>
+
+          <div class="form-checkbox">
+            <input type="checkbox" id="suggest-is-whatsapp" checked>
+            <label for="suggest-is-whatsapp">Este número recebe mensagens no WhatsApp</label>
+          </div>
+
+          <div id="suggest-error" class="form-error" style="display: none;"></div>
+          <div id="suggest-success" class="form-success" style="display: none;"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-modal-action btn-modal-secondary" onclick="closeSuggestModal()">Cancelar</button>
+          <button type="submit" class="btn-modal-action btn-modal-primary" id="btn-submit-suggest">
+            Enviar Sugestão
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast de Notificações Rápidas -->
+  <div id="toast-notification" class="toast" style="display: none;"></div>
+
+  <!-- Leaflet JS & MarkerCluster JS com Subresource Integrity (SRI) -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" integrity="sha384-eXVCORTRlv4FUUgS/xmOyr66XBVraen8ATNLMESp92FKXLAMiKkerixTiBvXriZr" crossorigin="anonymous"></script>
 
   <!-- Lógica da Aplicação -->
-  <script src="app.js"></script>
+  <script src="app.js?v=2.2"></script>
 </body>
 </html>

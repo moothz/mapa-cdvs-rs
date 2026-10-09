@@ -8,7 +8,7 @@ from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 
-from scripts.geocoder import load_cities_rs, load_geocache, save_geocache, geocode_cdv
+from scripts.geocoder import load_cities_rs, load_geocache, save_geocache, geocode_cdv, atomic_write_json
 
 BASE_URL = "https://pecalegal.detran.rs.gov.br/cdv-portal/mod-consulta/credenciados.xhtml"
 HEADERS = {
@@ -36,13 +36,11 @@ def load_cdvs() -> dict:
     return {}
 
 def save_cdvs(cdvs_dict: dict):
-    os.makedirs(DATA_DIR, exist_ok=True)
     cdvs_list = list(cdvs_dict.values())
     # Ordena alfabeticamente por nome
     cdvs_list.sort(key=lambda x: x.get('nome', ''))
     try:
-        with open(CDVS_FILE, 'w', encoding='utf-8') as f:
-            json.dump(cdvs_list, f, ensure_ascii=False, indent=2)
+        atomic_write_json(CDVS_FILE, cdvs_list, indent=2)
     except Exception as e:
         print(f"[Scraper] Erro ao salvar cdvs.json: {e}")
 
@@ -57,8 +55,7 @@ def update_metadata(total_cdvs: int):
         'repositorio': 'https://github.com/moothz/mapa-cdvs-rs'
     }
     try:
-        with open(METADATA_FILE, 'w', encoding='utf-8') as f:
-            json.dump(metadata, f, ensure_ascii=False, indent=2)
+        atomic_write_json(METADATA_FILE, metadata, indent=2)
     except Exception as e:
         print(f"[Scraper] Erro ao salvar metadata.json: {e}")
 
@@ -177,7 +174,10 @@ def run_single_page(page_num: int):
     enriched = process_and_enrich_items(items, cities_rs, geocache)
 
     for item in enriched:
-        cdvs[item['codigo']] = item
+        code = item.get('codigo')
+        if code and code in cdvs and 'contatos_extras' in cdvs[code]:
+            item['contatos_extras'] = cdvs[code]['contatos_extras']
+        cdvs[code] = item
 
     save_geocache(geocache)
     save_cdvs(cdvs)
@@ -199,7 +199,10 @@ def run_bootstrap():
     first_items, total_pages = scrape_page(0)
     enriched = process_and_enrich_items(first_items, cities_rs, geocache)
     for item in enriched:
-        cdvs[item['codigo']] = item
+        code = item.get('codigo')
+        if code and code in cdvs and 'contatos_extras' in cdvs[code]:
+            item['contatos_extras'] = cdvs[code]['contatos_extras']
+        cdvs[code] = item
     print(f"[Scraper] Página 0/{total_pages - 1} coletada. {len(enriched)} itens.")
 
     for p in range(1, total_pages):
@@ -208,7 +211,10 @@ def run_bootstrap():
             items, _ = scrape_page(p)
             enriched = process_and_enrich_items(items, cities_rs, geocache)
             for item in enriched:
-                cdvs[item['codigo']] = item
+                code = item.get('codigo')
+                if code and code in cdvs and 'contatos_extras' in cdvs[code]:
+                    item['contatos_extras'] = cdvs[code]['contatos_extras']
+                cdvs[code] = item
             print(f"[Scraper] Página {p}/{total_pages - 1} coletada. Total acumulado: {len(cdvs)}")
             # Salva a cada 10 páginas
             if p % 10 == 0:
@@ -266,10 +272,39 @@ def run_refine(max_items: int = None):
     save_cdvs(cdvs)
     print(f"[Scraper] Refinamento concluído! {refined_count} CDVs com coordenadas de alta precisão.")
 
+def run_once():
+    """Executa a coleta da próxima página de acordo com o scraper_state.json e avança o estado."""
+    state = {}
+    if os.path.exists(STATE_FILE):
+        try:
+            with open(STATE_FILE, 'r', encoding='utf-8') as f:
+                state = json.load(f)
+        except Exception as e:
+            print(f"[Scraper] Erro ao carregar {STATE_FILE}: {e}")
+
+    current_page = state.get('current_page', 0)
+    total_pages = state.get('total_pages', 71)
+
+    print(f"[Scraper] Executando coleta pontual (--once) da página {current_page}/{total_pages}...")
+    items_count, detected_pages = run_single_page(current_page)
+    if detected_pages > 0:
+        total_pages = detected_pages
+        state['total_pages'] = total_pages
+
+    next_page = (current_page + 1) % total_pages
+    state['current_page'] = next_page
+    state['last_scraped_at'] = datetime.now().isoformat()
+    try:
+        atomic_write_json(STATE_FILE, state, indent=2)
+    except Exception as e:
+        print(f"[Scraper] Erro ao salvar estado: {e}")
+
+    print(f"[Scraper] Coleta pontual finalizada. Próxima página na fila: {next_page}.")
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Coletor de CDVs credenciados DETRAN-RS")
     parser.add_argument('--page', type=int, help="Número da página específica para coletar")
-    parser.add_argument('--bootstrap', action='store_true', help="Coleta todas as páginas para gerar snapshot inicial")
+    parser.add_argument('--bootstrap', '--full', dest='bootstrap', action='store_true', help="Coleta todas as páginas para gerar snapshot inicial")
     parser.add_argument('--once', action='store_true', help="Coleta a próxima página da fila")
     parser.add_argument('--refine', action='store_true', help="Refina CDVs existentes com busca precisa de endereço")
     parser.add_argument('--limit', type=int, help="Limite de itens para refinar")
@@ -279,6 +314,8 @@ if __name__ == '__main__':
         run_bootstrap()
     elif args.refine:
         run_refine(args.limit)
+    elif args.once:
+        run_once()
     elif args.page is not None:
         run_single_page(args.page)
     else:

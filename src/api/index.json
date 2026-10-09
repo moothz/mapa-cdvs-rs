@@ -1,0 +1,59 @@
+{
+  "name": "API Pública - Mapa CDVs RS",
+  "version": "1.1.0",
+  "status": "online",
+  "description": "API pública para consulta e integração dos Centros de Desmanche de Veículos (CDVs) credenciados pelo DETRAN-RS.",
+  "documentation": "/api/docs",
+  "openapi": "/api/openapi.json",
+  "endpoints": {
+    "/api": {
+      "method": "GET",
+      "description": "Informações e metadados da API pública"
+    },
+    "/api/docs": {
+      "method": "GET",
+      "description": "Interface interativa Swagger UI para documentação e testes online"
+    },
+    "/api/openapi.json": {
+      "method": "GET",
+      "description": "Especificação da API em formato OpenAPI 3.0"
+    },
+    "/api/cdvs": {
+      "method": "GET",
+      "description": "Lista completa consolidada de todos os CDVs credenciados no RS, contendo endereços, coordenadas (lat/lng) e contatos"
+    },
+    "/api/cdvs/search": {
+      "method": "GET",
+      "description": "Busca textual livre em CDVs (nome, código, município, bairro, endereço, etc.). Parâmetros: ?q={termo}&limit={N}",
+      "exemplo": "/api/cdvs/search?q=moto+erechim&limit=10"
+    },
+    "/api/cdvs/nearby": {
+      "method": "GET",
+      "description": "Consulta de CDVs mais próximos por coordenada (lat/lng) ou município (cidade), ordenados por distância com limite padrão de 15. Parâmetros: ?cidade={nome} OU ?lat={lat}&lng={lng}&limit=15",
+      "exemplos": [
+        "/api/cdvs/nearby?cidade=Passo Fundo&limit=15",
+        "/api/cdvs/nearby?lat=-30.03&lng=-51.23&limit=15"
+      ]
+    },
+    "/api/cities": {
+      "method": "GET",
+      "description": "Lista de municípios do Rio Grande do Sul com coordenadas geográficas de referência"
+    },
+    "/api/metadata": {
+      "method": "GET",
+      "description": "Estatísticas gerais, contagem de credenciados e timestamp da última coleta"
+    },
+    "/api/suggestions": {
+      "method": "POST",
+      "description": "Submissão de sugestão de telefone ou WhatsApp para um CDV, submetida a moderação administrativa",
+      "payload": {
+        "cdv_codigo": "CDV01002",
+        "nome_contato": "Peças / Balcão",
+        "telefone": "54996267183",
+        "is_whatsapp": true
+      }
+    }
+  },
+  "license": "MIT",
+  "source": "https://github.com/moothz/mapa-cdvs-rs"
+}
