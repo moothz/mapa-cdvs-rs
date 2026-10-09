@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa CDVs RS - Centros de Desmanche Credenciados DETRAN-RS</title>
+  <meta name="description" content="Localize facilmente Centros de Desmanche de Veículos (CDVs) credenciados pelo DETRAN-RS no mapa interativo e encontre os mais próximos de você.">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20width=%22100%22%20height=%22100%22><text y=%22.9em%22 font-size=%2290%22>🚗</text></svg>">
+
+  <!-- Fontes Google: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Leaflet CSS & MarkerCluster CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
+  <!-- Estilos customizados -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Cabeçalho Institucional -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="logo-badge">
+          <span class="icon">🚗</span>
+        </div>
+        <div class="header-title">
+          <h1>Mapa dos CDVs Credenciados</h1>
+          <p>Centros de Desmanche de Veículos • Rio Grande do Sul</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="status-badge" id="stats-badge" title="Total de CDVs cadastrados">
+          <span class="dot"></span>
+          <span id="total-cdvs-count">Carregando...</span>
+        </div>
+        <a href="https://github.com/moothz/mapa-cdvs-rs" target="_blank" rel="noopener noreferrer" class="btn-github" title="Ver código no GitHub">
+          <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+          </svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Controles Mobile (Alternar Mapa / Lista) -->
+    <div class="mobile-tabs" id="mobile-tabs">
+      <button class="mobile-tab-btn active" id="tab-btn-list" onclick="setMobileView('list')">
+        📋 Lista de CDVs (<span id="mobile-count">0</span>)
+      </button>
+      <button class="mobile-tab-btn" id="tab-btn-map" onclick="setMobileView('map')">
+        🗺️ Mapa Interativo
+      </button>
+    </div>
+
+    <!-- Conteúdo Principal (Split View) -->
+    <main class="main-content">
+      <!-- Painel Lateral: Filtros e Lista -->
+      <aside class="sidebar" id="sidebar-panel">
+        <!-- Caixa de Localização e Proximidade -->
+        <section class="filter-box">
+          <div class="filter-title">
+            <span>📍</span> Localizar por Proximidade
+          </div>
+
+          <div class="location-actions">
+            <button type="button" class="btn-location" id="btn-gps" onclick="getUserGPSLocation()">
+              <span class="btn-icon">🎯</span>
+              <span>Usar minha localização (GPS)</span>
+            </button>
+          </div>
+
+          <div class="or-divider"><span>OU SELECIONE UMA CIDADE</span></div>
+
+          <div class="input-group">
+            <label for="city-input">Cidade de Referência (RS):</label>
+            <div class="input-with-clear">
+              <input type="text" id="city-input" list="cities-datalist" placeholder="Ex: Santa Maria, Passo Fundo, Porto Alegre..." autocomplete="off">
+              <button type="button" class="btn-clear" id="btn-clear-city" onclick="clearLocationFilter()" title="Limpar localização">✕</button>
+            </div>
+            <datalist id="cities-datalist"></datalist>
+          </div>
+
+          <!-- Raio de Distância (aparece quando local ativo) -->
+          <div class="radius-control" id="radius-control-container">
+            <label for="radius-select">Raio Máximo:</label>
+            <select id="radius-select" onchange="applyFilters()">
+              <option value="all">Todas as distâncias (Mais próximos primeiro)</option>
+              <option value="15">Até 15 km</option>
+              <option value="30">Até 30 km</option>
+              <option value="50">Até 50 km</option>
+              <option value="100">Até 100 km</option>
+              <option value="200">Até 200 km</option>
+            </select>
+          </div>
+
+          <!-- Status da Localização Atual -->
+          <div class="active-location-banner" id="active-location-banner" style="display: none;">
+            <div class="banner-text">
+              <span class="icon">📍</span>
+              <span id="active-location-label">Referência definida</span>
+            </div>
+            <button type="button" class="btn-text-action" onclick="clearLocationFilter()">Remover</button>
+          </div>
+        </section>
+
+        <!-- Filtro de Busca Textual -->
+        <section class="search-box">
+          <div class="search-input-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="text-search" placeholder="Buscar por nome, código, bairro ou cidade..." oninput="applyFilters()">
+          </div>
+        </section>
+
+        <!-- Resumo dos Resultados -->
+        <div class="results-header">
+          <span id="results-count">Exibindo 0 CDVs</span>
+          <span id="sort-info" class="sort-info">Ordem alfabética</span>
+        </div>
+
+        <!-- Lista de Cards -->
+        <div class="cdv-list" id="cdv-list">
+          <div class="loading-state">
+            <div class="spinner"></div>
+            <p>Carregando credenciados do Detran-RS...</p>
+          </div>
+        </div>
+
+        <!-- Rodapé Legal / Disclaimer -->
+        <footer class="app-footer">
+          <p class="disclaimer">
+            <strong>Aviso de Utilidade Pública:</strong> Este é um agregador independente sem qualquer vínculo oficial ou comercial com o DETRAN-RS. Desenvolvido para facilitar a visualização geográfica e busca de credenciados por proximidade.
+          </p>
+          <div class="footer-links">
+            <a href="https://pecalegal.detran.rs.gov.br/cdv-portal/mod-consulta/credenciados.xhtml" target="_blank" rel="noopener noreferrer">
+              🏛️ Portal Oficial Peça Legal RS
+            </a>
+            •
+            <a href="https://github.com/moothz/mapa-cdvs-rs" target="_blank" rel="noopener noreferrer">
+              🐙 Código Aberto no GitHub
+            </a>
+          </div>
+          <div class="footer-copy">
+            Licença Livre MIT • Mantido por <a href="https://github.com/moothz" target="_blank" rel="noopener noreferrer">@moothz</a>
+          </div>
+        </footer>
+      </aside>
+
+      <!-- Painel do Mapa Interativo -->
+      <section class="map-container" id="map-panel">
+        <div id="map"></div>
+        <div class="map-controls-overlay">
+          <button type="button" class="btn-map-control" onclick="resetMapView()" title="Centralizar mapa em todo o Rio Grande do Sul">
+            🗺️ Ver todo o RS
+          </button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Leaflet JS & MarkerCluster JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+  <!-- Lógica da Aplicação -->
+  <script src="app.js"></script>
+</body>
+</html>

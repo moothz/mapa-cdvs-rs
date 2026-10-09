@@ -1,0 +1,2487 @@
+{
+  "ACEGUÁ": {
+    "nome": "Aceguá",
+    "lat": -31.8665,
+    "lng": -54.1615
+  },
+  "ÁGUA SANTA": {
+    "nome": "Água Santa",
+    "lat": -28.1672,
+    "lng": -52.031
+  },
+  "AGUDO": {
+    "nome": "Agudo",
+    "lat": -29.6447,
+    "lng": -53.2515
+  },
+  "AJURICABA": {
+    "nome": "Ajuricaba",
+    "lat": -28.2342,
+    "lng": -53.7757
+  },
+  "ALECRIM": {
+    "nome": "Alecrim",
+    "lat": -27.6579,
+    "lng": -54.7649
+  },
+  "ALEGRETE": {
+    "nome": "Alegrete",
+    "lat": -29.7902,
+    "lng": -55.7949
+  },
+  "ALEGRIA": {
+    "nome": "Alegria",
+    "lat": -27.8345,
+    "lng": -54.0557
+  },
+  "ALMIRANTE TAMANDARÉ DO SUL": {
+    "nome": "Almirante Tamandaré do Sul",
+    "lat": -28.1149,
+    "lng": -52.9142
+  },
+  "ALPESTRE": {
+    "nome": "Alpestre",
+    "lat": -27.2502,
+    "lng": -53.0341
+  },
+  "ALTO ALEGRE": {
+    "nome": "Alto Alegre",
+    "lat": -28.7769,
+    "lng": -52.9893
+  },
+  "ALTO FELIZ": {
+    "nome": "Alto Feliz",
+    "lat": -29.3919,
+    "lng": -51.3123
+  },
+  "ALVORADA": {
+    "nome": "Alvorada",
+    "lat": -29.9914,
+    "lng": -51.0809
+  },
+  "AMARAL FERRADOR": {
+    "nome": "Amaral Ferrador",
+    "lat": -30.8756,
+    "lng": -52.2509
+  },
+  "AMETISTA DO SUL": {
+    "nome": "Ametista do Sul",
+    "lat": -27.3607,
+    "lng": -53.183
+  },
+  "ANDRÉ DA ROCHA": {
+    "nome": "André da Rocha",
+    "lat": -28.6283,
+    "lng": -51.5797
+  },
+  "ANTA GORDA": {
+    "nome": "Anta Gorda",
+    "lat": -28.9698,
+    "lng": -52.0102
+  },
+  "ANTÔNIO PRADO": {
+    "nome": "Antônio Prado",
+    "lat": -28.8565,
+    "lng": -51.2883
+  },
+  "ARAMBARÉ": {
+    "nome": "Arambaré",
+    "lat": -30.9092,
+    "lng": -51.5046
+  },
+  "ARARICÁ": {
+    "nome": "Araricá",
+    "lat": -29.6168,
+    "lng": -50.9291
+  },
+  "ARATIBA": {
+    "nome": "Aratiba",
+    "lat": -27.3978,
+    "lng": -52.2975
+  },
+  "ARROIO DO MEIO": {
+    "nome": "Arroio do Meio",
+    "lat": -29.4014,
+    "lng": -51.9557
+  },
+  "ARROIO DO PADRE": {
+    "nome": "Arroio do Padre",
+    "lat": -31.4389,
+    "lng": -52.4246
+  },
+  "ARROIO DO SAL": {
+    "nome": "Arroio do Sal",
+    "lat": -29.5439,
+    "lng": -49.8895
+  },
+  "ARROIO DO TIGRE": {
+    "nome": "Arroio do Tigre",
+    "lat": -29.3348,
+    "lng": -53.0966
+  },
+  "ARROIO DOS RATOS": {
+    "nome": "Arroio dos Ratos",
+    "lat": -30.0875,
+    "lng": -51.7275
+  },
+  "ARROIO GRANDE": {
+    "nome": "Arroio Grande",
+    "lat": -32.2327,
+    "lng": -53.0862
+  },
+  "ARVOREZINHA": {
+    "nome": "Arvorezinha",
+    "lat": -28.8737,
+    "lng": -52.1781
+  },
+  "AUGUSTO PESTANA": {
+    "nome": "Augusto Pestana",
+    "lat": -28.5172,
+    "lng": -53.9883
+  },
+  "ÁUREA": {
+    "nome": "Áurea",
+    "lat": -27.6936,
+    "lng": -52.0505
+  },
+  "BAGÉ": {
+    "nome": "Bagé",
+    "lat": -31.3297,
+    "lng": -54.0999
+  },
+  "BALNEÁRIO PINHAL": {
+    "nome": "Balneário Pinhal",
+    "lat": -30.2419,
+    "lng": -50.2337
+  },
+  "BARÃO": {
+    "nome": "Barão",
+    "lat": -29.3725,
+    "lng": -51.4949
+  },
+  "BARÃO DE COTEGIPE": {
+    "nome": "Barão de Cotegipe",
+    "lat": -27.6208,
+    "lng": -52.3798
+  },
+  "BARÃO DO TRIUNFO": {
+    "nome": "Barão do Triunfo",
+    "lat": -30.3891,
+    "lng": -51.7384
+  },
+  "BARRA DO GUARITA": {
+    "nome": "Barra do Guarita",
+    "lat": -27.1927,
+    "lng": -53.7109
+  },
+  "BARRA DO QUARAÍ": {
+    "nome": "Barra do Quaraí",
+    "lat": -30.2029,
+    "lng": -57.5497
+  },
+  "BARRA DO RIBEIRO": {
+    "nome": "Barra do Ribeiro",
+    "lat": -30.2939,
+    "lng": -51.3014
+  },
+  "BARRA DO RIO AZUL": {
+    "nome": "Barra do Rio Azul",
+    "lat": -27.4069,
+    "lng": -52.4084
+  },
+  "BARRA FUNDA": {
+    "nome": "Barra Funda",
+    "lat": -27.9205,
+    "lng": -53.0391
+  },
+  "BARRACÃO": {
+    "nome": "Barracão",
+    "lat": -27.6739,
+    "lng": -51.4585
+  },
+  "BARROS CASSAL": {
+    "nome": "Barros Cassal",
+    "lat": -29.0947,
+    "lng": -52.5836
+  },
+  "BENJAMIN CONSTANT DO SUL": {
+    "nome": "Benjamin Constant do Sul",
+    "lat": -27.5086,
+    "lng": -52.5995
+  },
+  "BENTO GONÇALVES": {
+    "nome": "Bento Gonçalves",
+    "lat": -29.1662,
+    "lng": -51.5165
+  },
+  "BOA VISTA DAS MISSÕES": {
+    "nome": "Boa Vista das Missões",
+    "lat": -27.6671,
+    "lng": -53.3102
+  },
+  "BOA VISTA DO BURICÁ": {
+    "nome": "Boa Vista do Buricá",
+    "lat": -27.6693,
+    "lng": -54.1082
+  },
+  "BOA VISTA DO CADEADO": {
+    "nome": "Boa Vista do Cadeado",
+    "lat": -28.5791,
+    "lng": -53.8108
+  },
+  "BOA VISTA DO INCRA": {
+    "nome": "Boa Vista do Incra",
+    "lat": -28.8185,
+    "lng": -53.391
+  },
+  "BOA VISTA DO SUL": {
+    "nome": "Boa Vista do Sul",
+    "lat": -29.3544,
+    "lng": -51.6687
+  },
+  "BOM JESUS": {
+    "nome": "Bom Jesus",
+    "lat": -28.6697,
+    "lng": -50.4295
+  },
+  "BOM PRINCÍPIO": {
+    "nome": "Bom Princípio",
+    "lat": -29.4856,
+    "lng": -51.3548
+  },
+  "BOM PROGRESSO": {
+    "nome": "Bom Progresso",
+    "lat": -27.5399,
+    "lng": -53.8716
+  },
+  "BOM RETIRO DO SUL": {
+    "nome": "Bom Retiro do Sul",
+    "lat": -29.6071,
+    "lng": -51.9456
+  },
+  "BOQUEIRÃO DO LEÃO": {
+    "nome": "Boqueirão do Leão",
+    "lat": -29.3046,
+    "lng": -52.4284
+  },
+  "BOSSOROCA": {
+    "nome": "Bossoroca",
+    "lat": -28.7291,
+    "lng": -54.9035
+  },
+  "BOZANO": {
+    "nome": "Bozano",
+    "lat": -28.3659,
+    "lng": -53.772
+  },
+  "BRAGA": {
+    "nome": "Braga",
+    "lat": -27.6173,
+    "lng": -53.7405
+  },
+  "BROCHIER": {
+    "nome": "Brochier",
+    "lat": -29.5501,
+    "lng": -51.5945
+  },
+  "BUTIÁ": {
+    "nome": "Butiá",
+    "lat": -30.1179,
+    "lng": -51.9601
+  },
+  "CAÇAPAVA DO SUL": {
+    "nome": "Caçapava do Sul",
+    "lat": -30.5144,
+    "lng": -53.4827
+  },
+  "CACEQUI": {
+    "nome": "Cacequi",
+    "lat": -29.8883,
+    "lng": -54.822
+  },
+  "CACHOEIRA DO SUL": {
+    "nome": "Cachoeira do Sul",
+    "lat": -30.033,
+    "lng": -52.8928
+  },
+  "CACHOEIRINHA": {
+    "nome": "Cachoeirinha",
+    "lat": -29.9472,
+    "lng": -51.1016
+  },
+  "CACIQUE DOBLE": {
+    "nome": "Cacique Doble",
+    "lat": -27.767,
+    "lng": -51.6597
+  },
+  "CAIBATÉ": {
+    "nome": "Caibaté",
+    "lat": -28.2905,
+    "lng": -54.6454
+  },
+  "CAIÇARA": {
+    "nome": "Caiçara",
+    "lat": -27.2791,
+    "lng": -53.4257
+  },
+  "CAMAQUÃ": {
+    "nome": "Camaquã",
+    "lat": -30.8489,
+    "lng": -51.8043
+  },
+  "CAMARGO": {
+    "nome": "Camargo",
+    "lat": -28.588,
+    "lng": -52.2003
+  },
+  "CAMBARÁ DO SUL": {
+    "nome": "Cambará do Sul",
+    "lat": -29.0474,
+    "lng": -50.1465
+  },
+  "CAMPESTRE DA SERRA": {
+    "nome": "Campestre da Serra",
+    "lat": -28.7926,
+    "lng": -51.0941
+  },
+  "CAMPINA DAS MISSÕES": {
+    "nome": "Campina das Missões",
+    "lat": -27.9888,
+    "lng": -54.8416
+  },
+  "CAMPINAS DO SUL": {
+    "nome": "Campinas do Sul",
+    "lat": -27.7174,
+    "lng": -52.6248
+  },
+  "CAMPO BOM": {
+    "nome": "Campo Bom",
+    "lat": -29.6747,
+    "lng": -51.0606
+  },
+  "CAMPO NOVO": {
+    "nome": "Campo Novo",
+    "lat": -27.6792,
+    "lng": -53.8052
+  },
+  "CAMPOS BORGES": {
+    "nome": "Campos Borges",
+    "lat": -28.8871,
+    "lng": -53.0008
+  },
+  "CANDELÁRIA": {
+    "nome": "Candelária",
+    "lat": -29.6684,
+    "lng": -52.7895
+  },
+  "CÂNDIDO GODÓI": {
+    "nome": "Cândido Godói",
+    "lat": -27.9515,
+    "lng": -54.7517
+  },
+  "CANDIOTA": {
+    "nome": "Candiota",
+    "lat": -31.5516,
+    "lng": -53.6773
+  },
+  "CANELA": {
+    "nome": "Canela",
+    "lat": -29.356,
+    "lng": -50.8119
+  },
+  "CANGUÇU": {
+    "nome": "Canguçu",
+    "lat": -31.396,
+    "lng": -52.6783
+  },
+  "CANOAS": {
+    "nome": "Canoas",
+    "lat": -29.9128,
+    "lng": -51.1857
+  },
+  "CANUDOS DO VALE": {
+    "nome": "Canudos do Vale",
+    "lat": -29.3271,
+    "lng": -52.2374
+  },
+  "CAPÃO BONITO DO SUL": {
+    "nome": "Capão Bonito do Sul",
+    "lat": -28.1254,
+    "lng": -51.3961
+  },
+  "CAPÃO DA CANOA": {
+    "nome": "Capão da Canoa",
+    "lat": -29.7642,
+    "lng": -50.0282
+  },
+  "CAPÃO DO CIPÓ": {
+    "nome": "Capão do Cipó",
+    "lat": -28.9312,
+    "lng": -54.5558
+  },
+  "CAPÃO DO LEÃO": {
+    "nome": "Capão do Leão",
+    "lat": -31.7565,
+    "lng": -52.4889
+  },
+  "CAPELA DE SANTANA": {
+    "nome": "Capela de Santana",
+    "lat": -29.6961,
+    "lng": -51.328
+  },
+  "CAPITÃO": {
+    "nome": "Capitão",
+    "lat": -29.2674,
+    "lng": -51.9853
+  },
+  "CAPIVARI DO SUL": {
+    "nome": "Capivari do Sul",
+    "lat": -30.1383,
+    "lng": -50.5152
+  },
+  "CARAÁ": {
+    "nome": "Caraá",
+    "lat": -29.7869,
+    "lng": -50.4316
+  },
+  "CARAZINHO": {
+    "nome": "Carazinho",
+    "lat": -28.2958,
+    "lng": -52.7933
+  },
+  "CARLOS BARBOSA": {
+    "nome": "Carlos Barbosa",
+    "lat": -29.2969,
+    "lng": -51.5028
+  },
+  "CARLOS GOMES": {
+    "nome": "Carlos Gomes",
+    "lat": -27.7167,
+    "lng": -51.9121
+  },
+  "CASCA": {
+    "nome": "Casca",
+    "lat": -28.5605,
+    "lng": -51.9815
+  },
+  "CASEIROS": {
+    "nome": "Caseiros",
+    "lat": -28.2582,
+    "lng": -51.6861
+  },
+  "CATUÍPE": {
+    "nome": "Catuípe",
+    "lat": -28.2554,
+    "lng": -54.0132
+  },
+  "CAXIAS DO SUL": {
+    "nome": "Caxias do Sul",
+    "lat": -29.1629,
+    "lng": -51.1792
+  },
+  "CENTENÁRIO": {
+    "nome": "Centenário",
+    "lat": -27.7615,
+    "lng": -51.9984
+  },
+  "CERRITO": {
+    "nome": "Cerrito",
+    "lat": -31.8419,
+    "lng": -52.8004
+  },
+  "CERRO BRANCO": {
+    "nome": "Cerro Branco",
+    "lat": -29.657,
+    "lng": -52.9406
+  },
+  "CERRO GRANDE": {
+    "nome": "Cerro Grande",
+    "lat": -27.6106,
+    "lng": -53.1672
+  },
+  "CERRO GRANDE DO SUL": {
+    "nome": "Cerro Grande do Sul",
+    "lat": -30.5905,
+    "lng": -51.7418
+  },
+  "CERRO LARGO": {
+    "nome": "Cerro Largo",
+    "lat": -28.1463,
+    "lng": -54.7428
+  },
+  "CHAPADA": {
+    "nome": "Chapada",
+    "lat": -28.0559,
+    "lng": -53.0665
+  },
+  "CHARQUEADAS": {
+    "nome": "Charqueadas",
+    "lat": -29.9625,
+    "lng": -51.6289
+  },
+  "CHARRUA": {
+    "nome": "Charrua",
+    "lat": -27.9493,
+    "lng": -52.015
+  },
+  "CHIAPETTA": {
+    "nome": "Chiapetta",
+    "lat": -27.923,
+    "lng": -53.9419
+  },
+  "CHUÍ": {
+    "nome": "Chuí",
+    "lat": -33.6866,
+    "lng": -53.4594
+  },
+  "CHUVISCA": {
+    "nome": "Chuvisca",
+    "lat": -30.7504,
+    "lng": -51.9737
+  },
+  "CIDREIRA": {
+    "nome": "Cidreira",
+    "lat": -30.1604,
+    "lng": -50.2337
+  },
+  "CIRÍACO": {
+    "nome": "Ciríaco",
+    "lat": -28.3419,
+    "lng": -51.8741
+  },
+  "COLINAS": {
+    "nome": "Colinas",
+    "lat": -29.3948,
+    "lng": -51.8556
+  },
+  "COLORADO": {
+    "nome": "Colorado",
+    "lat": -28.5258,
+    "lng": -52.9928
+  },
+  "CONDOR": {
+    "nome": "Condor",
+    "lat": -28.2075,
+    "lng": -53.4905
+  },
+  "CONSTANTINA": {
+    "nome": "Constantina",
+    "lat": -27.732,
+    "lng": -52.9938
+  },
+  "COQUEIRO BAIXO": {
+    "nome": "Coqueiro Baixo",
+    "lat": -29.1802,
+    "lng": -52.0942
+  },
+  "COQUEIROS DO SUL": {
+    "nome": "Coqueiros do Sul",
+    "lat": -28.1194,
+    "lng": -52.7842
+  },
+  "CORONEL BARROS": {
+    "nome": "Coronel Barros",
+    "lat": -28.3921,
+    "lng": -54.0686
+  },
+  "CORONEL BICACO": {
+    "nome": "Coronel Bicaco",
+    "lat": -27.7197,
+    "lng": -53.7022
+  },
+  "CORONEL PILAR": {
+    "nome": "Coronel Pilar",
+    "lat": -29.2695,
+    "lng": -51.6847
+  },
+  "COTIPORÃ": {
+    "nome": "Cotiporã",
+    "lat": -28.9891,
+    "lng": -51.6971
+  },
+  "COXILHA": {
+    "nome": "Coxilha",
+    "lat": -28.128,
+    "lng": -52.3023
+  },
+  "CRISSIUMAL": {
+    "nome": "Crissiumal",
+    "lat": -27.4999,
+    "lng": -54.0994
+  },
+  "CRISTAL": {
+    "nome": "Cristal",
+    "lat": -31.0046,
+    "lng": -52.0436
+  },
+  "CRISTAL DO SUL": {
+    "nome": "Cristal do Sul",
+    "lat": -27.452,
+    "lng": -53.2422
+  },
+  "CRUZ ALTA": {
+    "nome": "Cruz Alta",
+    "lat": -28.645,
+    "lng": -53.6048
+  },
+  "CRUZALTENSE": {
+    "nome": "Cruzaltense",
+    "lat": -27.6672,
+    "lng": -52.6522
+  },
+  "CRUZEIRO DO SUL": {
+    "nome": "Cruzeiro do Sul",
+    "lat": -29.5148,
+    "lng": -51.9928
+  },
+  "DAVID CANABARRO": {
+    "nome": "David Canabarro",
+    "lat": -28.3849,
+    "lng": -51.8482
+  },
+  "DERRUBADAS": {
+    "nome": "Derrubadas",
+    "lat": -27.2642,
+    "lng": -53.8645
+  },
+  "DEZESSEIS DE NOVEMBRO": {
+    "nome": "Dezesseis de Novembro",
+    "lat": -28.219,
+    "lng": -55.0617
+  },
+  "DILERMANDO DE AGUIAR": {
+    "nome": "Dilermando de Aguiar",
+    "lat": -29.7054,
+    "lng": -54.2122
+  },
+  "DOIS IRMÃOS": {
+    "nome": "Dois Irmãos",
+    "lat": -29.5836,
+    "lng": -51.0898
+  },
+  "DOIS IRMÃOS DAS MISSÕES": {
+    "nome": "Dois Irmãos das Missões",
+    "lat": -27.6621,
+    "lng": -53.5304
+  },
+  "DOIS LAJEADOS": {
+    "nome": "Dois Lajeados",
+    "lat": -28.983,
+    "lng": -51.8396
+  },
+  "DOM FELICIANO": {
+    "nome": "Dom Feliciano",
+    "lat": -30.7004,
+    "lng": -52.1026
+  },
+  "DOM PEDRITO": {
+    "nome": "Dom Pedrito",
+    "lat": -30.9756,
+    "lng": -54.6694
+  },
+  "DOM PEDRO DE ALCÂNTARA": {
+    "nome": "Dom Pedro de Alcântara",
+    "lat": -29.3639,
+    "lng": -49.853
+  },
+  "DONA FRANCISCA": {
+    "nome": "Dona Francisca",
+    "lat": -29.6195,
+    "lng": -53.3617
+  },
+  "DOUTOR MAURÍCIO CARDOSO": {
+    "nome": "Doutor Maurício Cardoso",
+    "lat": -27.5103,
+    "lng": -54.3577
+  },
+  "DOUTOR RICARDO": {
+    "nome": "Doutor Ricardo",
+    "lat": -29.084,
+    "lng": -51.9972
+  },
+  "ELDORADO DO SUL": {
+    "nome": "Eldorado do Sul",
+    "lat": -30.0847,
+    "lng": -51.6187
+  },
+  "ENCANTADO": {
+    "nome": "Encantado",
+    "lat": -29.2351,
+    "lng": -51.8703
+  },
+  "ENCRUZILHADA DO SUL": {
+    "nome": "Encruzilhada do Sul",
+    "lat": -30.543,
+    "lng": -52.5204
+  },
+  "ENGENHO VELHO": {
+    "nome": "Engenho Velho",
+    "lat": -27.706,
+    "lng": -52.9145
+  },
+  "ENTRE RIOS DO SUL": {
+    "nome": "Entre Rios do Sul",
+    "lat": -27.5298,
+    "lng": -52.7347
+  },
+  "ENTRE-IJUÍS": {
+    "nome": "Entre-Ijuís",
+    "lat": -28.3686,
+    "lng": -54.2686
+  },
+  "EREBANGO": {
+    "nome": "Erebango",
+    "lat": -27.8544,
+    "lng": -52.3005
+  },
+  "ERECHIM": {
+    "nome": "Erechim",
+    "lat": -27.6364,
+    "lng": -52.2697
+  },
+  "ERNESTINA": {
+    "nome": "Ernestina",
+    "lat": -28.4977,
+    "lng": -52.5836
+  },
+  "ERVAL GRANDE": {
+    "nome": "Erval Grande",
+    "lat": -27.3926,
+    "lng": -52.574
+  },
+  "ERVAL SECO": {
+    "nome": "Erval Seco",
+    "lat": -27.5443,
+    "lng": -53.5005
+  },
+  "ESMERALDA": {
+    "nome": "Esmeralda",
+    "lat": -28.0518,
+    "lng": -51.1933
+  },
+  "ESPERANÇA DO SUL": {
+    "nome": "Esperança do Sul",
+    "lat": -27.3603,
+    "lng": -53.9891
+  },
+  "ESPUMOSO": {
+    "nome": "Espumoso",
+    "lat": -28.7286,
+    "lng": -52.8461
+  },
+  "ESTAÇÃO": {
+    "nome": "Estação",
+    "lat": -27.9135,
+    "lng": -52.2635
+  },
+  "ESTÂNCIA VELHA": {
+    "nome": "Estância Velha",
+    "lat": -29.6535,
+    "lng": -51.1843
+  },
+  "ESTEIO": {
+    "nome": "Esteio",
+    "lat": -29.852,
+    "lng": -51.1841
+  },
+  "ESTRELA": {
+    "nome": "Estrela",
+    "lat": -29.5002,
+    "lng": -51.9495
+  },
+  "ESTRELA VELHA": {
+    "nome": "Estrela Velha",
+    "lat": -29.1713,
+    "lng": -53.1639
+  },
+  "EUGÊNIO DE CASTRO": {
+    "nome": "Eugênio de Castro",
+    "lat": -28.5315,
+    "lng": -54.1506
+  },
+  "FAGUNDES VARELA": {
+    "nome": "Fagundes Varela",
+    "lat": -28.8794,
+    "lng": -51.7014
+  },
+  "FARROUPILHA": {
+    "nome": "Farroupilha",
+    "lat": -29.2227,
+    "lng": -51.3419
+  },
+  "FAXINAL DO SOTURNO": {
+    "nome": "Faxinal do Soturno",
+    "lat": -29.5788,
+    "lng": -53.4484
+  },
+  "FAXINALZINHO": {
+    "nome": "Faxinalzinho",
+    "lat": -27.4238,
+    "lng": -52.6789
+  },
+  "FAZENDA VILANOVA": {
+    "nome": "Fazenda Vilanova",
+    "lat": -29.5885,
+    "lng": -51.8217
+  },
+  "FELIZ": {
+    "nome": "Feliz",
+    "lat": -29.4527,
+    "lng": -51.3032
+  },
+  "FLORES DA CUNHA": {
+    "nome": "Flores da Cunha",
+    "lat": -29.0261,
+    "lng": -51.1875
+  },
+  "FLORIANO PEIXOTO": {
+    "nome": "Floriano Peixoto",
+    "lat": -27.8614,
+    "lng": -52.0838
+  },
+  "FONTOURA XAVIER": {
+    "nome": "Fontoura Xavier",
+    "lat": -28.9817,
+    "lng": -52.3445
+  },
+  "FORMIGUEIRO": {
+    "nome": "Formigueiro",
+    "lat": -30.0035,
+    "lng": -53.4959
+  },
+  "FORQUETINHA": {
+    "nome": "Forquetinha",
+    "lat": -29.3828,
+    "lng": -52.0981
+  },
+  "FORTALEZA DOS VALOS": {
+    "nome": "Fortaleza dos Valos",
+    "lat": -28.7986,
+    "lng": -53.2249
+  },
+  "FREDERICO WESTPHALEN": {
+    "nome": "Frederico Westphalen",
+    "lat": -27.3586,
+    "lng": -53.3958
+  },
+  "GARIBALDI": {
+    "nome": "Garibaldi",
+    "lat": -29.259,
+    "lng": -51.5352
+  },
+  "GARRUCHOS": {
+    "nome": "Garruchos",
+    "lat": -28.1944,
+    "lng": -55.6383
+  },
+  "GAURAMA": {
+    "nome": "Gaurama",
+    "lat": -27.5856,
+    "lng": -52.0915
+  },
+  "GENERAL CÂMARA": {
+    "nome": "General Câmara",
+    "lat": -29.9032,
+    "lng": -51.7612
+  },
+  "GENTIL": {
+    "nome": "Gentil",
+    "lat": -28.4316,
+    "lng": -52.0337
+  },
+  "GETÚLIO VARGAS": {
+    "nome": "Getúlio Vargas",
+    "lat": -27.8911,
+    "lng": -52.2294
+  },
+  "GIRUÁ": {
+    "nome": "Giruá",
+    "lat": -28.0297,
+    "lng": -54.3517
+  },
+  "GLORINHA": {
+    "nome": "Glorinha",
+    "lat": -29.8798,
+    "lng": -50.7734
+  },
+  "GRAMADO": {
+    "nome": "Gramado",
+    "lat": -29.3734,
+    "lng": -50.8762
+  },
+  "GRAMADO DOS LOUREIROS": {
+    "nome": "Gramado dos Loureiros",
+    "lat": -27.4429,
+    "lng": -52.9149
+  },
+  "GRAMADO XAVIER": {
+    "nome": "Gramado Xavier",
+    "lat": -29.2706,
+    "lng": -52.5795
+  },
+  "GRAVATAÍ": {
+    "nome": "Gravataí",
+    "lat": -29.9413,
+    "lng": -50.9869
+  },
+  "GUABIJU": {
+    "nome": "Guabiju",
+    "lat": -28.5421,
+    "lng": -51.6948
+  },
+  "GUAÍBA": {
+    "nome": "Guaíba",
+    "lat": -30.1086,
+    "lng": -51.3233
+  },
+  "GUAPORÉ": {
+    "nome": "Guaporé",
+    "lat": -28.8399,
+    "lng": -51.8895
+  },
+  "GUARANI DAS MISSÕES": {
+    "nome": "Guarani das Missões",
+    "lat": -28.1491,
+    "lng": -54.5629
+  },
+  "HARMONIA": {
+    "nome": "Harmonia",
+    "lat": -29.5456,
+    "lng": -51.4185
+  },
+  "HERVAL": {
+    "nome": "Herval",
+    "lat": -32.024,
+    "lng": -53.3944
+  },
+  "HERVEIRAS": {
+    "nome": "Herveiras",
+    "lat": -29.4552,
+    "lng": -52.6553
+  },
+  "HORIZONTINA": {
+    "nome": "Horizontina",
+    "lat": -27.6282,
+    "lng": -54.3053
+  },
+  "HULHA NEGRA": {
+    "nome": "Hulha Negra",
+    "lat": -31.4067,
+    "lng": -53.8667
+  },
+  "HUMAITÁ": {
+    "nome": "Humaitá",
+    "lat": -27.5691,
+    "lng": -53.9695
+  },
+  "IBARAMA": {
+    "nome": "Ibarama",
+    "lat": -29.4203,
+    "lng": -53.1295
+  },
+  "IBIAÇÁ": {
+    "nome": "Ibiaçá",
+    "lat": -28.0566,
+    "lng": -51.8599
+  },
+  "IBIRAIARAS": {
+    "nome": "Ibiraiaras",
+    "lat": -28.3741,
+    "lng": -51.6377
+  },
+  "IBIRAPUITÃ": {
+    "nome": "Ibirapuitã",
+    "lat": -28.6247,
+    "lng": -52.5158
+  },
+  "IBIRUBÁ": {
+    "nome": "Ibirubá",
+    "lat": -28.6302,
+    "lng": -53.0961
+  },
+  "IGREJINHA": {
+    "nome": "Igrejinha",
+    "lat": -29.5693,
+    "lng": -50.7919
+  },
+  "IJUÍ": {
+    "nome": "Ijuí",
+    "lat": -28.388,
+    "lng": -53.92
+  },
+  "ILÓPOLIS": {
+    "nome": "Ilópolis",
+    "lat": -28.9282,
+    "lng": -52.1258
+  },
+  "IMBÉ": {
+    "nome": "Imbé",
+    "lat": -29.9753,
+    "lng": -50.1281
+  },
+  "IMIGRANTE": {
+    "nome": "Imigrante",
+    "lat": -29.3508,
+    "lng": -51.7748
+  },
+  "INDEPENDÊNCIA": {
+    "nome": "Independência",
+    "lat": -27.8354,
+    "lng": -54.1886
+  },
+  "INHACORÁ": {
+    "nome": "Inhacorá",
+    "lat": -27.8752,
+    "lng": -54.015
+  },
+  "IPÊ": {
+    "nome": "Ipê",
+    "lat": -28.8171,
+    "lng": -51.2859
+  },
+  "IPIRANGA DO SUL": {
+    "nome": "Ipiranga do Sul",
+    "lat": -27.9404,
+    "lng": -52.4271
+  },
+  "IRAÍ": {
+    "nome": "Iraí",
+    "lat": -27.1951,
+    "lng": -53.2543
+  },
+  "ITAARA": {
+    "nome": "Itaara",
+    "lat": -29.6013,
+    "lng": -53.7725
+  },
+  "ITACURUBI": {
+    "nome": "Itacurubi",
+    "lat": -28.7913,
+    "lng": -55.2447
+  },
+  "ITAPUCA": {
+    "nome": "Itapuca",
+    "lat": -28.7768,
+    "lng": -52.1693
+  },
+  "ITAQUI": {
+    "nome": "Itaqui",
+    "lat": -29.1311,
+    "lng": -56.5515
+  },
+  "ITATI": {
+    "nome": "Itati",
+    "lat": -29.4974,
+    "lng": -50.1016
+  },
+  "ITATIBA DO SUL": {
+    "nome": "Itatiba do Sul",
+    "lat": -27.3846,
+    "lng": -52.4538
+  },
+  "IVORÁ": {
+    "nome": "Ivorá",
+    "lat": -29.5232,
+    "lng": -53.5842
+  },
+  "IVOTI": {
+    "nome": "Ivoti",
+    "lat": -29.5995,
+    "lng": -51.1533
+  },
+  "JABOTICABA": {
+    "nome": "Jaboticaba",
+    "lat": -27.6347,
+    "lng": -53.2762
+  },
+  "JACUIZINHO": {
+    "nome": "Jacuizinho",
+    "lat": -29.0401,
+    "lng": -53.0657
+  },
+  "JACUTINGA": {
+    "nome": "Jacutinga",
+    "lat": -27.7291,
+    "lng": -52.5372
+  },
+  "JAGUARÃO": {
+    "nome": "Jaguarão",
+    "lat": -32.5604,
+    "lng": -53.377
+  },
+  "JAGUARI": {
+    "nome": "Jaguari",
+    "lat": -29.4936,
+    "lng": -54.703
+  },
+  "JAQUIRANA": {
+    "nome": "Jaquirana",
+    "lat": -28.8811,
+    "lng": -50.3637
+  },
+  "JARI": {
+    "nome": "Jari",
+    "lat": -29.2922,
+    "lng": -54.2237
+  },
+  "JÓIA": {
+    "nome": "Jóia",
+    "lat": -28.6435,
+    "lng": -54.1141
+  },
+  "JÚLIO DE CASTILHOS": {
+    "nome": "Júlio de Castilhos",
+    "lat": -29.2299,
+    "lng": -53.6772
+  },
+  "LAGOA BONITA DO SUL": {
+    "nome": "Lagoa Bonita do Sul",
+    "lat": -29.4939,
+    "lng": -53.017
+  },
+  "LAGOA DOS TRÊS CANTOS": {
+    "nome": "Lagoa dos Três Cantos",
+    "lat": -28.5676,
+    "lng": -52.8618
+  },
+  "LAGOA VERMELHA": {
+    "nome": "Lagoa Vermelha",
+    "lat": -28.2093,
+    "lng": -51.5248
+  },
+  "LAGOÃO": {
+    "nome": "Lagoão",
+    "lat": -29.2348,
+    "lng": -52.7997
+  },
+  "LAJEADO": {
+    "nome": "Lajeado",
+    "lat": -29.4591,
+    "lng": -51.9644
+  },
+  "LAJEADO DO BUGRE": {
+    "nome": "Lajeado do Bugre",
+    "lat": -27.6913,
+    "lng": -53.1818
+  },
+  "LAVRAS DO SUL": {
+    "nome": "Lavras do Sul",
+    "lat": -30.8071,
+    "lng": -53.8931
+  },
+  "LIBERATO SALZANO": {
+    "nome": "Liberato Salzano",
+    "lat": -27.601,
+    "lng": -53.0753
+  },
+  "LINDOLFO COLLOR": {
+    "nome": "Lindolfo Collor",
+    "lat": -29.5859,
+    "lng": -51.2141
+  },
+  "LINHA NOVA": {
+    "nome": "Linha Nova",
+    "lat": -29.4679,
+    "lng": -51.2003
+  },
+  "MAÇAMBARÁ": {
+    "nome": "Maçambará",
+    "lat": -29.1445,
+    "lng": -56.0674
+  },
+  "MACHADINHO": {
+    "nome": "Machadinho",
+    "lat": -27.5667,
+    "lng": -51.6668
+  },
+  "MAMPITUBA": {
+    "nome": "Mampituba",
+    "lat": -29.2136,
+    "lng": -49.9311
+  },
+  "MANOEL VIANA": {
+    "nome": "Manoel Viana",
+    "lat": -29.5859,
+    "lng": -55.4841
+  },
+  "MAQUINÉ": {
+    "nome": "Maquiné",
+    "lat": -29.6798,
+    "lng": -50.2079
+  },
+  "MARATÁ": {
+    "nome": "Maratá",
+    "lat": -29.5457,
+    "lng": -51.5573
+  },
+  "MARAU": {
+    "nome": "Marau",
+    "lat": -28.4498,
+    "lng": -52.1986
+  },
+  "MARCELINO RAMOS": {
+    "nome": "Marcelino Ramos",
+    "lat": -27.4676,
+    "lng": -51.9095
+  },
+  "MARIANA PIMENTEL": {
+    "nome": "Mariana Pimentel",
+    "lat": -30.353,
+    "lng": -51.5803
+  },
+  "MARIANO MORO": {
+    "nome": "Mariano Moro",
+    "lat": -27.3568,
+    "lng": -52.1467
+  },
+  "MARQUES DE SOUZA": {
+    "nome": "Marques de Souza",
+    "lat": -29.3311,
+    "lng": -52.0973
+  },
+  "MATA": {
+    "nome": "Mata",
+    "lat": -29.5649,
+    "lng": -54.4641
+  },
+  "MATO CASTELHANO": {
+    "nome": "Mato Castelhano",
+    "lat": -28.28,
+    "lng": -52.1932
+  },
+  "MATO LEITÃO": {
+    "nome": "Mato Leitão",
+    "lat": -29.5285,
+    "lng": -52.1278
+  },
+  "MATO QUEIMADO": {
+    "nome": "Mato Queimado",
+    "lat": -28.252,
+    "lng": -54.6159
+  },
+  "MAXIMILIANO DE ALMEIDA": {
+    "nome": "Maximiliano de Almeida",
+    "lat": -27.6325,
+    "lng": -51.802
+  },
+  "MINAS DO LEÃO": {
+    "nome": "Minas do Leão",
+    "lat": -30.1346,
+    "lng": -52.0423
+  },
+  "MIRAGUAÍ": {
+    "nome": "Miraguaí",
+    "lat": -27.497,
+    "lng": -53.6891
+  },
+  "MONTAURI": {
+    "nome": "Montauri",
+    "lat": -28.6462,
+    "lng": -52.0767
+  },
+  "MONTE ALEGRE DOS CAMPOS": {
+    "nome": "Monte Alegre dos Campos",
+    "lat": -28.6805,
+    "lng": -50.7834
+  },
+  "MONTE BELO DO SUL": {
+    "nome": "Monte Belo do Sul",
+    "lat": -29.1607,
+    "lng": -51.6333
+  },
+  "MONTENEGRO": {
+    "nome": "Montenegro",
+    "lat": -29.6824,
+    "lng": -51.4679
+  },
+  "MORMAÇO": {
+    "nome": "Mormaço",
+    "lat": -28.6968,
+    "lng": -52.6999
+  },
+  "MORRINHOS DO SUL": {
+    "nome": "Morrinhos do Sul",
+    "lat": -29.3578,
+    "lng": -49.9328
+  },
+  "MORRO REDONDO": {
+    "nome": "Morro Redondo",
+    "lat": -31.5887,
+    "lng": -52.6261
+  },
+  "MORRO REUTER": {
+    "nome": "Morro Reuter",
+    "lat": -29.5379,
+    "lng": -51.0811
+  },
+  "MOSTARDAS": {
+    "nome": "Mostardas",
+    "lat": -31.1054,
+    "lng": -50.9167
+  },
+  "MUÇUM": {
+    "nome": "Muçum",
+    "lat": -29.163,
+    "lng": -51.8714
+  },
+  "MUITOS CAPÕES": {
+    "nome": "Muitos Capões",
+    "lat": -28.3132,
+    "lng": -51.1836
+  },
+  "MULITERNO": {
+    "nome": "Muliterno",
+    "lat": -28.3253,
+    "lng": -51.7697
+  },
+  "NÃO-ME-TOQUE": {
+    "nome": "Não-Me-Toque",
+    "lat": -28.4548,
+    "lng": -52.8182
+  },
+  "NICOLAU VERGUEIRO": {
+    "nome": "Nicolau Vergueiro",
+    "lat": -28.5298,
+    "lng": -52.4676
+  },
+  "NONOAI": {
+    "nome": "Nonoai",
+    "lat": -27.3689,
+    "lng": -52.7756
+  },
+  "NOVA ALVORADA": {
+    "nome": "Nova Alvorada",
+    "lat": -28.6822,
+    "lng": -52.1631
+  },
+  "NOVA ARAÇÁ": {
+    "nome": "Nova Araçá",
+    "lat": -28.6537,
+    "lng": -51.7458
+  },
+  "NOVA BASSANO": {
+    "nome": "Nova Bassano",
+    "lat": -28.7291,
+    "lng": -51.7072
+  },
+  "NOVA BOA VISTA": {
+    "nome": "Nova Boa Vista",
+    "lat": -27.9926,
+    "lng": -52.9784
+  },
+  "NOVA BRÉSCIA": {
+    "nome": "Nova Bréscia",
+    "lat": -29.2182,
+    "lng": -52.0319
+  },
+  "NOVA CANDELÁRIA": {
+    "nome": "Nova Candelária",
+    "lat": -27.6137,
+    "lng": -54.1074
+  },
+  "NOVA ESPERANÇA DO SUL": {
+    "nome": "Nova Esperança do Sul",
+    "lat": -29.4066,
+    "lng": -54.8293
+  },
+  "NOVA HARTZ": {
+    "nome": "Nova Hartz",
+    "lat": -29.5808,
+    "lng": -50.9051
+  },
+  "NOVA PÁDUA": {
+    "nome": "Nova Pádua",
+    "lat": -29.0275,
+    "lng": -51.3098
+  },
+  "NOVA PALMA": {
+    "nome": "Nova Palma",
+    "lat": -29.471,
+    "lng": -53.4689
+  },
+  "NOVA PETRÓPOLIS": {
+    "nome": "Nova Petrópolis",
+    "lat": -29.3741,
+    "lng": -51.1136
+  },
+  "NOVA PRATA": {
+    "nome": "Nova Prata",
+    "lat": -28.7799,
+    "lng": -51.6113
+  },
+  "NOVA RAMADA": {
+    "nome": "Nova Ramada",
+    "lat": -28.0667,
+    "lng": -53.6992
+  },
+  "NOVA ROMA DO SUL": {
+    "nome": "Nova Roma do Sul",
+    "lat": -28.9882,
+    "lng": -51.4095
+  },
+  "NOVA SANTA RITA": {
+    "nome": "Nova Santa Rita",
+    "lat": -29.8525,
+    "lng": -51.2837
+  },
+  "NOVO BARREIRO": {
+    "nome": "Novo Barreiro",
+    "lat": -27.9077,
+    "lng": -53.1103
+  },
+  "NOVO CABRAIS": {
+    "nome": "Novo Cabrais",
+    "lat": -29.7338,
+    "lng": -52.9489
+  },
+  "NOVO HAMBURGO": {
+    "nome": "Novo Hamburgo",
+    "lat": -29.6875,
+    "lng": -51.1328
+  },
+  "NOVO MACHADO": {
+    "nome": "Novo Machado",
+    "lat": -27.5765,
+    "lng": -54.5036
+  },
+  "NOVO TIRADENTES": {
+    "nome": "Novo Tiradentes",
+    "lat": -27.5649,
+    "lng": -53.1837
+  },
+  "NOVO XINGU": {
+    "nome": "Novo Xingu",
+    "lat": -27.749,
+    "lng": -53.0639
+  },
+  "OSÓRIO": {
+    "nome": "Osório",
+    "lat": -29.8881,
+    "lng": -50.2667
+  },
+  "PAIM FILHO": {
+    "nome": "Paim Filho",
+    "lat": -27.7075,
+    "lng": -51.763
+  },
+  "PALMARES DO SUL": {
+    "nome": "Palmares do Sul",
+    "lat": -30.2535,
+    "lng": -50.5103
+  },
+  "PALMEIRA DAS MISSÕES": {
+    "nome": "Palmeira das Missões",
+    "lat": -27.9007,
+    "lng": -53.3134
+  },
+  "PALMITINHO": {
+    "nome": "Palmitinho",
+    "lat": -27.3596,
+    "lng": -53.558
+  },
+  "PANAMBI": {
+    "nome": "Panambi",
+    "lat": -28.2833,
+    "lng": -53.5023
+  },
+  "PANTANO GRANDE": {
+    "nome": "Pantano Grande",
+    "lat": -30.1902,
+    "lng": -52.3729
+  },
+  "PARAÍ": {
+    "nome": "Paraí",
+    "lat": -28.5964,
+    "lng": -51.7896
+  },
+  "PARAÍSO DO SUL": {
+    "nome": "Paraíso do Sul",
+    "lat": -29.6717,
+    "lng": -53.144
+  },
+  "PARECI NOVO": {
+    "nome": "Pareci Novo",
+    "lat": -29.6365,
+    "lng": -51.3974
+  },
+  "PAROBÉ": {
+    "nome": "Parobé",
+    "lat": -29.6243,
+    "lng": -50.8312
+  },
+  "PASSA SETE": {
+    "nome": "Passa Sete",
+    "lat": -29.4577,
+    "lng": -52.9599
+  },
+  "PASSO DO SOBRADO": {
+    "nome": "Passo do Sobrado",
+    "lat": -29.748,
+    "lng": -52.2748
+  },
+  "PASSO FUNDO": {
+    "nome": "Passo Fundo",
+    "lat": -28.2576,
+    "lng": -52.4091
+  },
+  "PAULO BENTO": {
+    "nome": "Paulo Bento",
+    "lat": -27.7051,
+    "lng": -52.4169
+  },
+  "PAVERAMA": {
+    "nome": "Paverama",
+    "lat": -29.5486,
+    "lng": -51.7339
+  },
+  "PEDRAS ALTAS": {
+    "nome": "Pedras Altas",
+    "lat": -31.7365,
+    "lng": -53.5814
+  },
+  "PEDRO OSÓRIO": {
+    "nome": "Pedro Osório",
+    "lat": -31.8642,
+    "lng": -52.8184
+  },
+  "PEJUÇARA": {
+    "nome": "Pejuçara",
+    "lat": -28.4283,
+    "lng": -53.6579
+  },
+  "PELOTAS": {
+    "nome": "Pelotas",
+    "lat": -31.7649,
+    "lng": -52.3371
+  },
+  "PICADA CAFÉ": {
+    "nome": "Picada Café",
+    "lat": -29.4464,
+    "lng": -51.1367
+  },
+  "PINHAL": {
+    "nome": "Pinhal",
+    "lat": -27.508,
+    "lng": -53.2082
+  },
+  "PINHAL DA SERRA": {
+    "nome": "Pinhal da Serra",
+    "lat": -27.8751,
+    "lng": -51.1673
+  },
+  "PINHAL GRANDE": {
+    "nome": "Pinhal Grande",
+    "lat": -29.345,
+    "lng": -53.3206
+  },
+  "PINHEIRINHO DO VALE": {
+    "nome": "Pinheirinho do Vale",
+    "lat": -27.2109,
+    "lng": -53.608
+  },
+  "PINHEIRO MACHADO": {
+    "nome": "Pinheiro Machado",
+    "lat": -31.5794,
+    "lng": -53.3798
+  },
+  "PINTO BANDEIRA": {
+    "nome": "Pinto Bandeira",
+    "lat": -29.0975,
+    "lng": -51.4503
+  },
+  "PIRAPÓ": {
+    "nome": "Pirapó",
+    "lat": -28.0439,
+    "lng": -55.2001
+  },
+  "PIRATINI": {
+    "nome": "Piratini",
+    "lat": -31.4473,
+    "lng": -53.0973
+  },
+  "PLANALTO": {
+    "nome": "Planalto",
+    "lat": -27.3297,
+    "lng": -53.0575
+  },
+  "POÇO DAS ANTAS": {
+    "nome": "Poço das Antas",
+    "lat": -29.4481,
+    "lng": -51.6719
+  },
+  "PONTÃO": {
+    "nome": "Pontão",
+    "lat": -28.0585,
+    "lng": -52.6791
+  },
+  "PONTE PRETA": {
+    "nome": "Ponte Preta",
+    "lat": -27.6587,
+    "lng": -52.4848
+  },
+  "PORTÃO": {
+    "nome": "Portão",
+    "lat": -29.7015,
+    "lng": -51.2429
+  },
+  "PORTO ALEGRE": {
+    "nome": "Porto Alegre",
+    "lat": -30.0318,
+    "lng": -51.2065
+  },
+  "PORTO LUCENA": {
+    "nome": "Porto Lucena",
+    "lat": -27.8569,
+    "lng": -55.01
+  },
+  "PORTO MAUÁ": {
+    "nome": "Porto Mauá",
+    "lat": -27.5796,
+    "lng": -54.6657
+  },
+  "PORTO VERA CRUZ": {
+    "nome": "Porto Vera Cruz",
+    "lat": -27.7405,
+    "lng": -54.8994
+  },
+  "PORTO XAVIER": {
+    "nome": "Porto Xavier",
+    "lat": -27.9082,
+    "lng": -55.1379
+  },
+  "POUSO NOVO": {
+    "nome": "Pouso Novo",
+    "lat": -29.1738,
+    "lng": -52.2136
+  },
+  "PRESIDENTE LUCENA": {
+    "nome": "Presidente Lucena",
+    "lat": -29.5175,
+    "lng": -51.1798
+  },
+  "PROGRESSO": {
+    "nome": "Progresso",
+    "lat": -29.2441,
+    "lng": -52.3197
+  },
+  "PROTÁSIO ALVES": {
+    "nome": "Protásio Alves",
+    "lat": -28.7572,
+    "lng": -51.4757
+  },
+  "PUTINGA": {
+    "nome": "Putinga",
+    "lat": -29.0045,
+    "lng": -52.1569
+  },
+  "QUARAÍ": {
+    "nome": "Quaraí",
+    "lat": -30.384,
+    "lng": -56.4483
+  },
+  "QUATRO IRMÃOS": {
+    "nome": "Quatro Irmãos",
+    "lat": -27.8257,
+    "lng": -52.4424
+  },
+  "QUEVEDOS": {
+    "nome": "Quevedos",
+    "lat": -29.3504,
+    "lng": -54.0789
+  },
+  "QUINZE DE NOVEMBRO": {
+    "nome": "Quinze de Novembro",
+    "lat": -28.7466,
+    "lng": -53.1011
+  },
+  "REDENTORA": {
+    "nome": "Redentora",
+    "lat": -27.664,
+    "lng": -53.6407
+  },
+  "RELVADO": {
+    "nome": "Relvado",
+    "lat": -29.1164,
+    "lng": -52.0778
+  },
+  "RESTINGA SÊCA": {
+    "nome": "Restinga Sêca",
+    "lat": -29.8188,
+    "lng": -53.3807
+  },
+  "RIO DOS ÍNDIOS": {
+    "nome": "Rio dos Índios",
+    "lat": -27.2973,
+    "lng": -52.8417
+  },
+  "RIO GRANDE": {
+    "nome": "Rio Grande",
+    "lat": -32.0349,
+    "lng": -52.1071
+  },
+  "RIO PARDO": {
+    "nome": "Rio Pardo",
+    "lat": -29.988,
+    "lng": -52.3711
+  },
+  "RIOZINHO": {
+    "nome": "Riozinho",
+    "lat": -29.639,
+    "lng": -50.4488
+  },
+  "ROCA SALES": {
+    "nome": "Roca Sales",
+    "lat": -29.2884,
+    "lng": -51.8658
+  },
+  "RODEIO BONITO": {
+    "nome": "Rodeio Bonito",
+    "lat": -27.4742,
+    "lng": -53.1706
+  },
+  "ROLADOR": {
+    "nome": "Rolador",
+    "lat": -28.2566,
+    "lng": -54.8186
+  },
+  "ROLANTE": {
+    "nome": "Rolante",
+    "lat": -29.6462,
+    "lng": -50.5819
+  },
+  "RONDA ALTA": {
+    "nome": "Ronda Alta",
+    "lat": -27.7758,
+    "lng": -52.8056
+  },
+  "RONDINHA": {
+    "nome": "Rondinha",
+    "lat": -27.8315,
+    "lng": -52.9081
+  },
+  "ROQUE GONZALES": {
+    "nome": "Roque Gonzales",
+    "lat": -28.1297,
+    "lng": -55.0266
+  },
+  "ROSÁRIO DO SUL": {
+    "nome": "Rosário do Sul",
+    "lat": -30.2515,
+    "lng": -54.9221
+  },
+  "SAGRADA FAMÍLIA": {
+    "nome": "Sagrada Família",
+    "lat": -27.7085,
+    "lng": -53.1351
+  },
+  "SALDANHA MARINHO": {
+    "nome": "Saldanha Marinho",
+    "lat": -28.3941,
+    "lng": -53.097
+  },
+  "SALTO DO JACUÍ": {
+    "nome": "Salto do Jacuí",
+    "lat": -29.0951,
+    "lng": -53.2133
+  },
+  "SALVADOR DAS MISSÕES": {
+    "nome": "Salvador das Missões",
+    "lat": -28.1233,
+    "lng": -54.8373
+  },
+  "SALVADOR DO SUL": {
+    "nome": "Salvador do Sul",
+    "lat": -29.4386,
+    "lng": -51.5077
+  },
+  "SANANDUVA": {
+    "nome": "Sananduva",
+    "lat": -27.947,
+    "lng": -51.8079
+  },
+  "SANT'ANA DO LIVRAMENTO": {
+    "nome": "Sant'Ana do Livramento",
+    "lat": -30.8773,
+    "lng": -55.5392
+  },
+  "SANTA BÁRBARA DO SUL": {
+    "nome": "Santa Bárbara do Sul",
+    "lat": -28.3653,
+    "lng": -53.251
+  },
+  "SANTA CECÍLIA DO SUL": {
+    "nome": "Santa Cecília do Sul",
+    "lat": -28.1609,
+    "lng": -51.9279
+  },
+  "SANTA CLARA DO SUL": {
+    "nome": "Santa Clara do Sul",
+    "lat": -29.4747,
+    "lng": -52.0843
+  },
+  "SANTA CRUZ DO SUL": {
+    "nome": "Santa Cruz do Sul",
+    "lat": -29.722,
+    "lng": -52.4343
+  },
+  "SANTA MARGARIDA DO SUL": {
+    "nome": "Santa Margarida do Sul",
+    "lat": -30.3393,
+    "lng": -54.0817
+  },
+  "SANTA MARIA": {
+    "nome": "Santa Maria",
+    "lat": -29.6868,
+    "lng": -53.8149
+  },
+  "SANTA MARIA DO HERVAL": {
+    "nome": "Santa Maria do Herval",
+    "lat": -29.4902,
+    "lng": -50.9919
+  },
+  "SANTA ROSA": {
+    "nome": "Santa Rosa",
+    "lat": -27.8702,
+    "lng": -54.4796
+  },
+  "SANTA TEREZA": {
+    "nome": "Santa Tereza",
+    "lat": -29.1655,
+    "lng": -51.7351
+  },
+  "SANTA VITÓRIA DO PALMAR": {
+    "nome": "Santa Vitória do Palmar",
+    "lat": -33.525,
+    "lng": -53.3717
+  },
+  "SANTANA DA BOA VISTA": {
+    "nome": "Santana da Boa Vista",
+    "lat": -30.8697,
+    "lng": -53.11
+  },
+  "SANTIAGO": {
+    "nome": "Santiago",
+    "lat": -29.1897,
+    "lng": -54.8666
+  },
+  "SANTO ÂNGELO": {
+    "nome": "Santo Ângelo",
+    "lat": -28.3001,
+    "lng": -54.2668
+  },
+  "SANTO ANTÔNIO DA PATRULHA": {
+    "nome": "Santo Antônio da Patrulha",
+    "lat": -29.8268,
+    "lng": -50.5175
+  },
+  "SANTO ANTÔNIO DAS MISSÕES": {
+    "nome": "Santo Antônio das Missões",
+    "lat": -28.514,
+    "lng": -55.2251
+  },
+  "SANTO ANTÔNIO DO PALMA": {
+    "nome": "Santo Antônio do Palma",
+    "lat": -28.4956,
+    "lng": -52.0267
+  },
+  "SANTO ANTÔNIO DO PLANALTO": {
+    "nome": "Santo Antônio do Planalto",
+    "lat": -28.403,
+    "lng": -52.6992
+  },
+  "SANTO AUGUSTO": {
+    "nome": "Santo Augusto",
+    "lat": -27.8526,
+    "lng": -53.7776
+  },
+  "SANTO CRISTO": {
+    "nome": "Santo Cristo",
+    "lat": -27.8263,
+    "lng": -54.662
+  },
+  "SANTO EXPEDITO DO SUL": {
+    "nome": "Santo Expedito do Sul",
+    "lat": -27.9074,
+    "lng": -51.6434
+  },
+  "SÃO BORJA": {
+    "nome": "São Borja",
+    "lat": -28.6578,
+    "lng": -56.0036
+  },
+  "SÃO DOMINGOS DO SUL": {
+    "nome": "São Domingos do Sul",
+    "lat": -28.5312,
+    "lng": -51.886
+  },
+  "SÃO FRANCISCO DE ASSIS": {
+    "nome": "São Francisco de Assis",
+    "lat": -29.5547,
+    "lng": -55.1253
+  },
+  "SÃO FRANCISCO DE PAULA": {
+    "nome": "São Francisco de Paula",
+    "lat": -29.4404,
+    "lng": -50.5828
+  },
+  "SÃO GABRIEL": {
+    "nome": "São Gabriel",
+    "lat": -30.3337,
+    "lng": -54.3217
+  },
+  "SÃO JERÔNIMO": {
+    "nome": "São Jerônimo",
+    "lat": -29.9716,
+    "lng": -51.7251
+  },
+  "SÃO JOÃO DA URTIGA": {
+    "nome": "São João da Urtiga",
+    "lat": -27.8195,
+    "lng": -51.8257
+  },
+  "SÃO JOÃO DO POLÊSINE": {
+    "nome": "São João do Polêsine",
+    "lat": -29.6194,
+    "lng": -53.4439
+  },
+  "SÃO JORGE": {
+    "nome": "São Jorge",
+    "lat": -28.4984,
+    "lng": -51.7064
+  },
+  "SÃO JOSÉ DAS MISSÕES": {
+    "nome": "São José das Missões",
+    "lat": -27.7789,
+    "lng": -53.1226
+  },
+  "SÃO JOSÉ DO HERVAL": {
+    "nome": "São José do Herval",
+    "lat": -29.052,
+    "lng": -52.295
+  },
+  "SÃO JOSÉ DO HORTÊNCIO": {
+    "nome": "São José do Hortêncio",
+    "lat": -29.528,
+    "lng": -51.245
+  },
+  "SÃO JOSÉ DO INHACORÁ": {
+    "nome": "São José do Inhacorá",
+    "lat": -27.7251,
+    "lng": -54.1275
+  },
+  "SÃO JOSÉ DO NORTE": {
+    "nome": "São José do Norte",
+    "lat": -32.0151,
+    "lng": -52.0331
+  },
+  "SÃO JOSÉ DO OURO": {
+    "nome": "São José do Ouro",
+    "lat": -27.7707,
+    "lng": -51.5966
+  },
+  "SÃO JOSÉ DO SUL": {
+    "nome": "São José do Sul",
+    "lat": -29.5448,
+    "lng": -51.4821
+  },
+  "SÃO JOSÉ DOS AUSENTES": {
+    "nome": "São José dos Ausentes",
+    "lat": -28.7476,
+    "lng": -50.0677
+  },
+  "SÃO LEOPOLDO": {
+    "nome": "São Leopoldo",
+    "lat": -29.7545,
+    "lng": -51.1498
+  },
+  "SÃO LOURENÇO DO SUL": {
+    "nome": "São Lourenço do Sul",
+    "lat": -31.3564,
+    "lng": -51.9715
+  },
+  "SÃO LUIZ GONZAGA": {
+    "nome": "São Luiz Gonzaga",
+    "lat": -28.412,
+    "lng": -54.9559
+  },
+  "SÃO MARCOS": {
+    "nome": "São Marcos",
+    "lat": -28.9677,
+    "lng": -51.0696
+  },
+  "SÃO MARTINHO": {
+    "nome": "São Martinho",
+    "lat": -27.7112,
+    "lng": -53.9699
+  },
+  "SÃO MARTINHO DA SERRA": {
+    "nome": "São Martinho da Serra",
+    "lat": -29.5397,
+    "lng": -53.859
+  },
+  "SÃO MIGUEL DAS MISSÕES": {
+    "nome": "São Miguel das Missões",
+    "lat": -28.556,
+    "lng": -54.5559
+  },
+  "SÃO NICOLAU": {
+    "nome": "São Nicolau",
+    "lat": -28.1834,
+    "lng": -55.2654
+  },
+  "SÃO PAULO DAS MISSÕES": {
+    "nome": "São Paulo das Missões",
+    "lat": -28.0195,
+    "lng": -54.9404
+  },
+  "SÃO PEDRO DA SERRA": {
+    "nome": "São Pedro da Serra",
+    "lat": -29.4193,
+    "lng": -51.5134
+  },
+  "SÃO PEDRO DAS MISSÕES": {
+    "nome": "São Pedro das Missões",
+    "lat": -27.7706,
+    "lng": -53.2513
+  },
+  "SÃO PEDRO DO BUTIÁ": {
+    "nome": "São Pedro do Butiá",
+    "lat": -28.1243,
+    "lng": -54.8926
+  },
+  "SÃO PEDRO DO SUL": {
+    "nome": "São Pedro do Sul",
+    "lat": -29.6202,
+    "lng": -54.1855
+  },
+  "SÃO SEBASTIÃO DO CAÍ": {
+    "nome": "São Sebastião do Caí",
+    "lat": -29.5885,
+    "lng": -51.3749
+  },
+  "SÃO SEPÉ": {
+    "nome": "São Sepé",
+    "lat": -30.1643,
+    "lng": -53.5603
+  },
+  "SÃO VALENTIM": {
+    "nome": "São Valentim",
+    "lat": -27.5583,
+    "lng": -52.5237
+  },
+  "SÃO VALENTIM DO SUL": {
+    "nome": "São Valentim do Sul",
+    "lat": -29.0451,
+    "lng": -51.7684
+  },
+  "SÃO VALÉRIO DO SUL": {
+    "nome": "São Valério do Sul",
+    "lat": -27.7906,
+    "lng": -53.9368
+  },
+  "SÃO VENDELINO": {
+    "nome": "São Vendelino",
+    "lat": -29.3729,
+    "lng": -51.3675
+  },
+  "SÃO VICENTE DO SUL": {
+    "nome": "São Vicente do Sul",
+    "lat": -29.6882,
+    "lng": -54.6826
+  },
+  "SAPIRANGA": {
+    "nome": "Sapiranga",
+    "lat": -29.6349,
+    "lng": -51.0064
+  },
+  "SAPUCAIA DO SUL": {
+    "nome": "Sapucaia do Sul",
+    "lat": -29.8276,
+    "lng": -51.145
+  },
+  "SARANDI": {
+    "nome": "Sarandi",
+    "lat": -27.942,
+    "lng": -52.9231
+  },
+  "SEBERI": {
+    "nome": "Seberi",
+    "lat": -27.4829,
+    "lng": -53.4026
+  },
+  "SEDE NOVA": {
+    "nome": "Sede Nova",
+    "lat": -27.6367,
+    "lng": -53.9493
+  },
+  "SEGREDO": {
+    "nome": "Segredo",
+    "lat": -29.3523,
+    "lng": -52.9767
+  },
+  "SELBACH": {
+    "nome": "Selbach",
+    "lat": -28.6294,
+    "lng": -52.9498
+  },
+  "SENADOR SALGADO FILHO": {
+    "nome": "Senador Salgado Filho",
+    "lat": -28.025,
+    "lng": -54.5507
+  },
+  "SENTINELA DO SUL": {
+    "nome": "Sentinela do Sul",
+    "lat": -30.6107,
+    "lng": -51.5862
+  },
+  "SERAFINA CORRÊA": {
+    "nome": "Serafina Corrêa",
+    "lat": -28.7126,
+    "lng": -51.9352
+  },
+  "SÉRIO": {
+    "nome": "Sério",
+    "lat": -29.3904,
+    "lng": -52.2685
+  },
+  "SERTÃO": {
+    "nome": "Sertão",
+    "lat": -27.9798,
+    "lng": -52.2588
+  },
+  "SERTÃO SANTANA": {
+    "nome": "Sertão Santana",
+    "lat": -30.4562,
+    "lng": -51.6017
+  },
+  "SETE DE SETEMBRO": {
+    "nome": "Sete de Setembro",
+    "lat": -28.1362,
+    "lng": -54.4637
+  },
+  "SEVERIANO DE ALMEIDA": {
+    "nome": "Severiano de Almeida",
+    "lat": -27.4362,
+    "lng": -52.1217
+  },
+  "SILVEIRA MARTINS": {
+    "nome": "Silveira Martins",
+    "lat": -29.6467,
+    "lng": -53.591
+  },
+  "SINIMBU": {
+    "nome": "Sinimbu",
+    "lat": -29.5357,
+    "lng": -52.5304
+  },
+  "SOBRADINHO": {
+    "nome": "Sobradinho",
+    "lat": -29.4194,
+    "lng": -53.0326
+  },
+  "SOLEDADE": {
+    "nome": "Soledade",
+    "lat": -28.8306,
+    "lng": -52.5131
+  },
+  "TABAÍ": {
+    "nome": "Tabaí",
+    "lat": -29.643,
+    "lng": -51.6823
+  },
+  "TAPEJARA": {
+    "nome": "Tapejara",
+    "lat": -28.0652,
+    "lng": -52.0097
+  },
+  "TAPERA": {
+    "nome": "Tapera",
+    "lat": -28.6277,
+    "lng": -52.8613
+  },
+  "TAPES": {
+    "nome": "Tapes",
+    "lat": -30.6683,
+    "lng": -51.3991
+  },
+  "TAQUARA": {
+    "nome": "Taquara",
+    "lat": -29.6505,
+    "lng": -50.7753
+  },
+  "TAQUARI": {
+    "nome": "Taquari",
+    "lat": -29.7943,
+    "lng": -51.8653
+  },
+  "TAQUARUÇU DO SUL": {
+    "nome": "Taquaruçu do Sul",
+    "lat": -27.4005,
+    "lng": -53.4702
+  },
+  "TAVARES": {
+    "nome": "Tavares",
+    "lat": -31.2843,
+    "lng": -51.088
+  },
+  "TENENTE PORTELA": {
+    "nome": "Tenente Portela",
+    "lat": -27.3711,
+    "lng": -53.7585
+  },
+  "TERRA DE AREIA": {
+    "nome": "Terra de Areia",
+    "lat": -29.5782,
+    "lng": -50.0644
+  },
+  "TEUTÔNIA": {
+    "nome": "Teutônia",
+    "lat": -29.4482,
+    "lng": -51.8044
+  },
+  "TIO HUGO": {
+    "nome": "Tio Hugo",
+    "lat": -28.5712,
+    "lng": -52.5955
+  },
+  "TIRADENTES DO SUL": {
+    "nome": "Tiradentes do Sul",
+    "lat": -27.4022,
+    "lng": -54.0814
+  },
+  "TOROPI": {
+    "nome": "Toropi",
+    "lat": -29.4782,
+    "lng": -54.2244
+  },
+  "TORRES": {
+    "nome": "Torres",
+    "lat": -29.3334,
+    "lng": -49.7333
+  },
+  "TRAMANDAÍ": {
+    "nome": "Tramandaí",
+    "lat": -29.9841,
+    "lng": -50.1322
+  },
+  "TRAVESSEIRO": {
+    "nome": "Travesseiro",
+    "lat": -29.2977,
+    "lng": -52.0532
+  },
+  "TRÊS ARROIOS": {
+    "nome": "Três Arroios",
+    "lat": -27.5003,
+    "lng": -52.1448
+  },
+  "TRÊS CACHOEIRAS": {
+    "nome": "Três Cachoeiras",
+    "lat": -29.4487,
+    "lng": -49.9275
+  },
+  "TRÊS COROAS": {
+    "nome": "Três Coroas",
+    "lat": -29.5137,
+    "lng": -50.7739
+  },
+  "TRÊS DE MAIO": {
+    "nome": "Três de Maio",
+    "lat": -27.78,
+    "lng": -54.2357
+  },
+  "TRÊS FORQUILHAS": {
+    "nome": "Três Forquilhas",
+    "lat": -29.5384,
+    "lng": -50.0708
+  },
+  "TRÊS PALMEIRAS": {
+    "nome": "Três Palmeiras",
+    "lat": -27.6139,
+    "lng": -52.8437
+  },
+  "TRÊS PASSOS": {
+    "nome": "Três Passos",
+    "lat": -27.4555,
+    "lng": -53.9296
+  },
+  "TRINDADE DO SUL": {
+    "nome": "Trindade do Sul",
+    "lat": -27.5239,
+    "lng": -52.8956
+  },
+  "TRIUNFO": {
+    "nome": "Triunfo",
+    "lat": -29.9291,
+    "lng": -51.7075
+  },
+  "TUCUNDUVA": {
+    "nome": "Tucunduva",
+    "lat": -27.6573,
+    "lng": -54.4439
+  },
+  "TUNAS": {
+    "nome": "Tunas",
+    "lat": -29.1039,
+    "lng": -52.9538
+  },
+  "TUPANCI DO SUL": {
+    "nome": "Tupanci do Sul",
+    "lat": -27.9241,
+    "lng": -51.5383
+  },
+  "TUPANCIRETÃ": {
+    "nome": "Tupanciretã",
+    "lat": -29.0858,
+    "lng": -53.8445
+  },
+  "TUPANDI": {
+    "nome": "Tupandi",
+    "lat": -29.4772,
+    "lng": -51.4174
+  },
+  "TUPARENDI": {
+    "nome": "Tuparendi",
+    "lat": -27.7598,
+    "lng": -54.4814
+  },
+  "TURUÇU": {
+    "nome": "Turuçu",
+    "lat": -31.4173,
+    "lng": -52.1706
+  },
+  "UBIRETAMA": {
+    "nome": "Ubiretama",
+    "lat": -28.0404,
+    "lng": -54.686
+  },
+  "UNIÃO DA SERRA": {
+    "nome": "União da Serra",
+    "lat": -28.7833,
+    "lng": -52.0238
+  },
+  "UNISTALDA": {
+    "nome": "Unistalda",
+    "lat": -29.04,
+    "lng": -55.1517
+  },
+  "URUGUAIANA": {
+    "nome": "Uruguaiana",
+    "lat": -29.7614,
+    "lng": -57.0853
+  },
+  "VACARIA": {
+    "nome": "Vacaria",
+    "lat": -28.5079,
+    "lng": -50.9418
+  },
+  "VALE DO SOL": {
+    "nome": "Vale do Sol",
+    "lat": -29.5967,
+    "lng": -52.6839
+  },
+  "VALE REAL": {
+    "nome": "Vale Real",
+    "lat": -29.3919,
+    "lng": -51.2559
+  },
+  "VALE VERDE": {
+    "nome": "Vale Verde",
+    "lat": -29.7864,
+    "lng": -52.1857
+  },
+  "VANINI": {
+    "nome": "Vanini",
+    "lat": -28.4758,
+    "lng": -51.8447
+  },
+  "VENÂNCIO AIRES": {
+    "nome": "Venâncio Aires",
+    "lat": -29.6143,
+    "lng": -52.1932
+  },
+  "VERA CRUZ": {
+    "nome": "Vera Cruz",
+    "lat": -29.7184,
+    "lng": -52.5152
+  },
+  "VERANÓPOLIS": {
+    "nome": "Veranópolis",
+    "lat": -28.9312,
+    "lng": -51.5516
+  },
+  "VESPASIANO CORRÊA": {
+    "nome": "Vespasiano Corrêa",
+    "lat": -29.0655,
+    "lng": -51.8625
+  },
+  "VIADUTOS": {
+    "nome": "Viadutos",
+    "lat": -27.5716,
+    "lng": -52.0211
+  },
+  "VIAMÃO": {
+    "nome": "Viamão",
+    "lat": -30.0819,
+    "lng": -51.0194
+  },
+  "VICENTE DUTRA": {
+    "nome": "Vicente Dutra",
+    "lat": -27.1607,
+    "lng": -53.4022
+  },
+  "VICTOR GRAEFF": {
+    "nome": "Victor Graeff",
+    "lat": -28.5632,
+    "lng": -52.7495
+  },
+  "VILA FLORES": {
+    "nome": "Vila Flores",
+    "lat": -28.8598,
+    "lng": -51.5504
+  },
+  "VILA LÂNGARO": {
+    "nome": "Vila Lângaro",
+    "lat": -28.1062,
+    "lng": -52.1438
+  },
+  "VILA MARIA": {
+    "nome": "Vila Maria",
+    "lat": -28.5359,
+    "lng": -52.1486
+  },
+  "VILA NOVA DO SUL": {
+    "nome": "Vila Nova do Sul",
+    "lat": -30.3461,
+    "lng": -53.876
+  },
+  "VISTA ALEGRE": {
+    "nome": "Vista Alegre",
+    "lat": -27.3686,
+    "lng": -53.4919
+  },
+  "VISTA ALEGRE DO PRATA": {
+    "nome": "Vista Alegre do Prata",
+    "lat": -28.8052,
+    "lng": -51.7947
+  },
+  "VISTA GAÚCHA": {
+    "nome": "Vista Gaúcha",
+    "lat": -27.2902,
+    "lng": -53.6974
+  },
+  "VITÓRIA DAS MISSÕES": {
+    "nome": "Vitória das Missões",
+    "lat": -28.3516,
+    "lng": -54.504
+  },
+  "WESTFÁLIA": {
+    "nome": "Westfália",
+    "lat": -29.4263,
+    "lng": -51.7645
+  },
+  "XANGRI-LÁ": {
+    "nome": "Xangri-lá",
+    "lat": -29.8065,
+    "lng": -50.0519
+  }
+}
