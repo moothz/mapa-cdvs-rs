@@ -99,11 +99,12 @@ def geocode_cdv(cdv: dict, cities_rs: dict, cache: dict, force_precise: bool = F
 
     cache_key = f"{codigo}_{cep}_{municipio_norm}"
 
-    # Se já estiver em cache com método preciso (não apenas centróide), retorna
+    # Se já estiver em cache com método preciso (exato), retorna imediatamente
     if cache_key in cache and not force_precise:
         item = cache[cache_key]
         method = item.get('method', '')
-        if item.get('lat') and item.get('lng') and method not in ('municipio_centroid', 'rs_default', 'none'):
+        # Métodos precisos aceitos no cache sem reprocessar
+        if item.get('lat') and item.get('lng') and method in ('nominatim_name', 'nominatim_address', 'nominatim_bairro', 'nominatim_cep', 'google_api'):
             return item['lat'], item['lng'], method
 
     google_api_key = os.getenv('GOOGLE_GEOCODING_API_KEY') or os.getenv('GOOGLE_MAPS_API_KEY')

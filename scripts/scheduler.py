@@ -116,11 +116,22 @@ def main():
         minutes_wait = interval_seconds / 60.0
         print(f"[Scheduler] Página {current_page} concluída. Próxima página ({next_page}) agendada para: {next_time.strftime('%Y-%m-%d %H:%M:%S')} (~{minutes_wait:.1f} min)")
 
-        # Dorme com verificação frequente para responder a SIGTERM imediatamente
+        # Dorme com verificacao e auto-refino progressivo de CDVs antigos sem coordenadas precisas
+        refine_check_timer = 0
         for _ in range(interval_seconds):
             if not running:
                 break
             time.sleep(1)
+            refine_check_timer += 1
+
+            # A cada 120 segundos (2 min) de tempo ocioso, refina 1 CDV que ainda esteja em municipio_centroid
+            if refine_check_timer >= 120:
+                refine_check_timer = 0
+                try:
+                    from scripts.scraper import run_refine
+                    run_refine(max_items=1)
+                except Exception as e:
+                    print(f"[Scheduler] Erro no auto-refino em background: {e}")
 
     print("[Scheduler] Encerrado com sucesso.")
 

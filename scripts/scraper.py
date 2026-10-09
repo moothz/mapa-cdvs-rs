@@ -160,7 +160,8 @@ def scrape_page(page_num: int) -> tuple[list[dict], int]:
 def process_and_enrich_items(items: list[dict], cities_rs: dict, geocache: dict) -> list[dict]:
     enriched = []
     for cdv in items:
-        lat, lng, method = geocode_cdv(cdv, cities_rs, geocache)
+        # Busca automática com precisão máxima por Nome Fantasia e Endereço por padrão
+        lat, lng, method = geocode_cdv(cdv, cities_rs, geocache, force_precise=True)
         cdv['lat'] = lat
         cdv['lng'] = lng
         cdv['geo_method'] = method

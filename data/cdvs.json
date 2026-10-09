@@ -13,9 +13,9 @@
     "municipio": "ERECHIM/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=4A+MOTO+PARTS%2C+RUA+LEONILDO+RONCHETTI%2C+140+BELA+VISTA%2C+ERECHIM+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:36:10.461240",
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "geo_method": "municipio_centroid"
+    "lat": -27.6471601,
+    "lng": -52.257893,
+    "geo_method": "nominatim_bairro"
   },
   {
     "nome": "53 AUTO DEMOLIDORA",
@@ -49,9 +49,9 @@
     "municipio": "TABAI/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AD+DEMOLIDORA%2C+ESTRADA+BR+386%2C+KM+380%2C8%2C+0+FAXINAL+DOS+PACHECOS%2C+TABAI+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:43:52.885487",
-    "lat": -29.643,
-    "lng": -51.6823,
-    "geo_method": "municipio_centroid"
+    "lat": -29.6626952,
+    "lng": -51.7296409,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AGUIA MOTOS",
@@ -103,9 +103,9 @@
     "municipio": "SANTO ANGELO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=ALEMAO+MOTOS+MOTODEMOLIDORA%2C+RUA+PADRE+MANOEL+DE+NOBREGA%2C+274+CENTRO%2C+SANTO+ANGELO+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:41:54.476276",
-    "lat": -28.3001,
-    "lng": -54.2668,
-    "geo_method": "municipio_centroid"
+    "lat": -28.2826983,
+    "lng": -54.2635934,
+    "geo_method": "nominatim_cep"
   },
   {
     "nome": "AMARILDO SANTOS ROSA ME",
@@ -121,9 +121,9 @@
     "municipio": "RIO GRANDE/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AMARILDO+SANTOS+ROSA+ME%2C+AVENIDA+SANTOS+DUMONT%2C+728+JUNCAO%2C+RIO+GRANDE+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:41:11.503807",
-    "lat": -32.0349,
-    "lng": -52.1071,
-    "geo_method": "municipio_centroid"
+    "lat": -32.059033,
+    "lng": -52.1432954,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AMIR AUTO PECAS",
@@ -157,9 +157,9 @@
     "municipio": "SERAFINA CORREA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AMM+AUTOPECAS%2C+RUA+COOPERLATE%2C+601+GRAMADINHO%2C+SERAFINA+CORREA+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:43:52.885141",
-    "lat": -28.7126,
-    "lng": -51.9352,
-    "geo_method": "municipio_centroid"
+    "lat": -28.7247525,
+    "lng": -51.9259407,
+    "geo_method": "nominatim_bairro"
   },
   {
     "nome": "ANDRE AUTO DEMOLIDORA",
@@ -175,9 +175,9 @@
     "municipio": "SAO SEBASTIAO DO CAI/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=ANDRE+AUTO+DEMOLIDORA%2C+RODOVIA+RODOVIA+RS+122%2C+18001+RIO+BRANCO%2C+SAO+SEBASTIAO+DO+CAI+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:43:07.001424",
-    "lat": -29.5885,
-    "lng": -51.3749,
-    "geo_method": "municipio_centroid"
+    "lat": -29.5577151,
+    "lng": -51.3602081,
+    "geo_method": "nominatim_bairro"
   },
   {
     "nome": "ASW MOTO DEMOLIDORA",
@@ -193,9 +193,9 @@
     "municipio": "IGREJINHA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=ASW+MOTO+DEMOLIDORA%2C+RUA+ANITA+GARIBALDI%2C+756+FIGUEIRA%2C+IGREJINHA+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:37:35.907154",
-    "lat": -29.5693,
-    "lng": -50.7919,
-    "geo_method": "municipio_centroid"
+    "lat": -29.5620465,
+    "lng": -50.7951103,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO BR COMERCIO DE PECAS LTDA",
@@ -211,9 +211,9 @@
     "municipio": "CANOAS/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+BR+COMERCIO+DE+PECAS+LTDA%2C+AVENIDA+GETULIO+VARGAS%2C+6676+CENTRO%2C+CANOAS+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:34:22.480643",
-    "lat": -29.9128,
-    "lng": -51.1857,
-    "geo_method": "municipio_centroid"
+    "lat": -29.9076649,
+    "lng": -51.1768168,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO DEMOLIDORA ARROIO DO SAL",
@@ -247,9 +247,9 @@
     "municipio": "SANTA CRUZ DO SUL/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+BARBOSA%2C+RUA+CONSELHEIRO+SERAFIM+WAECHTER%2C+337+AVENIDA%2C+SANTA+CRUZ+DO+SUL+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:41:22.852956",
-    "lat": -29.722,
-    "lng": -52.4343,
-    "geo_method": "municipio_centroid"
+    "lat": -29.7070036,
+    "lng": -52.4434492,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO DEMOLIDORA BOM PRINCIPIO",
@@ -283,9 +283,9 @@
     "municipio": "TRES PASSOS/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+BR%2C+AVENIDA+PERIMETRAL%2C+1165+PINDORAMA%2C+TRES+PASSOS+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:44:38.154910",
-    "lat": -27.4555,
-    "lng": -53.9296,
-    "geo_method": "municipio_centroid"
+    "lat": -27.4641442,
+    "lng": -53.9298529,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO DEMOLIDORA BRASIL SUL",
@@ -337,9 +337,9 @@
     "municipio": "SANTO CRISTO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+CATTO+LTDA%2C+++RUA+TEODORO+RUEDELL%2C+1050+VILA+KLERING%2C+SANTO+CRISTO+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:42:10.341461",
-    "lat": -27.8263,
-    "lng": -54.662,
-    "geo_method": "municipio_centroid"
+    "lat": -27.8132945,
+    "lng": -54.7283493,
+    "geo_method": "nominatim_cep"
   },
   {
     "nome": "AUTO DEMOLIDORA COPPINI GUIDIN",
@@ -355,9 +355,9 @@
     "municipio": "MARAU/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+COPPINI+GUIDIN%2C+RUA+PERIMETRAL+LUIZ+FUGA%2C+1387+PERIMETRAL%2C+MARAU+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:38:12.058148",
-    "lat": -28.4498,
-    "lng": -52.1986,
-    "geo_method": "municipio_centroid"
+    "lat": -28.4478037,
+    "lng": -52.2073484,
+    "geo_method": "nominatim_cep"
   },
   {
     "nome": "AUTO DEMOLIDORA FOGAÇA",
@@ -373,9 +373,9 @@
     "municipio": "IGREJINHA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+FOGA%C3%87A%2C+AVENIDA+ILDO+MENEGHETTI%2C+1849+CASA+DE+PEDRA%2C+IGREJINHA+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:37:35.907270",
-    "lat": -29.5693,
-    "lng": -50.7919,
-    "geo_method": "municipio_centroid"
+    "lat": -29.6006984,
+    "lng": -50.8091027,
+    "geo_method": "nominatim_bairro"
   },
   {
     "nome": "AUTO DEMOLIDORA FRONZA",
@@ -409,9 +409,9 @@
     "municipio": "PAROBE/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+GUARANI%2C+RUA+SANTA+CRISTINA%2C+45+GUARANI%2C+PAROBE+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:39:28.560452",
-    "lat": -29.6243,
-    "lng": -50.8312,
-    "geo_method": "municipio_centroid"
+    "lat": -29.6392038,
+    "lng": -50.843595,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO DEMOLIDORA IGREJINHA",
@@ -427,9 +427,9 @@
     "municipio": "IGREJINHA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+IGREJINHA%2C+RUA+BENJAMIN+CONSTANT%2C+231+CENTRO%2C+IGREJINHA+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:37:35.907391",
-    "lat": -29.5693,
-    "lng": -50.7919,
-    "geo_method": "municipio_centroid"
+    "lat": -29.5721559,
+    "lng": -50.78961,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO DEMOLIDORA LUIZ",
@@ -445,9 +445,9 @@
     "municipio": "SANTA CRUZ DO SUL/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+LUIZ%2C+RUA+VINTE+E+OITO+DE+SETEMBRO%2C+2161+CENTRO%2C+SANTA+CRUZ+DO+SUL+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:41:22.853067",
-    "lat": -29.722,
-    "lng": -52.4343,
-    "geo_method": "municipio_centroid"
+    "lat": -29.7158943,
+    "lng": -52.4501288,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO DEMOLIDORA PETROPOLIS",
@@ -463,9 +463,9 @@
     "municipio": "PASSO FUNDO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+PETROPOLIS%2C+AVENIDA+BRASIL+LESTE%2C+PETROPOLIS%2C+PASSO+FUNDO+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:39:28.560792",
-    "lat": -28.2576,
-    "lng": -52.4091,
-    "geo_method": "municipio_centroid"
+    "lat": -28.2380778,
+    "lng": -52.3756894,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO DEMOLIDORA SECKLER",
@@ -499,9 +499,9 @@
     "municipio": "SAO LEOPOLDO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+SF%2C+AVENIDA+PAROBE%2C+2233+BOA+VISTA%2C+SAO+LEOPOLDO+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:42:23.118856",
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "geo_method": "municipio_centroid"
+    "lat": -29.7292899,
+    "lng": -51.1514267,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO DEMOLIDORA STOP",
@@ -517,9 +517,9 @@
     "municipio": "NOVO HAMBURGO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+STOP%2C+RUA+COLUMBIA%2C+987+CANUDOS%2C+NOVO+HAMBURGO+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:38:34.127899",
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "geo_method": "municipio_centroid"
+    "lat": -29.6837596,
+    "lng": -51.0953573,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO DEMOLIDORA SÃO JOSÉ",
@@ -535,9 +535,9 @@
     "municipio": "TRES DE MAIO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+S%C3%83O+JOS%C3%89%2C+RUA+HORIZONTINA%2C+2036+CENTRO%2C+TRES+DE+MAIO+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:44:38.154784",
-    "lat": -27.78,
-    "lng": -54.2357,
-    "geo_method": "municipio_centroid"
+    "lat": -27.7789239,
+    "lng": -54.2328692,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO DEMOLIDORA VENANCIO",
@@ -553,9 +553,9 @@
     "municipio": "VENANCIO AIRES/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+DEMOLIDORA+VENANCIO%2C+RODOVIA+RSC+287%2C+KM+78%2C+1018+INDUSTRIAL%2C+VENANCIO+AIRES+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:45:10.112935",
-    "lat": -29.6143,
-    "lng": -52.1932,
-    "geo_method": "municipio_centroid"
+    "lat": -29.6652679,
+    "lng": -52.2647399,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO PECAS 386",
@@ -571,9 +571,9 @@
     "municipio": "LAJEADO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+PECAS+386%2C+RUA+OMAR+MOREIRA+LIBIO%2C+239+SAO+CRISTOVAO%2C+LAJEADO+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:37:59.987993",
-    "lat": -29.4591,
-    "lng": -51.9644,
-    "geo_method": "municipio_centroid"
+    "lat": -29.4432167,
+    "lng": -51.9651901,
+    "geo_method": "nominatim_name"
   },
   {
     "nome": "AUTO PECAS CARLINHOS",
@@ -589,9 +589,9 @@
     "municipio": "CAXIAS DO SUL/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+PECAS+CARLINHOS%2C+RUA+MARIO+DE+BONI%2C+375+SANVITTO%2C+CAXIAS+DO+SUL+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:34:46.332653",
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "geo_method": "municipio_centroid"
+    "lat": -29.1755587,
+    "lng": -51.2118029,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO PECAS CDZ",
@@ -607,9 +607,9 @@
     "municipio": "ESTRELA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+PECAS+CDZ%2C+RODOVIA+ERS+453%2C+KM+48%2C+0+LINHA+GERALDA%2C+ESTRELA+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:36:16.483128",
-    "lat": -29.5002,
-    "lng": -51.9495,
-    "geo_method": "municipio_centroid"
+    "lat": -29.5584576,
+    "lng": -51.8900911,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO PECAS DA SERRA",
@@ -643,9 +643,9 @@
     "municipio": "PORTO ALEGRE/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+PECAS+E+DISTRIBUIDORA+LEM%2C+AVENIDA+ASSIS+BRASIL%2C+6018+SAO+SEBASTIAO%2C+PORTO+ALEGRE+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:40:14.999308",
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "geo_method": "municipio_centroid"
+    "lat": -29.9907131,
+    "lng": -51.1254593,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO PECAS E RECUPERADORA LEM",
@@ -661,9 +661,9 @@
     "municipio": "GRAVATAI/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+PECAS+E+RECUPERADORA+LEM%2C+ESTRADA+JOAO+BIBIANO+MARCOS%2C+1000+NEOPOLIS%2C+GRAVATAI+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:36:37.469970",
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "geo_method": "municipio_centroid"
+    "lat": -29.902837,
+    "lng": -51.0231281,
+    "geo_method": "nominatim_bairro"
   },
   {
     "nome": "AUTO PECAS ROTA 324 EIRELI ME",
@@ -679,9 +679,9 @@
     "municipio": "NOVA BASSANO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+PECAS+ROTA+324+EIRELI+ME%2C+VIA+PERIMETRAL+CLAUDINO+ANTONIO+DAGNESE%2C+181+DISTRITO+INDUSTRIAL%2C+NOVA+BASSANO+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:38:34.127544",
-    "lat": -28.7291,
-    "lng": -51.7072,
-    "geo_method": "municipio_centroid"
+    "lat": -28.7331931,
+    "lng": -51.7030765,
+    "geo_method": "nominatim_cep"
   },
   {
     "nome": "AUTO PECAS TONATO LTDA ME",
@@ -697,9 +697,9 @@
     "municipio": "PASSO FUNDO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+PECAS+TONATO+LTDA+ME%2C+RUA+ANTONIO+GENTIL+FIORI%2C+207+VILA+MATTOS%2C+PASSO+FUNDO+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:39:28.560908",
-    "lat": -28.2576,
-    "lng": -52.4091,
-    "geo_method": "municipio_centroid"
+    "lat": -28.2892918,
+    "lng": -52.3600935,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO PEÇAS CRUZEIRO DO SUL",
@@ -715,9 +715,9 @@
     "municipio": "PORTO ALEGRE/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+PE%C3%87AS+CRUZEIRO+DO+SUL%2C+RUA+CRUZEIRO+DO+SUL%2C+2149+SANTA+TEREZA%2C+PORTO+ALEGRE+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:40:14.999199",
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "geo_method": "municipio_centroid"
+    "lat": -30.0857086,
+    "lng": -51.2311291,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTO PEÇAS KADENA",
@@ -733,9 +733,9 @@
     "municipio": "SANTA MARIA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+PE%C3%87AS+KADENA%2C+ESTRADA+BR+287%2C+2335+JUSCELINO+KUBITSCHEK%2C+SANTA+MARIA+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:41:33.520354",
-    "lat": -29.6868,
-    "lng": -53.8149,
-    "geo_method": "municipio_centroid"
+    "lat": -29.7031082,
+    "lng": -53.8364623,
+    "geo_method": "nominatim_name"
   },
   {
     "nome": "AUTO PEÇAS TONIOLLO",
@@ -751,9 +751,9 @@
     "municipio": "ERECHIM/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTO+PE%C3%87AS+TONIOLLO%2C+AVENIDA+JOSE+OSCAR+SALAZAR%2C+2100+JABUTICABAL%2C+ERECHIM+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:35:53.641497",
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "geo_method": "municipio_centroid"
+    "lat": -27.6406902,
+    "lng": -52.2955039,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTODEMOLIDORA PRETO",
@@ -769,9 +769,9 @@
     "municipio": "SAO SEBASTIAO DO CAI/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTODEMOLIDORA+PRETO%2C+RODOVIA+RS+122%2C+3+CONCEICAO%2C+SAO+SEBASTIAO+DO+CAI+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:43:07.001533",
-    "lat": -29.5885,
-    "lng": -51.3749,
-    "geo_method": "municipio_centroid"
+    "lat": -29.6220605,
+    "lng": -51.3115168,
+    "geo_method": "nominatim_bairro"
   },
   {
     "nome": "AUTODEMOLIDORA RS240",
@@ -787,9 +787,9 @@
     "municipio": "PORTAO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTODEMOLIDORA+RS240%2C+RODOVIA+RS+240%2C+4743+CENTRO%2C+PORTAO+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:40:02.853043",
-    "lat": -29.7015,
-    "lng": -51.2429,
-    "geo_method": "municipio_centroid"
+    "lat": -29.7044932,
+    "lng": -51.1939261,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTODEMOLIDORA SHAMAH",
@@ -823,9 +823,9 @@
     "municipio": "NOVO HAMBURGO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTODEMOLIDORA+TR%C3%8AS+IRM%C3%83OS%2C+RUA+GUIA+LOPES%2C+2435+CANUDOS%2C+NOVO+HAMBURGO+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:38:34.128008",
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "geo_method": "municipio_centroid"
+    "lat": -29.6892661,
+    "lng": -51.1213957,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "AUTOMECANICA DELTA CAR",
@@ -841,9 +841,9 @@
     "municipio": "SAO LEOPOLDO/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=AUTOMECANICA+DELTA+CAR%2C+AVENIDA+ARNALDO+PEREIRA+DA+SILVA%2C+333+SANTOS+DUMONT%2C+SAO+LEOPOLDO+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:42:23.118968",
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "geo_method": "municipio_centroid"
+    "lat": -29.7258111,
+    "lng": -51.1483055,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "André Auto Peças",
@@ -859,9 +859,9 @@
     "municipio": "TORRES/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Andr%C3%A9+Auto+Pe%C3%A7as%2C+RODOVIA+BR+101%2C+0+CAMPO+BONITO%2C+TORRES+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:44:27.549558",
-    "lat": -29.3334,
-    "lng": -49.7333,
-    "geo_method": "municipio_centroid"
+    "lat": -29.3619978,
+    "lng": -49.809611,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "Auto peças Schneider",
@@ -877,9 +877,9 @@
     "municipio": "PANAMBI/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Auto+pe%C3%A7as+Schneider%2C+RODOVIA+BR+285%2C+KM+406+S%2FN%2C+INTERIOR%2C+PANAMBI+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:39:17.283002",
-    "lat": -28.2833,
-    "lng": -53.5023,
-    "geo_method": "municipio_centroid"
+    "lat": -28.363989,
+    "lng": -53.4299302,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "BARAO CAR",
@@ -895,9 +895,9 @@
     "municipio": "GUAIBA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=BARAO+CAR%2C+RUA+ADAO+FOQUES%2C+2896+FLORIDA%2C+GUAIBA+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:37:24.824941",
-    "lat": -30.1086,
-    "lng": -51.3233,
-    "geo_method": "municipio_centroid"
+    "lat": -30.1420462,
+    "lng": -51.3269426,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "BARETA AUTO PEÇAS",
@@ -931,9 +931,9 @@
     "municipio": "SANTA CRUZ DO SUL/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=BASSANI+AUTOPECAS%2C+RUA+VINTE+E+OITO+DE+SETEMBRO%2C+2286+VARZEA%2C+SANTA+CRUZ+DO+SUL+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:41:22.853169",
-    "lat": -29.722,
-    "lng": -52.4343,
-    "geo_method": "municipio_centroid"
+    "lat": -29.7158943,
+    "lng": -52.4501288,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "BECKER AUTO-DEMOLIDORA",
@@ -949,9 +949,9 @@
     "municipio": "URUGUAIANA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=BECKER+AUTO-DEMOLIDORA%2C+AVENIDA+MARECHAL+SETEMBRINO+DE+CARVALHO%2C+1688+SAO+MIGUEL%2C+URUGUAIANA+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:45:48.612659",
-    "lat": -29.7614,
-    "lng": -57.0853,
-    "geo_method": "municipio_centroid"
+    "lat": -29.7683959,
+    "lng": -57.0838431,
+    "geo_method": "nominatim_bairro"
   },
   {
     "nome": "BENTO AUTO PECAS",
@@ -967,9 +967,9 @@
     "municipio": "PORTO ALEGRE/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=BENTO+AUTO+PECAS%2C+AVENIDA+BENTO+GONCALVES%2C+8317+AGRONOMIA%2C+PORTO+ALEGRE+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:40:26.156625",
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "geo_method": "municipio_centroid"
+    "lat": -30.0616946,
+    "lng": -51.171191,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "BOTTEGA E FILHA LTDA",
@@ -985,9 +985,9 @@
     "municipio": "CRUZ ALTA/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=BOTTEGA+E+FILHA+LTDA%2C+AVENIDA+PADRE+FRANCISCO+PACHECO%2C+2216+FARROUPILHA%2C+CRUZ+ALTA+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:35:28.096220",
-    "lat": -28.645,
-    "lng": -53.6048,
-    "geo_method": "municipio_centroid"
+    "lat": -28.6308706,
+    "lng": -53.5890786,
+    "geo_method": "nominatim_bairro"
   },
   {
     "nome": "BR CAR",
@@ -1003,9 +1003,9 @@
     "municipio": "PORTO ALEGRE/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=BR+CAR%2C+AVENIDA+BENTO+GONCALVES%2C+8245+AGRONOMIA%2C+PORTO+ALEGRE+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:40:26.156775",
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "geo_method": "municipio_centroid"
+    "lat": -30.0787019,
+    "lng": -51.117751,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "BR IMPORTS COMERCIO DE PEÇAS L",
@@ -1021,9 +1021,9 @@
     "municipio": "CANOAS/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=BR+IMPORTS+COMERCIO+DE+PE%C3%87AS+L%2C+AVENIDA+GETULIO+VARGAS%2C+6881+MARECHAL+RONDON%2C+CANOAS+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:34:30.858954",
-    "lat": -29.9128,
-    "lng": -51.1857,
-    "geo_method": "municipio_centroid"
+    "lat": -29.9076649,
+    "lng": -51.1768168,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "BREAKAUTO COMERCIO DE PEÇAS US",
@@ -1039,9 +1039,9 @@
     "municipio": "GRAVATAI/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=BREAKAUTO+COMERCIO+DE+PE%C3%87AS+US%2C+AVENIDA+DORIVAL+CANDIDO+LUZ+DE+OLIVEIRA%2C+7726+VISTA+ALEGRE%2C+GRAVATAI+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:36:37.470076",
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "geo_method": "municipio_centroid"
+    "lat": -29.9360547,
+    "lng": -51.0381733,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "Biduca Auto Peças",
@@ -1057,9 +1057,9 @@
     "municipio": "ERECHIM/RS",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Biduca+Auto+Pe%C3%A7as%2C+RUA+DOUTOR+SIDNEY+GUERRA%2C+601+JOSE+BONIFACIO%2C+ERECHIM+-+RS%2C+Brazil",
     "coletado_em": "2026-10-09T11:35:53.641888",
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "geo_method": "municipio_centroid"
+    "lat": -27.6276596,
+    "lng": -52.2471558,
+    "geo_method": "nominatim_address"
   },
   {
     "nome": "CAMOBI AUTOPEÇAS",
