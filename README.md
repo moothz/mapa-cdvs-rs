@@ -8,7 +8,7 @@
 
 Aplicação web pública para visualização geográfica e busca inteligente por **proximidade** de todos os **Centros de Desmanche de Veículos (CDVs) credenciados pelo DETRAN-RS**.
 
-🌐 **Acesse online:** [https://mapacdvs.moothz.win/](https://mapacdvs.moothz.win/)
+🌐 **Acesse online:** [https://cdvsrs.moothz.win/](https://cdvsrs.moothz.win/)
 
 A plataforma organiza os estabelecimentos em um mapa interativo e permite ao cidadão encontrar desmanches credenciados mais próximos de sua localização atual (via GPS do celular/computador ou por cidade/CEP), facilitando o acesso a peças automotivas com procedência legal e rastreabilidade garantida.
 

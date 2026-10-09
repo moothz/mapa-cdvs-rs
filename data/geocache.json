@@ -1,21 +1,21 @@
 {
   "CDV01115_96445000_ACEGUA": {
-    "lat": -31.8665,
-    "lng": -54.1615,
-    "method": "municipio_centroid",
-    "updated_at": 1791556399
+    "lat": -31.8635665,
+    "lng": -54.1639129,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558561
   },
   "CDV01060_96445000_ACEGUA": {
-    "lat": -31.8665,
-    "lng": -54.1615,
-    "method": "municipio_centroid",
-    "updated_at": 1791556399
+    "lat": -31.8671662,
+    "lng": -54.1598702,
+    "method": "nominatim_address",
+    "updated_at": 1791558684
   },
   "CDV00474_97546090_ALEGRETE": {
-    "lat": -29.7902,
-    "lng": -55.7949,
-    "method": "municipio_centroid",
-    "updated_at": 1791556400
+    "lat": -29.8326763,
+    "lng": -55.6918358,
+    "method": "nominatim_address",
+    "updated_at": 1791557932
   },
   "CDV01089_94853160_ALVORADA": {
     "lat": -30.0193001,
@@ -24,10 +24,10 @@
     "updated_at": 1791556401
   },
   "CDV00181_94818001_ALVORADA": {
-    "lat": -29.9914,
-    "lng": -51.0809,
-    "method": "municipio_centroid",
-    "updated_at": 1791556402
+    "lat": -30.0102736,
+    "lng": -51.0903482,
+    "method": "nominatim_address",
+    "updated_at": 1791557956
   },
   "CDV00155_94810000_ALVORADA": {
     "lat": -30.0039782,
@@ -42,10 +42,10 @@
     "updated_at": 1791556421
   },
   "CDV00071_94856060_ALVORADA": {
-    "lat": -29.9914,
-    "lng": -51.0809,
-    "method": "municipio_centroid",
-    "updated_at": 1791556421
+    "lat": -30.0488068,
+    "lng": -51.0737125,
+    "method": "nominatim_address",
+    "updated_at": 1791558332
   },
   "CDV01011_94836000_ALVORADA": {
     "lat": -30.0042797,
@@ -108,10 +108,10 @@
     "updated_at": 1791556436
   },
   "CDV00313_96420160_BAGE": {
-    "lat": -31.3297,
-    "lng": -54.0999,
-    "method": "municipio_centroid",
-    "updated_at": 1791556438
+    "lat": -31.3471479,
+    "lng": -54.0966922,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558445
   },
   "CDV01148_95599000_BALNEARIO PINHAL": {
     "lat": -30.2499483,
@@ -138,10 +138,10 @@
     "updated_at": 1791556443
   },
   "CDV00705_95707450_BENTO GONCALVES": {
-    "lat": -29.1662,
-    "lng": -51.5165,
-    "method": "municipio_centroid",
-    "updated_at": 1791556444
+    "lat": -29.1441328,
+    "lng": -51.5355557,
+    "method": "nominatim_address",
+    "updated_at": 1791558835
   },
   "CDV00922_95765000_BOM PRINCIPIO": {
     "lat": -29.4731966,
@@ -156,22 +156,22 @@
     "updated_at": 1791556449
   },
   "CDV00875_97450000_CACEQUI": {
-    "lat": -29.8883,
-    "lng": -54.822,
-    "method": "municipio_centroid",
-    "updated_at": 1791556450
+    "lat": -29.877744,
+    "lng": -54.8459732,
+    "method": "nominatim_address",
+    "updated_at": 1791558896
   },
   "CDV00247_96505142_CACHOEIRA DO SUL": {
-    "lat": -30.033,
-    "lng": -52.8928,
-    "method": "municipio_centroid",
-    "updated_at": 1791556450
+    "lat": -30.0114303,
+    "lng": -52.901503,
+    "method": "nominatim_address",
+    "updated_at": 1791557989
   },
   "CDV00244_96505141_CACHOEIRA DO SUL": {
-    "lat": -30.033,
-    "lng": -52.8928,
-    "method": "municipio_centroid",
-    "updated_at": 1791556451
+    "lat": -30.0114303,
+    "lng": -52.901503,
+    "method": "nominatim_address",
+    "updated_at": 1791558267
   },
   "CDV00782_96180000_CAMAQUA": {
     "lat": -30.8478322,
@@ -186,16 +186,16 @@
     "updated_at": 1791556455
   },
   "CDV01041_96781254_CAMAQUA": {
-    "lat": -30.8489,
-    "lng": -51.8043,
-    "method": "municipio_centroid",
-    "updated_at": 1791556456
+    "lat": -30.8376259,
+    "lng": -51.8193594,
+    "method": "nominatim_address",
+    "updated_at": 1791558523
   },
   "CDV00771_96789640_CAMAQUA": {
-    "lat": -30.8489,
-    "lng": -51.8043,
-    "method": "municipio_centroid",
-    "updated_at": 1791556456
+    "lat": -30.9111144,
+    "lng": -51.879973,
+    "method": "nominatim_address",
+    "updated_at": 1791558821
   },
   "CDV00900_98975000_CAMPINA DAS MISSOES": {
     "lat": -27.990704,
@@ -228,10 +228,10 @@
     "updated_at": 1791556465
   },
   "CDV01109_95680414_CANELA": {
-    "lat": -29.356,
-    "lng": -50.8119,
-    "method": "municipio_centroid",
-    "updated_at": 1791556465
+    "lat": -29.3588898,
+    "lng": -50.7963689,
+    "method": "nominatim_address",
+    "updated_at": 1791558404
   },
   "CDV00852_96600000_CANGUCU": {
     "lat": -31.3917401,
@@ -264,10 +264,10 @@
     "updated_at": 1791556472
   },
   "CDV00804_92412232_CANOAS": {
-    "lat": -29.9128,
-    "lng": -51.1857,
-    "method": "municipio_centroid",
-    "updated_at": 1791556473
+    "lat": -29.9048885,
+    "lng": -51.1612496,
+    "method": "nominatim_address",
+    "updated_at": 1791558054
   },
   "CDV00005_92410000_CANOAS": {
     "lat": -29.9009095,
@@ -276,16 +276,16 @@
     "updated_at": 1791556474
   },
   "CDV00876_92035280_CANOAS": {
-    "lat": -29.9128,
-    "lng": -51.1857,
-    "method": "municipio_centroid",
-    "updated_at": 1791556474
+    "lat": -29.9284562,
+    "lng": -51.1333502,
+    "method": "nominatim_address",
+    "updated_at": 1791558282
   },
   "CDV00681_92330190_CANOAS": {
-    "lat": -29.9128,
-    "lng": -51.1857,
-    "method": "municipio_centroid",
-    "updated_at": 1791556474
+    "lat": -29.8903405,
+    "lng": -51.1398994,
+    "method": "nominatim_address",
+    "updated_at": 1791558390
   },
   "CDV01057_92410392_CANOAS": {
     "lat": -29.9041804,
@@ -348,22 +348,22 @@
     "updated_at": 1791557817
   },
   "CDV00847_95057560_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556491
+    "lat": -29.1395254,
+    "lng": -51.1378248,
+    "method": "nominatim_address",
+    "updated_at": 1791557910
   },
   "CDV01147_95041220_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556492
+    "lat": -29.1488603,
+    "lng": -51.1745329,
+    "method": "nominatim_address",
+    "updated_at": 1791558019
   },
   "CDV00768_95098420_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556495
+    "lat": -29.1898359,
+    "lng": -51.1902148,
+    "method": "nominatim_address",
+    "updated_at": 1791557996
   },
   "CDV00249_95070070_CAXIAS DO SUL": {
     "lat": -29.1746989,
@@ -372,40 +372,40 @@
     "updated_at": 1791556496
   },
   "CDV00039_95059750_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556497
+    "lat": -29.112823,
+    "lng": -51.1266217,
+    "method": "nominatim_address",
+    "updated_at": 1791558070
   },
   "CDV00749_95097350_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556498
+    "lat": -29.1878834,
+    "lng": -51.181952,
+    "method": "nominatim_address",
+    "updated_at": 1791558076
   },
   "CDV00070_95072210_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556498
+    "lat": -29.1763697,
+    "lng": -51.1513187,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558089
   },
   "CDV00579_95110760_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556498
+    "lat": -29.1805577,
+    "lng": -51.2141368,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558109
   },
   "CDV00585_95099140_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556500
+    "lat": -29.1762508,
+    "lng": -51.2031501,
+    "method": "nominatim_address",
+    "updated_at": 1791558263
   },
   "CDV00615_95059000_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556501
+    "lat": -29.115881,
+    "lng": -51.1208056,
+    "method": "nominatim_address",
+    "updated_at": 1791558285
   },
   "CDV00777_95059520_CAXIAS DO SUL": {
     "lat": -29.1543049,
@@ -414,64 +414,64 @@
     "updated_at": 1791556502
   },
   "CDV00076_95041423_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556503
+    "lat": -29.1616925,
+    "lng": -51.2027198,
+    "method": "nominatim_address",
+    "updated_at": 1791558363
   },
   "CDV01123_95076180_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556503
+    "lat": -29.1773786,
+    "lng": -51.1507162,
+    "method": "nominatim_address",
+    "updated_at": 1791558414
   },
   "CDV00645_95080050_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556504
+    "lat": -29.1800025,
+    "lng": -51.1634472,
+    "method": "nominatim_address",
+    "updated_at": 1791558481
   },
   "CDV00836_95043660_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556506
+    "lat": -29.1449525,
+    "lng": -51.1880113,
+    "method": "nominatim_address",
+    "updated_at": 1791558593
   },
   "CDV01116_95052338_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556507
+    "lat": -29.1616925,
+    "lng": -51.2027198,
+    "method": "nominatim_address",
+    "updated_at": 1791558606
   },
   "CDV00792_95084125_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556507
+    "lat": -29.1740779,
+    "lng": -51.1840633,
+    "method": "nominatim_address",
+    "updated_at": 1791558637
   },
   "CDV00753_95095100_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556507
+    "lat": -29.193586,
+    "lng": -51.19984,
+    "method": "nominatim_address",
+    "updated_at": 1791558696
   },
   "CDV00870_95013328_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556508
+    "lat": -29.1603297,
+    "lng": -51.2034651,
+    "method": "nominatim_address",
+    "updated_at": 1791558752
   },
   "CDV00921_95034971_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556509
+    "lat": -29.1664518,
+    "lng": -51.1855844,
+    "method": "nominatim_address",
+    "updated_at": 1791558776
   },
   "CDV00015_95099370_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556511
+    "lat": -29.1774691,
+    "lng": -51.2044928,
+    "method": "nominatim_address",
+    "updated_at": 1791558817
   },
   "CDV00217_95059520_CAXIAS DO SUL": {
     "lat": -29.1543049,
@@ -486,22 +486,22 @@
     "updated_at": 1791556514
   },
   "CDV00699_95054380_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556514
+    "lat": -29.1590105,
+    "lng": -51.1526815,
+    "method": "nominatim_address",
+    "updated_at": 1791558915
   },
   "CDV01083_95084456_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556515
+    "lat": -29.1785633,
+    "lng": -51.1671889,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558933
   },
   "CDV00993_95030775_CAXIAS DO SUL": {
-    "lat": -29.1629,
-    "lng": -51.1792,
-    "method": "municipio_centroid",
-    "updated_at": 1791556515
+    "lat": -29.1539691,
+    "lng": -51.1951197,
+    "method": "nominatim_bairro",
+    "updated_at": 1791559013
   },
   "CDV00024_97900000_CERRO LARGO": {
     "lat": -28.1422215,
@@ -576,10 +576,10 @@
     "updated_at": 1791556534
   },
   "CDV00733_98015190_CRUZ ALTA": {
-    "lat": -28.645,
-    "lng": -53.6048,
-    "method": "municipio_centroid",
-    "updated_at": 1791556536
+    "lat": -28.646889,
+    "lng": -53.6172395,
+    "method": "nominatim_address",
+    "updated_at": 1791558905
   },
   "CDV00728_95930000_CRUZEIRO DO SUL": {
     "lat": -29.5026837,
@@ -666,28 +666,28 @@
     "updated_at": 1791557904
   },
   "CDV00774_99701662_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556557
+    "lat": -27.6279039,
+    "lng": -52.2522195,
+    "method": "nominatim_address",
+    "updated_at": 1791558242
   },
   "CDV00063_99701758_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556557
+    "lat": -27.6276596,
+    "lng": -52.2471558,
+    "method": "nominatim_address",
+    "updated_at": 1791558260
   },
   "CDV00208_99701520_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556557
+    "lat": -27.6230173,
+    "lng": -52.2647874,
+    "method": "nominatim_address",
+    "updated_at": 1791558279
   },
   "CDV00721_99708735_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556559
+    "lat": -27.6573411,
+    "lng": -52.2712916,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558384
   },
   "CDV00200_99700000_ERECHIM": {
     "lat": -27.6398498,
@@ -702,70 +702,70 @@
     "updated_at": 1791556562
   },
   "CDV01047_99709760_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556562
+    "lat": -27.6475557,
+    "lng": -52.2967055,
+    "method": "nominatim_address",
+    "updated_at": 1791558430
   },
   "CDV00062_99713192_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556562
+    "lat": -27.6408436,
+    "lng": -52.294791,
+    "method": "nominatim_address",
+    "updated_at": 1791558448
   },
   "CDV01131_99702032_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556563
+    "lat": -27.6238045,
+    "lng": -52.2471873,
+    "method": "nominatim_address",
+    "updated_at": 1791558565
   },
   "CDV01058_99706450_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556565
+    "lat": -27.648426,
+    "lng": -52.248964,
+    "method": "nominatim_address",
+    "updated_at": 1791558584
   },
   "CDV00477_99711102_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556565
+    "lat": -27.6464717,
+    "lng": -52.2898521,
+    "method": "nominatim_address",
+    "updated_at": 1791558571
   },
   "CDV01008_99700438_ERECHIM": {
     "lat": -27.6364,
     "lng": -52.2697,
     "method": "municipio_centroid",
-    "updated_at": 1791556566
+    "updated_at": 1791558610
   },
   "CDV00952_99704740_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556567
+    "lat": -27.6276589,
+    "lng": -52.23446,
+    "method": "nominatim_address",
+    "updated_at": 1791558627
   },
   "CDV00961_99704720_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556568
+    "lat": -27.6641599,
+    "lng": -52.2879319,
+    "method": "nominatim_address",
+    "updated_at": 1791558732
   },
   "CDV00996_99704058_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556568
+    "lat": -27.6423266,
+    "lng": -52.2583999,
+    "method": "nominatim_address",
+    "updated_at": 1791558736
   },
   "CDV01088_99704750_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556571
+    "lat": -27.6641599,
+    "lng": -52.2879319,
+    "method": "nominatim_address",
+    "updated_at": 1791558798
   },
   "CDV01157_99702503_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556571
+    "lat": -27.6641599,
+    "lng": -52.2879319,
+    "method": "nominatim_address",
+    "updated_at": 1791558865
   },
   "CDV00846_99700054_ERECHIM": {
     "lat": -27.6366817,
@@ -774,16 +774,16 @@
     "updated_at": 1791556572
   },
   "CDV00931_99709522_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556572
+    "lat": -27.6526681,
+    "lng": -52.2855055,
+    "method": "nominatim_address",
+    "updated_at": 1791558883
   },
   "CDV01102_99709252_ERECHIM": {
-    "lat": -27.6364,
-    "lng": -52.2697,
-    "method": "municipio_centroid",
-    "updated_at": 1791556573
+    "lat": -27.6495248,
+    "lng": -52.2690615,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558901
   },
   "CDV01002_99704166_ERECHIM": {
     "lat": -27.6471601,
@@ -798,88 +798,88 @@
     "updated_at": 1791557820
   },
   "CDV00904_95880000_ESTRELA": {
-    "lat": -29.5002,
-    "lng": -51.9495,
-    "method": "municipio_centroid",
-    "updated_at": 1791556579
+    "lat": -29.4843498,
+    "lng": -51.9481732,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558589
   },
   "CDV01164_95880000_ESTRELA": {
-    "lat": -29.5002,
-    "lng": -51.9495,
-    "method": "municipio_centroid",
-    "updated_at": 1791556580
+    "lat": -29.4836307,
+    "lng": -51.95643,
+    "method": "nominatim_address",
+    "updated_at": 1791559059
   },
   "CDV00332_95180000_FARROUPILHA": {
-    "lat": -29.2227,
-    "lng": -51.3419,
-    "method": "municipio_centroid",
-    "updated_at": 1791556581
+    "lat": -29.2141216,
+    "lng": -51.3553472,
+    "method": "nominatim_address",
+    "updated_at": 1791558030
   },
   "CDV00594_95170158_FARROUPILHA": {
-    "lat": -29.2227,
-    "lng": -51.3419,
-    "method": "municipio_centroid",
-    "updated_at": 1791556582
+    "lat": -29.2234485,
+    "lng": -51.3402001,
+    "method": "nominatim_address",
+    "updated_at": 1791558063
   },
   "CDV01038_95180280_FARROUPILHA": {
-    "lat": -29.2227,
-    "lng": -51.3419,
-    "method": "municipio_centroid",
-    "updated_at": 1791556584
+    "lat": -29.2307939,
+    "lng": -51.3565832,
+    "method": "nominatim_address",
+    "updated_at": 1791558373
   },
   "CDV00770_95180000_FARROUPILHA": {
-    "lat": -29.2227,
-    "lng": -51.3419,
-    "method": "municipio_centroid",
-    "updated_at": 1791556587
+    "lat": -29.2225902,
+    "lng": -51.3371039,
+    "method": "nominatim_address",
+    "updated_at": 1791558427
   },
   "CDV00238_95177000_FARROUPILHA": {
-    "lat": -29.2227,
-    "lng": -51.3419,
-    "method": "municipio_centroid",
-    "updated_at": 1791556589
+    "lat": -29.2206551,
+    "lng": -51.3046865,
+    "method": "nominatim_address",
+    "updated_at": 1791558842
   },
   "CDV00720_95180000_FARROUPILHA": {
-    "lat": -29.2227,
-    "lng": -51.3419,
-    "method": "municipio_centroid",
-    "updated_at": 1791556590
+    "lat": -29.2029309,
+    "lng": -51.315431,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558892
   },
   "CDV00635_95170600_FARROUPILHA": {
-    "lat": -29.2227,
-    "lng": -51.3419,
-    "method": "municipio_centroid",
-    "updated_at": 1791556592
+    "lat": -29.2215229,
+    "lng": -51.3500204,
+    "method": "nominatim_address",
+    "updated_at": 1791558936
   },
   "CDV00375_97220000_FAXINAL DO SOTURNO": {
-    "lat": -29.5788,
-    "lng": -53.4484,
-    "method": "municipio_centroid",
-    "updated_at": 1791556594
+    "lat": -29.5846716,
+    "lng": -53.4396358,
+    "method": "nominatim_address",
+    "updated_at": 1791558919
   },
   "CDV01151_95875000_FAZENDA VILANOVA": {
-    "lat": -29.5885,
-    "lng": -51.8217,
-    "method": "municipio_centroid",
-    "updated_at": 1791556595
+    "lat": -29.5904222,
+    "lng": -51.8210365,
+    "method": "nominatim_address",
+    "updated_at": 1791558509
   },
   "CDV01074_95270000_FLORES DA CUNHA": {
-    "lat": -29.0261,
-    "lng": -51.1875,
-    "method": "municipio_centroid",
-    "updated_at": 1791556598
+    "lat": -29.0736142,
+    "lng": -51.1573651,
+    "method": "nominatim_address",
+    "updated_at": 1791558156
   },
   "CDV01032_99830000_GAURAMA": {
-    "lat": -27.5856,
-    "lng": -52.0915,
-    "method": "municipio_centroid",
-    "updated_at": 1791556600
+    "lat": -27.5860974,
+    "lng": -52.1008325,
+    "method": "nominatim_cep",
+    "updated_at": 1791558253
   },
   "CDV00102_98870000_GIRUA": {
-    "lat": -28.0297,
-    "lng": -54.3517,
-    "method": "municipio_centroid",
-    "updated_at": 1791556602
+    "lat": -28.0255422,
+    "lng": -54.3708674,
+    "method": "nominatim_address",
+    "updated_at": 1791557966
   },
   "CDV00811_94100550_GRAVATAI": {
     "lat": -29.902837,
@@ -894,142 +894,142 @@
     "updated_at": 1791557900
   },
   "CDV00711_94070000_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556607
+    "lat": -29.9360547,
+    "lng": -51.0381733,
+    "method": "nominatim_address",
+    "updated_at": 1791557917
   },
   "CDV01104_94090600_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556610
+    "lat": -29.9295544,
+    "lng": -51.0574191,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558044
   },
   "CDV00279_94100250_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556612
+    "lat": -29.9139479,
+    "lng": -51.0429387,
+    "method": "nominatim_address",
+    "updated_at": 1791558097
   },
   "CDV01126_94030001_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556614
+    "lat": -29.9323932,
+    "lng": -51.0604503,
+    "method": "nominatim_address",
+    "updated_at": 1791558169
   },
   "CDV00376_94070001_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556616
+    "lat": -29.9362205,
+    "lng": -51.0749717,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558173
   },
   "CDV01044_94180120_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556617
+    "lat": -29.9356531,
+    "lng": -50.9538205,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558178
   },
   "CDV00320_94100250_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556619
+    "lat": -29.8128691,
+    "lng": -50.9054963,
+    "method": "nominatim_address",
+    "updated_at": 1791558201
   },
   "CDV01084_94060000_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556622
+    "lat": -29.9360547,
+    "lng": -51.0381733,
+    "method": "nominatim_address",
+    "updated_at": 1791558220
   },
   "CDV01167_94070000_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556624
+    "lat": -29.9323355,
+    "lng": -51.0649575,
+    "method": "nominatim_address",
+    "updated_at": 1791558231
   },
   "CDV00294_94070001_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556626
+    "lat": -29.9360547,
+    "lng": -51.0381733,
+    "method": "nominatim_address",
+    "updated_at": 1791558424
   },
   "CDV01027_94090600_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556628
+    "lat": -29.9295544,
+    "lng": -51.0574191,
+    "method": "nominatim_bairro",
+    "updated_at": 1791557937
   },
   "CDV00735_94030260_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556629
+    "lat": -29.8761202,
+    "lng": -50.8600302,
+    "method": "nominatim_address",
+    "updated_at": 1791558466
   },
   "CDV00819_94030000_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556631
+    "lat": -29.9359589,
+    "lng": -51.0306665,
+    "method": "nominatim_address",
+    "updated_at": 1791558552
   },
   "CDV01165_94150600_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556634
+    "lat": -29.9287244,
+    "lng": -51.0267849,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558652
   },
   "CDV01144_94080150_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556636
+    "lat": -29.9302019,
+    "lng": -51.0676335,
+    "method": "nominatim_address",
+    "updated_at": 1791558794
   },
   "CDV00580_94070000_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556638
+    "lat": -29.9323355,
+    "lng": -51.0649575,
+    "method": "nominatim_address",
+    "updated_at": 1791558813
   },
   "CDV01070_94060000_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556639
+    "lat": -29.9323932,
+    "lng": -51.0604503,
+    "method": "nominatim_address",
+    "updated_at": 1791558839
   },
   "CDV01145_94130580_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556641
+    "lat": -29.9145666,
+    "lng": -51.0365272,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558851
   },
   "CDV00908_94050000_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556643
+    "lat": -29.9393384,
+    "lng": -51.0426616,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558871
   },
   "CDV00595_94070001_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556646
+    "lat": -29.9362205,
+    "lng": -51.0749717,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558909
   },
   "CDV01063_94060000_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556647
+    "lat": -29.9323355,
+    "lng": -51.0649575,
+    "method": "nominatim_address",
+    "updated_at": 1791558951
   },
   "CDV00732_94070001_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556649
+    "lat": -29.9323355,
+    "lng": -51.0649575,
+    "method": "nominatim_address",
+    "updated_at": 1791558954
   },
   "CDV00854_94070001_GRAVATAI": {
-    "lat": -29.9413,
-    "lng": -50.9869,
-    "method": "municipio_centroid",
-    "updated_at": 1791556651
+    "lat": -29.9362205,
+    "lng": -51.0749717,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558983
   },
   "CDV00784_92500000_GUAIBA": {
     "lat": -30.1420462,
@@ -1038,28 +1038,28 @@
     "updated_at": 1791557873
   },
   "CDV01136_92725100_GUAIBA": {
-    "lat": -30.1086,
-    "lng": -51.3233,
-    "method": "municipio_centroid",
-    "updated_at": 1791556654
+    "lat": -30.1258182,
+    "lng": -51.3498719,
+    "method": "nominatim_address",
+    "updated_at": 1791558739
   },
   "CDV01150_99200000_GUAPORE": {
-    "lat": -28.8399,
-    "lng": -51.8895,
-    "method": "municipio_centroid",
-    "updated_at": 1791556657
+    "lat": -28.8526897,
+    "lng": -51.8935552,
+    "method": "nominatim_cep",
+    "updated_at": 1791558122
   },
   "CDV00110_99200000_GUAPORE": {
-    "lat": -28.8399,
-    "lng": -51.8895,
-    "method": "municipio_centroid",
-    "updated_at": 1791556658
+    "lat": -28.8519257,
+    "lng": -51.8754376,
+    "method": "nominatim_address",
+    "updated_at": 1791558291
   },
   "CDV01142_95305000_IBIRAIARAS": {
-    "lat": -28.3741,
-    "lng": -51.6377,
-    "method": "municipio_centroid",
-    "updated_at": 1791556660
+    "lat": -28.3709256,
+    "lng": -51.6356824,
+    "method": "nominatim_cep",
+    "updated_at": 1791558506
   },
   "CDV01004_95650000_IGREJINHA": {
     "lat": -29.5620465,
@@ -1080,46 +1080,46 @@
     "updated_at": 1791557790
   },
   "CDV00758_95650000_IGREJINHA": {
-    "lat": -29.5693,
-    "lng": -50.7919,
-    "method": "municipio_centroid",
-    "updated_at": 1791556669
+    "lat": -29.591346,
+    "lng": -50.8078508,
+    "method": "nominatim_address",
+    "updated_at": 1791558743
   },
   "CDV00103_98700000_IJUI": {
-    "lat": -28.388,
-    "lng": -53.92,
-    "method": "municipio_centroid",
-    "updated_at": 1791556670
+    "lat": -28.378359,
+    "lng": -53.8729006,
+    "method": "nominatim_address",
+    "updated_at": 1791557969
   },
   "CDV00026_98700000_IJUI": {
-    "lat": -28.388,
-    "lng": -53.92,
-    "method": "municipio_centroid",
-    "updated_at": 1791556672
+    "lat": -28.3842333,
+    "lng": -53.9017933,
+    "method": "nominatim_address",
+    "updated_at": 1791558060
   },
   "CDV00726_98700000_IJUI": {
-    "lat": -28.388,
-    "lng": -53.92,
-    "method": "municipio_centroid",
-    "updated_at": 1791556674
+    "lat": -28.3843386,
+    "lng": -53.8940693,
+    "method": "nominatim_address",
+    "updated_at": 1791558248
   },
   "CDV00122_98700000_IJUI": {
-    "lat": -28.388,
-    "lng": -53.92,
-    "method": "municipio_centroid",
-    "updated_at": 1791556676
+    "lat": -28.378359,
+    "lng": -53.8729006,
+    "method": "nominatim_address",
+    "updated_at": 1791558328
   },
   "CDV00221_98700000_IJUI": {
-    "lat": -28.388,
-    "lng": -53.92,
-    "method": "municipio_centroid",
-    "updated_at": 1791556678
+    "lat": -28.3888731,
+    "lng": -53.9030151,
+    "method": "nominatim_address",
+    "updated_at": 1791558418
   },
   "CDV01100_98700000_IJUI": {
-    "lat": -28.388,
-    "lng": -53.92,
-    "method": "municipio_centroid",
-    "updated_at": 1791556681
+    "lat": -28.3790639,
+    "lng": -53.8999068,
+    "method": "nominatim_address",
+    "updated_at": 1791558761
   },
   "CDV00211_95913166_LAJEADO": {
     "lat": -29.4432167,
@@ -1128,58 +1128,58 @@
     "updated_at": 1791557813
   },
   "CDV00057_95911060_LAJEADO": {
-    "lat": -29.4591,
-    "lng": -51.9644,
-    "method": "municipio_centroid",
-    "updated_at": 1791556685
+    "lat": -29.4675617,
+    "lng": -51.954448,
+    "method": "nominatim_address",
+    "updated_at": 1791558037
   },
   "CDV00431_95905041_LAJEADO": {
-    "lat": -29.4591,
-    "lng": -51.9644,
-    "method": "municipio_centroid",
-    "updated_at": 1791556687
+    "lat": -29.449681,
+    "lng": -51.9871867,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558276
   },
   "CDV00248_95900000_LAJEADO": {
-    "lat": -29.4591,
-    "lng": -51.9644,
-    "method": "municipio_centroid",
-    "updated_at": 1791556688
+    "lat": -29.4674989,
+    "lng": -51.9543424,
+    "method": "nominatim_address",
+    "updated_at": 1791558350
   },
   "CDV00430_95900000_LAJEADO": {
-    "lat": -29.4591,
-    "lng": -51.9644,
-    "method": "municipio_centroid",
-    "updated_at": 1791556690
+    "lat": -29.4674989,
+    "lng": -51.9543424,
+    "method": "nominatim_address",
+    "updated_at": 1791558353
   },
   "CDV00842_95904620_LAJEADO": {
-    "lat": -29.4591,
-    "lng": -51.9644,
-    "method": "municipio_centroid",
-    "updated_at": 1791556693
+    "lat": -29.4552358,
+    "lng": -52.0052889,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558557
   },
   "CDV00133_95910160_LAJEADO": {
-    "lat": -29.4591,
-    "lng": -51.9644,
-    "method": "municipio_centroid",
-    "updated_at": 1791556694
+    "lat": -29.4432167,
+    "lng": -51.9651901,
+    "method": "nominatim_name",
+    "updated_at": 1791558715
   },
   "CDV00025_95900000_LAJEADO": {
-    "lat": -29.4591,
-    "lng": -51.9644,
-    "method": "municipio_centroid",
-    "updated_at": 1791556695
+    "lat": -29.4694289,
+    "lng": -51.9537078,
+    "method": "nominatim_address",
+    "updated_at": 1791558726
   },
   "CDV01154_95912124_LAJEADO": {
-    "lat": -29.4591,
-    "lng": -51.9644,
-    "method": "municipio_centroid",
-    "updated_at": 1791556697
+    "lat": -29.4381179,
+    "lng": -51.9715747,
+    "method": "nominatim_address",
+    "updated_at": 1791558923
   },
   "CDV00933_95900632_LAJEADO": {
-    "lat": -29.4591,
-    "lng": -51.9644,
-    "method": "municipio_centroid",
-    "updated_at": 1791556699
+    "lat": -29.4506686,
+    "lng": -51.9717668,
+    "method": "nominatim_address",
+    "updated_at": 1791559041
   },
   "CDV01073_99150000_MARAU": {
     "lat": -28.4478037,
@@ -1188,46 +1188,46 @@
     "updated_at": 1791557779
   },
   "CDV00402_99150000_MARAU": {
-    "lat": -28.4498,
-    "lng": -52.1986,
-    "method": "municipio_centroid",
-    "updated_at": 1791556704
+    "lat": -28.4251308,
+    "lng": -52.211402,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558001
   },
   "CDV00742_99150000_MARAU": {
-    "lat": -28.4498,
-    "lng": -52.1986,
-    "method": "municipio_centroid",
-    "updated_at": 1791556705
+    "lat": -28.4478037,
+    "lng": -52.2073484,
+    "method": "nominatim_cep",
+    "updated_at": 1791558113
   },
   "CDV00622_99150000_MARAU": {
-    "lat": -28.4498,
-    "lng": -52.1986,
-    "method": "municipio_centroid",
-    "updated_at": 1791556707
+    "lat": -28.4693155,
+    "lng": -52.2061427,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558132
   },
   "CDV00779_99150000_MARAU": {
-    "lat": -28.4498,
-    "lng": -52.1986,
-    "method": "municipio_centroid",
-    "updated_at": 1791556708
+    "lat": -28.4458598,
+    "lng": -52.207191,
+    "method": "nominatim_address",
+    "updated_at": 1791558472
   },
   "CDV00723_95780000_MONTENEGRO": {
-    "lat": -29.6824,
-    "lng": -51.4679,
-    "method": "municipio_centroid",
-    "updated_at": 1791556710
+    "lat": -29.6780937,
+    "lng": -51.472455,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558347
   },
   "CDV00960_95780000_MONTENEGRO": {
-    "lat": -29.6824,
-    "lng": -51.4679,
-    "method": "municipio_centroid",
-    "updated_at": 1791556712
+    "lat": -29.6954494,
+    "lng": -51.4978599,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558647
   },
   "CDV01068_99600000_NONOAI": {
-    "lat": -27.3689,
-    "lng": -52.7756,
-    "method": "municipio_centroid",
-    "updated_at": 1791556715
+    "lat": -27.3945768,
+    "lng": -52.826589,
+    "method": "nominatim_cep",
+    "updated_at": 1791558678
   },
   "CDV00920_95340000_NOVA BASSANO": {
     "lat": -28.7331931,
@@ -1236,16 +1236,16 @@
     "updated_at": 1791557836
   },
   "CDV00363_95340000_NOVA BASSANO": {
-    "lat": -28.7291,
-    "lng": -51.7072,
-    "method": "municipio_centroid",
-    "updated_at": 1791556718
+    "lat": -28.7331931,
+    "lng": -51.7030765,
+    "method": "nominatim_cep",
+    "updated_at": 1791558197
   },
   "CDV01121_95320000_NOVA PRATA": {
-    "lat": -28.7799,
-    "lng": -51.6113,
-    "method": "municipio_centroid",
-    "updated_at": 1791556720
+    "lat": -28.7804478,
+    "lng": -51.6053498,
+    "method": "nominatim_address",
+    "updated_at": 1791558972
   },
   "CDV00757_93542090_NOVO HAMBURGO": {
     "lat": -29.6837596,
@@ -1260,118 +1260,118 @@
     "updated_at": 1791557859
   },
   "CDV00700_93534000_NOVO HAMBURGO": {
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "method": "municipio_centroid",
-    "updated_at": 1791556726
+    "lat": -29.6766898,
+    "lng": -51.1186568,
+    "method": "nominatim_address",
+    "updated_at": 1791557914
   },
   "CDV00232_93537310_NOVO HAMBURGO": {
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "method": "municipio_centroid",
-    "updated_at": 1791556727
+    "lat": -29.6673335,
+    "lng": -51.0945965,
+    "method": "nominatim_address",
+    "updated_at": 1791557947
   },
   "CDV00245_93320010_NOVO HAMBURGO": {
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "method": "municipio_centroid",
-    "updated_at": 1791556729
+    "lat": -29.7261642,
+    "lng": -51.1390733,
+    "method": "nominatim_address",
+    "updated_at": 1791558009
   },
   "CDV00034_93546580_NOVO HAMBURGO": {
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "method": "municipio_centroid",
-    "updated_at": 1791556731
+    "lat": -29.7000264,
+    "lng": -51.1026557,
+    "method": "nominatim_address",
+    "updated_at": 1791558092
   },
   "CDV00337_93310460_NOVO HAMBURGO": {
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "method": "municipio_centroid",
-    "updated_at": 1791556732
+    "lat": -29.6697278,
+    "lng": -51.142992,
+    "method": "nominatim_address",
+    "updated_at": 1791558140
   },
   "CDV01036_93546659_NOVO HAMBURGO": {
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "method": "municipio_centroid",
-    "updated_at": 1791556733
+    "lat": -29.695577,
+    "lng": -51.1167767,
+    "method": "nominatim_address",
+    "updated_at": 1791558159
   },
   "CDV00226_93332470_NOVO HAMBURGO": {
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "method": "municipio_centroid",
-    "updated_at": 1791556736
+    "lat": -29.7120603,
+    "lng": -51.1337916,
+    "method": "nominatim_address",
+    "updated_at": 1791558288
   },
   "CDV01140_93320227_NOVO HAMBURGO": {
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "method": "municipio_centroid",
-    "updated_at": 1791556738
+    "lat": -29.707374,
+    "lng": -51.1340389,
+    "method": "nominatim_address",
+    "updated_at": 1791558297
   },
   "CDV00074_93320370_NOVO HAMBURGO": {
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "method": "municipio_centroid",
-    "updated_at": 1791556740
+    "lat": -29.7153936,
+    "lng": -51.1265449,
+    "method": "nominatim_address",
+    "updated_at": 1791558433
   },
   "CDV01146_93415520_NOVO HAMBURGO": {
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "method": "municipio_centroid",
-    "updated_at": 1791556741
+    "lat": -29.7084812,
+    "lng": -51.1182046,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558459
   },
   "CDV01098_93534010_NOVO HAMBURGO": {
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "method": "municipio_centroid",
-    "updated_at": 1791556743
+    "lat": -29.6729997,
+    "lng": -51.1095361,
+    "method": "nominatim_address",
+    "updated_at": 1791558496
   },
   "CDV01081_93546000_NOVO HAMBURGO": {
-    "lat": -29.6875,
-    "lng": -51.1328,
-    "method": "municipio_centroid",
-    "updated_at": 1791556744
+    "lat": -29.6769335,
+    "lng": -51.0973652,
+    "method": "nominatim_address",
+    "updated_at": 1791558655
   },
   "CDV01120_95520000_OSORIO": {
-    "lat": -29.8881,
-    "lng": -50.2667,
-    "method": "municipio_centroid",
-    "updated_at": 1791556747
+    "lat": -29.8982654,
+    "lng": -50.2701731,
+    "method": "nominatim_address",
+    "updated_at": 1791558057
   },
   "CDV00915_95520000_OSORIO": {
-    "lat": -29.8881,
-    "lng": -50.2667,
-    "method": "municipio_centroid",
-    "updated_at": 1791556749
+    "lat": -29.9357887,
+    "lng": -50.2557012,
+    "method": "nominatim_name",
+    "updated_at": 1791558525
   },
   "CDV00947_95520000_OSORIO": {
-    "lat": -29.8881,
-    "lng": -50.2667,
-    "method": "municipio_centroid",
-    "updated_at": 1791556750
+    "lat": -29.9639578,
+    "lng": -50.2690409,
+    "method": "nominatim_address",
+    "updated_at": 1791558719
   },
   "CDV00902_95520000_OSORIO": {
-    "lat": -29.8881,
-    "lng": -50.2667,
-    "method": "municipio_centroid",
-    "updated_at": 1791556751
+    "lat": -29.8924323,
+    "lng": -50.2291502,
+    "method": "nominatim_address",
+    "updated_at": 1791558832
   },
   "CDV00762_98300000_PALMEIRA DAS MISSOES": {
-    "lat": -27.9007,
-    "lng": -53.3134,
-    "method": "municipio_centroid",
-    "updated_at": 1791556753
+    "lat": -27.9067355,
+    "lng": -53.3108085,
+    "method": "nominatim_address",
+    "updated_at": 1791558596
   },
   "CDV00964_98300000_PALMEIRA DAS MISSOES": {
-    "lat": -27.9007,
-    "lng": -53.3134,
-    "method": "municipio_centroid",
-    "updated_at": 1791556755
+    "lat": -27.9019092,
+    "lng": -53.3163021,
+    "method": "nominatim_address",
+    "updated_at": 1791558886
   },
   "CDV00981_98430000_PALMITINHO": {
-    "lat": -27.3596,
-    "lng": -53.558,
-    "method": "municipio_centroid",
-    "updated_at": 1791556758
+    "lat": -27.358515,
+    "lng": -53.5594697,
+    "method": "nominatim_cep",
+    "updated_at": 1791558766
   },
   "CDV00992_98280000_PANAMBI": {
     "lat": -28.363989,
@@ -1380,34 +1380,34 @@
     "updated_at": 1791557870
   },
   "CDV00765_98280000_PANAMBI": {
-    "lat": -28.2833,
-    "lng": -53.5023,
-    "method": "municipio_centroid",
-    "updated_at": 1791556762
+    "lat": -28.2988058,
+    "lng": -53.5056998,
+    "method": "nominatim_cep",
+    "updated_at": 1791558310
   },
   "CDV01059_98280000_PANAMBI": {
-    "lat": -28.2833,
-    "lng": -53.5023,
-    "method": "municipio_centroid",
-    "updated_at": 1791556763
+    "lat": -28.2791475,
+    "lng": -53.4894842,
+    "method": "nominatim_address",
+    "updated_at": 1791558484
   },
   "CDV00755_98280000_PANAMBI": {
-    "lat": -28.2833,
-    "lng": -53.5023,
-    "method": "municipio_centroid",
-    "updated_at": 1791556765
+    "lat": -28.363989,
+    "lng": -53.4299302,
+    "method": "nominatim_address",
+    "updated_at": 1791559008
   },
   "CDV00716_96690000_PANTANO GRANDE": {
     "lat": -30.1902,
     "lng": -52.3729,
     "method": "municipio_centroid",
-    "updated_at": 1791556766
+    "updated_at": 1791558948
   },
   "CDV01021_95360000_PARAI": {
-    "lat": -28.5964,
-    "lng": -51.7896,
-    "method": "municipio_centroid",
-    "updated_at": 1791556769
+    "lat": -28.5937532,
+    "lng": -51.7915403,
+    "method": "nominatim_address",
+    "updated_at": 1791558729
   },
   "CDV00776_95630000_PAROBE": {
     "lat": -29.6392038,
@@ -1416,16 +1416,16 @@
     "updated_at": 1791557787
   },
   "CDV00083_95630000_PAROBE": {
-    "lat": -29.6243,
-    "lng": -50.8312,
-    "method": "municipio_centroid",
-    "updated_at": 1791556772
+    "lat": -29.6392038,
+    "lng": -50.843595,
+    "method": "nominatim_address",
+    "updated_at": 1791557972
   },
   "CDV00986_95630000_PAROBE": {
-    "lat": -29.6243,
-    "lng": -50.8312,
-    "method": "municipio_centroid",
-    "updated_at": 1791556774
+    "lat": -29.6397171,
+    "lng": -50.8550584,
+    "method": "nominatim_address",
+    "updated_at": 1791558537
   },
   "CDV00802_99050073_PASSO FUNDO": {
     "lat": -28.2380778,
@@ -1440,88 +1440,88 @@
     "updated_at": 1791557838
   },
   "CDV00187_99025070_PASSO FUNDO": {
-    "lat": -28.2576,
-    "lng": -52.4091,
-    "method": "municipio_centroid",
-    "updated_at": 1791556780
+    "lat": -28.265811,
+    "lng": -52.4267108,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558225
   },
   "CDV00066_99032680_PASSO FUNDO": {
-    "lat": -28.2576,
-    "lng": -52.4091,
-    "method": "municipio_centroid",
-    "updated_at": 1791556782
+    "lat": -28.2008037,
+    "lng": -52.3488373,
+    "method": "nominatim_address",
+    "updated_at": 1791558339
   },
   "CDV01101_99050073_PASSO FUNDO": {
-    "lat": -28.2576,
-    "lng": -52.4091,
-    "method": "municipio_centroid",
-    "updated_at": 1791556784
+    "lat": -28.2380778,
+    "lng": -52.3756894,
+    "method": "nominatim_address",
+    "updated_at": 1791558451
   },
   "CDV01056_99072445_PASSO FUNDO": {
-    "lat": -28.2576,
-    "lng": -52.4091,
-    "method": "municipio_centroid",
-    "updated_at": 1791556785
+    "lat": -28.280238,
+    "lng": -52.401429,
+    "method": "nominatim_address",
+    "updated_at": 1791558665
   },
   "CDV00808_99010180_PASSO FUNDO": {
-    "lat": -28.2576,
-    "lng": -52.4091,
-    "method": "municipio_centroid",
-    "updated_at": 1791556787
+    "lat": -28.2515219,
+    "lng": -52.4025079,
+    "method": "nominatim_address",
+    "updated_at": 1791558773
   },
   "CDV00719_99034600_PASSO FUNDO": {
-    "lat": -28.2576,
-    "lng": -52.4091,
-    "method": "municipio_centroid",
-    "updated_at": 1791556788
+    "lat": -28.265811,
+    "lng": -52.4267108,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558999
   },
   "CDV01119_99050050_PASSO FUNDO": {
-    "lat": -28.2576,
-    "lng": -52.4091,
-    "method": "municipio_centroid",
-    "updated_at": 1791556792
+    "lat": -28.251344,
+    "lng": -52.3819226,
+    "method": "nominatim_address",
+    "updated_at": 1791559023
   },
   "CDV00093_96020450_PELOTAS": {
-    "lat": -31.7649,
-    "lng": -52.3371,
-    "method": "municipio_centroid",
-    "updated_at": 1791556794
+    "lat": -31.7410086,
+    "lng": -52.3457535,
+    "method": "nominatim_address",
+    "updated_at": 1791558050
   },
   "CDV00482_96070741_PELOTAS": {
-    "lat": -31.7649,
-    "lng": -52.3371,
-    "method": "municipio_centroid",
-    "updated_at": 1791556796
+    "lat": -31.7403099,
+    "lng": -52.3442443,
+    "method": "nominatim_address",
+    "updated_at": 1791558238
   },
   "CDV00030_96040160_PELOTAS": {
-    "lat": -31.7649,
-    "lng": -52.3371,
-    "method": "municipio_centroid",
-    "updated_at": 1791556797
+    "lat": -31.7539521,
+    "lng": -52.3730173,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558257
   },
   "CDV00873_96065041_PELOTAS": {
-    "lat": -31.7649,
-    "lng": -52.3371,
-    "method": "municipio_centroid",
-    "updated_at": 1791556799
+    "lat": -31.7403099,
+    "lng": -52.3442443,
+    "method": "nominatim_address",
+    "updated_at": 1791558320
   },
   "CDV01085_96050470_PELOTAS": {
-    "lat": -31.7649,
-    "lng": -52.3371,
-    "method": "municipio_centroid",
-    "updated_at": 1791556801
+    "lat": -31.6251001,
+    "lng": -52.3182002,
+    "method": "nominatim_address",
+    "updated_at": 1791559052
   },
   "CDV00712_96060290_PELOTAS": {
-    "lat": -31.7649,
-    "lng": -52.3371,
-    "method": "municipio_centroid",
-    "updated_at": 1791556804
+    "lat": -31.7224519,
+    "lng": -52.3136504,
+    "method": "nominatim_address",
+    "updated_at": 1791558854
   },
   "CDV01022_95166000_PICADA CAFE": {
-    "lat": -29.4464,
-    "lng": -51.1367,
-    "method": "municipio_centroid",
-    "updated_at": 1791556806
+    "lat": -29.498882,
+    "lng": -51.141676,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558378
   },
   "CDV00972_93180000_PORTAO": {
     "lat": -29.7044932,
@@ -1530,46 +1530,46 @@
     "updated_at": 1791557855
   },
   "CDV00329_93180000_PORTAO": {
-    "lat": -29.7015,
-    "lng": -51.2429,
-    "method": "municipio_centroid",
-    "updated_at": 1791556809
+    "lat": -29.6961773,
+    "lng": -51.2308303,
+    "method": "nominatim_cep",
+    "updated_at": 1791558015
   },
   "CDV00994_93180000_PORTAO": {
-    "lat": -29.7015,
-    "lng": -51.2429,
-    "method": "municipio_centroid",
-    "updated_at": 1791556811
+    "lat": -29.7044932,
+    "lng": -51.1939261,
+    "method": "nominatim_address",
+    "updated_at": 1791558134
   },
   "CDV00717_93180000_PORTAO": {
-    "lat": -29.7015,
-    "lng": -51.2429,
-    "method": "municipio_centroid",
-    "updated_at": 1791556813
+    "lat": -29.7044932,
+    "lng": -51.1939261,
+    "method": "nominatim_address",
+    "updated_at": 1791558301
   },
   "CDV01055_93180000_PORTAO": {
-    "lat": -29.7015,
-    "lng": -51.2429,
-    "method": "municipio_centroid",
-    "updated_at": 1791556816
+    "lat": -29.7044932,
+    "lng": -51.1939261,
+    "method": "nominatim_address",
+    "updated_at": 1791558631
   },
   "CDV00955_93180000_PORTAO": {
-    "lat": -29.7015,
-    "lng": -51.2429,
-    "method": "municipio_centroid",
-    "updated_at": 1791556818
+    "lat": -29.7044932,
+    "lng": -51.1939261,
+    "method": "nominatim_address",
+    "updated_at": 1791558828
   },
   "CDV01046_93185000_PORTAO": {
-    "lat": -29.7015,
-    "lng": -51.2429,
-    "method": "municipio_centroid",
-    "updated_at": 1791556819
+    "lat": -29.7044932,
+    "lng": -51.1939261,
+    "method": "nominatim_address",
+    "updated_at": 1791558958
   },
   "CDV00882_93180000_PORTAO": {
-    "lat": -29.7015,
-    "lng": -51.2429,
-    "method": "municipio_centroid",
-    "updated_at": 1791556821
+    "lat": -29.7044932,
+    "lng": -51.1939261,
+    "method": "nominatim_address",
+    "updated_at": 1791559019
   },
   "CDV01042_90840000_PORTO ALEGRE": {
     "lat": -30.0857086,
@@ -1596,142 +1596,142 @@
     "updated_at": 1791557894
   },
   "CDV00428_91310003_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556830
+    "lat": -30.0408308,
+    "lng": -51.1689846,
+    "method": "nominatim_address",
+    "updated_at": 1791557940
   },
   "CDV00262_91540000_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556832
+    "lat": -30.0616946,
+    "lng": -51.171191,
+    "method": "nominatim_address",
+    "updated_at": 1791557950
   },
   "CDV00143_90880140_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556834
+    "lat": -30.0616867,
+    "lng": -51.2072251,
+    "method": "nominatim_address",
+    "updated_at": 1791557992
   },
   "CDV01049_91787831_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556835
+    "lat": -30.1753098,
+    "lng": -51.1461465,
+    "method": "nominatim_address",
+    "updated_at": 1791558040
   },
   "CDV00906_91260000_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556838
+    "lat": -30.0408308,
+    "lng": -51.1689846,
+    "method": "nominatim_address",
+    "updated_at": 1791558034
   },
   "CDV00043_90660110_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556839
+    "lat": -30.0657385,
+    "lng": -51.198008,
+    "method": "nominatim_address",
+    "updated_at": 1791558073
   },
   "CDV00019_91540000_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556841
+    "lat": -30.0618971,
+    "lng": -51.1736648,
+    "method": "nominatim_address",
+    "updated_at": 1791558137
   },
   "CDV00360_91430001_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556842
+    "lat": -30.0549115,
+    "lng": -51.1472304,
+    "method": "nominatim_address",
+    "updated_at": 1791558185
   },
   "CDV00013_91540000_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556843
+    "lat": -30.0616946,
+    "lng": -51.171191,
+    "method": "nominatim_address",
+    "updated_at": 1791558212
   },
   "CDV00788_91320314_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556845
+    "lat": -30.0388803,
+    "lng": -51.2019149,
+    "method": "nominatim_address",
+    "updated_at": 1791558245
   },
   "CDV00027_90230180_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556849
+    "lat": -30.0033076,
+    "lng": -51.1913328,
+    "method": "nominatim_address",
+    "updated_at": 1791558295
   },
   "CDV00044_91540000_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556851
+    "lat": -30.0616946,
+    "lng": -51.171191,
+    "method": "nominatim_address",
+    "updated_at": 1791558313
   },
   "CDV00342_91310003_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556853
+    "lat": -30.0388803,
+    "lng": -51.2019149,
+    "method": "nominatim_address",
+    "updated_at": 1791558487
   },
   "CDV00943_91540000_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556854
+    "lat": -30.077027,
+    "lng": -51.1267631,
+    "method": "nominatim_address",
+    "updated_at": 1791558335
   },
   "CDV00180_91130721_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556856
+    "lat": -29.9979207,
+    "lng": -51.1489633,
+    "method": "nominatim_address",
+    "updated_at": 1791558387
   },
   "CDV00312_91130720_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556858
+    "lat": -29.9984719,
+    "lng": -51.1573631,
+    "method": "nominatim_address",
+    "updated_at": 1791558399
   },
   "CDV01037_90200290_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556861
+    "lat": -29.9856364,
+    "lng": -51.1632285,
+    "method": "nominatim_address",
+    "updated_at": 1791558408
   },
   "CDV00075_91320000_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556863
+    "lat": -30.0361134,
+    "lng": -51.1517841,
+    "method": "nominatim_address",
+    "updated_at": 1791558436
   },
   "CDV00985_91180000_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556864
+    "lat": -30.0134611,
+    "lng": -51.0986077,
+    "method": "nominatim_address",
+    "updated_at": 1791559049
   },
   "CDV01097_91170680_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556866
+    "lat": -29.98076,
+    "lng": -51.1143757,
+    "method": "nominatim_address",
+    "updated_at": 1791558634
   },
   "CDV00949_91040520_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556867
+    "lat": -29.9982634,
+    "lng": -51.1562446,
+    "method": "nominatim_address",
+    "updated_at": 1791558668
   },
   "CDV00959_91130721_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556869
+    "lat": -29.9979207,
+    "lng": -51.1489633,
+    "method": "nominatim_address",
+    "updated_at": 1791558912
   },
   "CDV01139_91160001_PORTO ALEGRE": {
-    "lat": -30.0318,
-    "lng": -51.2065,
-    "method": "municipio_centroid",
-    "updated_at": 1791556873
+    "lat": -29.98076,
+    "lng": -51.1143757,
+    "method": "nominatim_address",
+    "updated_at": 1791559016
   },
   "CDV00816_96202090_RIO GRANDE": {
     "lat": -32.059033,
@@ -1740,46 +1740,46 @@
     "updated_at": 1791557742
   },
   "CDV00426_96212390_RIO GRANDE": {
-    "lat": -32.0349,
-    "lng": -52.1071,
-    "method": "municipio_centroid",
-    "updated_at": 1791556875
+    "lat": -32.0552855,
+    "lng": -52.141574,
+    "method": "nominatim_address",
+    "updated_at": 1791558144
   },
   "CDV00478_96202010_RIO GRANDE": {
-    "lat": -32.0349,
-    "lng": -52.1071,
-    "method": "municipio_centroid",
-    "updated_at": 1791556877
+    "lat": -30.9822766,
+    "lng": -54.6751502,
+    "method": "nominatim_address",
+    "updated_at": 1791558228
   },
   "CDV01062_96640000_RIO PARDO": {
-    "lat": -29.988,
-    "lng": -52.3711,
-    "method": "municipio_centroid",
-    "updated_at": 1791556879
+    "lat": -29.9860448,
+    "lng": -52.3683523,
+    "method": "nominatim_address",
+    "updated_at": 1791558513
   },
   "CDV01069_97590000_ROSARIO DO SUL": {
-    "lat": -30.2515,
-    "lng": -54.9221,
-    "method": "municipio_centroid",
-    "updated_at": 1791556881
+    "lat": -30.2388658,
+    "lng": -54.9336252,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558209
   },
   "CDV00821_99840000_SANANDUVA": {
-    "lat": -27.947,
-    "lng": -51.8079,
-    "method": "municipio_centroid",
-    "updated_at": 1791556884
+    "lat": -27.9674245,
+    "lng": -51.7967423,
+    "method": "nominatim_address",
+    "updated_at": 1791557920
   },
   "CDV01065_99840000_SANANDUVA": {
-    "lat": -27.947,
-    "lng": -51.8079,
-    "method": "municipio_centroid",
-    "updated_at": 1791556885
+    "lat": -27.9479988,
+    "lng": -51.8153542,
+    "method": "nominatim_cep",
+    "updated_at": 1791558810
   },
   "CDV00610_99840000_SANANDUVA": {
-    "lat": -27.947,
-    "lng": -51.8079,
-    "method": "municipio_centroid",
-    "updated_at": 1791556887
+    "lat": -27.9579416,
+    "lng": -51.7976898,
+    "method": "nominatim_address",
+    "updated_at": 1791558880
   },
   "CDV00909_96815190_SANTA CRUZ DO SUL": {
     "lat": -29.7070036,
@@ -1800,16 +1800,16 @@
     "updated_at": 1791557876
   },
   "CDV00132_96814200_SANTA CRUZ DO SUL": {
-    "lat": -29.722,
-    "lng": -52.4343,
-    "method": "municipio_centroid",
-    "updated_at": 1791556894
+    "lat": -29.7158943,
+    "lng": -52.4501288,
+    "method": "nominatim_address",
+    "updated_at": 1791557953
   },
   "CDV01110_96820990_SANTA CRUZ DO SUL": {
-    "lat": -29.722,
-    "lng": -52.4343,
-    "method": "municipio_centroid",
-    "updated_at": 1791556896
+    "lat": -29.6934107,
+    "lng": -52.3513795,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558520
   },
   "CDV00017_97030080_SANTA MARIA": {
     "lat": -29.7031082,
@@ -1818,88 +1818,88 @@
     "updated_at": 1791557719
   },
   "CDV01067_97070230_SANTA MARIA": {
-    "lat": -29.6868,
-    "lng": -53.8149,
-    "method": "municipio_centroid",
-    "updated_at": 1791556899
+    "lat": -29.7126628,
+    "lng": -53.8127643,
+    "method": "nominatim_address",
+    "updated_at": 1791559045
   },
   "CDV00421_97110800_SANTA MARIA": {
-    "lat": -29.6868,
-    "lng": -53.8149,
-    "method": "municipio_centroid",
-    "updated_at": 1791556900
+    "lat": -29.7009572,
+    "lng": -53.7264666,
+    "method": "nominatim_address",
+    "updated_at": 1791557907
   },
   "CDV00052_97095080_SANTA MARIA": {
-    "lat": -29.6868,
-    "lng": -53.8149,
-    "method": "municipio_centroid",
-    "updated_at": 1791556901
+    "lat": -29.7053078,
+    "lng": -53.8102254,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558006
   },
   "CDV00828_97110800_SANTA MARIA": {
-    "lat": -29.6868,
-    "lng": -53.8149,
-    "method": "municipio_centroid",
-    "updated_at": 1791556904
+    "lat": -29.6946133,
+    "lng": -53.7554351,
+    "method": "nominatim_address",
+    "updated_at": 1791558455
   },
   "CDV00079_97030080_SANTA MARIA": {
-    "lat": -29.6868,
-    "lng": -53.8149,
-    "method": "municipio_centroid",
-    "updated_at": 1791556906
+    "lat": -29.6942154,
+    "lng": -53.8514889,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558749
   },
   "CDV00738_97030310_SANTA MARIA": {
-    "lat": -29.6868,
-    "lng": -53.8149,
-    "method": "municipio_centroid",
-    "updated_at": 1791556908
+    "lat": -29.7187693,
+    "lng": -53.85166,
+    "method": "nominatim_address",
+    "updated_at": 1791558846
   },
   "CDV01003_97035570_SANTA MARIA": {
-    "lat": -29.6868,
-    "lng": -53.8149,
-    "method": "municipio_centroid",
-    "updated_at": 1791556909
+    "lat": -29.6790391,
+    "lng": -53.9473656,
+    "method": "nominatim_address",
+    "updated_at": 1791558928
   },
   "CDV00036_97070415_SANTA MARIA": {
-    "lat": -29.6868,
-    "lng": -53.8149,
-    "method": "municipio_centroid",
-    "updated_at": 1791556911
+    "lat": -29.714671,
+    "lng": -53.8147923,
+    "method": "nominatim_name",
+    "updated_at": 1791558960
   },
   "CDV00433_97020355_SANTA MARIA": {
-    "lat": -29.6868,
-    "lng": -53.8149,
-    "method": "municipio_centroid",
-    "updated_at": 1791556912
+    "lat": -29.7007416,
+    "lng": -53.8312617,
+    "method": "nominatim_name",
+    "updated_at": 1791558941
   },
   "CDV01092_97035370_SANTA MARIA": {
-    "lat": -29.6868,
-    "lng": -53.8149,
-    "method": "municipio_centroid",
-    "updated_at": 1791556916
+    "lat": -29.6892113,
+    "lng": -53.8452421,
+    "method": "nominatim_address",
+    "updated_at": 1791558975
   },
   "CDV00659_98794790_SANTA ROSA": {
-    "lat": -27.8702,
-    "lng": -54.4796,
-    "method": "municipio_centroid",
-    "updated_at": 1791556917
+    "lat": -27.9002794,
+    "lng": -54.4672433,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558024
   },
   "CDV00938_98797899_SANTA ROSA": {
-    "lat": -27.8702,
-    "lng": -54.4796,
-    "method": "municipio_centroid",
-    "updated_at": 1791556919
+    "lat": -27.8969311,
+    "lng": -54.4603359,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558530
   },
   "CDV01152_98780001_SANTA ROSA": {
-    "lat": -27.8702,
-    "lng": -54.4796,
-    "method": "municipio_centroid",
-    "updated_at": 1791556920
+    "lat": -27.870571,
+    "lng": -54.4835137,
+    "method": "nominatim_address",
+    "updated_at": 1791558790
   },
   "CDV00958_97571648_SANT'ANA DO LIVRAMENTO": {
-    "lat": -30.8773,
-    "lng": -55.5392,
-    "method": "municipio_centroid",
-    "updated_at": 1791556921
+    "lat": -30.868784,
+    "lng": -55.5508717,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558757
   },
   "CDV00942_98803290_SANTO ANGELO": {
     "lat": -28.2826983,
@@ -1908,34 +1908,34 @@
     "updated_at": 1791557738
   },
   "CDV00190_98800800_SANTO ANGELO": {
-    "lat": -28.3001,
-    "lng": -54.2668,
-    "method": "municipio_centroid",
-    "updated_at": 1791556933
+    "lat": -28.1993565,
+    "lng": -54.3228418,
+    "method": "nominatim_address",
+    "updated_at": 1791558080
   },
   "CDV00123_98804745_SANTO ANGELO": {
-    "lat": -28.3001,
-    "lng": -54.2668,
-    "method": "municipio_centroid",
-    "updated_at": 1791556935
+    "lat": -28.3313548,
+    "lng": -54.2795201,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558877
   },
   "CDV00886_98804060_SANTO ANGELO": {
-    "lat": -28.3001,
-    "lng": -54.2668,
-    "method": "municipio_centroid",
-    "updated_at": 1791556936
+    "lat": -28.3171724,
+    "lng": -54.2726875,
+    "method": "nominatim_address",
+    "updated_at": 1791558993
   },
   "CDV00752_95500000_SANTO ANTONIO DA PATRULHA": {
-    "lat": -29.8268,
-    "lng": -50.5175,
-    "method": "municipio_centroid",
-    "updated_at": 1791556938
+    "lat": -29.8392482,
+    "lng": -50.5374812,
+    "method": "nominatim_address",
+    "updated_at": 1791558533
   },
   "CDV00225_97870000_SANTO ANTONIO DAS MISSOES": {
-    "lat": -28.514,
-    "lng": -55.2251,
-    "method": "municipio_centroid",
-    "updated_at": 1791556939
+    "lat": -28.4715758,
+    "lng": -55.5693602,
+    "method": "nominatim_address",
+    "updated_at": 1791558478
   },
   "CDV01128_98960000_SANTO CRISTO": {
     "lat": -27.8132945,
@@ -1944,22 +1944,22 @@
     "updated_at": 1791557772
   },
   "CDV00617_97670000_SAO BORJA": {
-    "lat": -28.6578,
-    "lng": -56.0036,
-    "method": "municipio_centroid",
-    "updated_at": 1791556944
+    "lat": -28.6592328,
+    "lng": -56.0033089,
+    "method": "nominatim_cep",
+    "updated_at": 1791558492
   },
   "CDV01093_97670000_SAO BORJA": {
-    "lat": -28.6578,
-    "lng": -56.0036,
-    "method": "municipio_centroid",
-    "updated_at": 1791556945
+    "lat": -28.6592328,
+    "lng": -56.0033089,
+    "method": "nominatim_cep",
+    "updated_at": 1791558990
   },
   "CDV00778_99855000_SAO JOAO DA URTIGA": {
-    "lat": -27.8195,
-    "lng": -51.8257,
-    "method": "municipio_centroid",
-    "updated_at": 1791556947
+    "lat": -27.8133779,
+    "lng": -51.8302606,
+    "method": "nominatim_cep",
+    "updated_at": 1791558693
   },
   "CDV00962_93150801_SAO LEOPOLDO": {
     "lat": -29.7292899,
@@ -1974,136 +1974,136 @@
     "updated_at": 1791557863
   },
   "CDV00618_93115000_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556951
+    "lat": -29.7405294,
+    "lng": -51.148931,
+    "method": "nominatim_address",
+    "updated_at": 1791557960
   },
   "CDV00037_93110220_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556954
+    "lat": -29.7494638,
+    "lng": -51.1482377,
+    "method": "nominatim_address",
+    "updated_at": 1791557963
   },
   "CDV00161_93115000_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556956
+    "lat": -29.7277838,
+    "lng": -51.1483824,
+    "method": "nominatim_address",
+    "updated_at": 1791557982
   },
   "CDV00640_93125000_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556958
+    "lat": -29.7292899,
+    "lng": -51.1514267,
+    "method": "nominatim_address",
+    "updated_at": 1791558047
   },
   "CDV00082_93032405_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556959
+    "lat": -29.7871872,
+    "lng": -51.1156658,
+    "method": "nominatim_address",
+    "updated_at": 1791558116
   },
   "CDV00577_93025000_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556961
+    "lat": -29.7785399,
+    "lng": -51.1569499,
+    "method": "nominatim_name",
+    "updated_at": 1791558189
   },
   "CDV01028_93145012_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556962
+    "lat": -29.7292899,
+    "lng": -51.1514267,
+    "method": "nominatim_address",
+    "updated_at": 1791558270
   },
   "CDV01111_93120000_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556965
+    "lat": -29.7212763,
+    "lng": -51.1487851,
+    "method": "nominatim_address",
+    "updated_at": 1791558366
   },
   "CDV00028_93115000_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556967
+    "lat": -29.7277838,
+    "lng": -51.1483824,
+    "method": "nominatim_address",
+    "updated_at": 1791558393
   },
   "CDV01117_93115000_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556968
+    "lat": -29.7258111,
+    "lng": -51.1483055,
+    "method": "nominatim_address",
+    "updated_at": 1791558578
   },
   "CDV00971_93115000_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556970
+    "lat": -29.7277838,
+    "lng": -51.1483824,
+    "method": "nominatim_address",
+    "updated_at": 1791558541
   },
   "CDV00826_93120000_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556971
+    "lat": -29.7258769,
+    "lng": -51.1491874,
+    "method": "nominatim_address",
+    "updated_at": 1791558603
   },
   "CDV00483_93115000_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556973
+    "lat": -29.7413557,
+    "lng": -51.1480931,
+    "method": "nominatim_address",
+    "updated_at": 1791558824
   },
   "CDV01158_93120000_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556976
+    "lat": -29.7258769,
+    "lng": -51.1491874,
+    "method": "nominatim_address",
+    "updated_at": 1791558858
   },
   "CDV00763_93115540_SAO LEOPOLDO": {
-    "lat": -29.7545,
-    "lng": -51.1498,
-    "method": "municipio_centroid",
-    "updated_at": 1791556978
+    "lat": -29.7258769,
+    "lng": -51.1491874,
+    "method": "nominatim_address",
+    "updated_at": 1791559034
   },
   "CDV00948_97800000_SAO LUIZ GONZAGA": {
-    "lat": -28.412,
-    "lng": -54.9559,
-    "method": "municipio_centroid",
-    "updated_at": 1791556979
+    "lat": -28.4065447,
+    "lng": -54.9590368,
+    "method": "nominatim_cep",
+    "updated_at": 1791558216
   },
   "CDV01129_97800000_SAO LUIZ GONZAGA": {
-    "lat": -28.412,
-    "lng": -54.9559,
-    "method": "municipio_centroid",
-    "updated_at": 1791556981
+    "lat": -28.1861646,
+    "lng": -54.9924793,
+    "method": "nominatim_address",
+    "updated_at": 1791558574
   },
   "CDV00878_97800000_SAO LUIZ GONZAGA": {
-    "lat": -28.412,
-    "lng": -54.9559,
-    "method": "municipio_centroid",
-    "updated_at": 1791556983
+    "lat": -28.4166675,
+    "lng": -54.7912924,
+    "method": "nominatim_address",
+    "updated_at": 1791558688
   },
   "CDV01012_95190000_SAO MARCOS": {
-    "lat": -28.9677,
-    "lng": -51.0696,
-    "method": "municipio_centroid",
-    "updated_at": 1791556985
+    "lat": -28.981433,
+    "lng": -51.075038,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558642
   },
   "CDV01017_95190000_SAO MARCOS": {
-    "lat": -28.9677,
-    "lng": -51.0696,
-    "method": "municipio_centroid",
-    "updated_at": 1791556988
+    "lat": -29.037236,
+    "lng": -51.1036752,
+    "method": "nominatim_address",
+    "updated_at": 1791558979
   },
   "CDV00791_97920000_SAO PEDRO DO BUTIA": {
     "lat": -28.1243,
     "lng": -54.8926,
     "method": "municipio_centroid",
-    "updated_at": 1791556989
+    "updated_at": 1791558616
   },
   "CDV01112_97400000_SAO PEDRO DO SUL": {
-    "lat": -29.6202,
-    "lng": -54.1855,
-    "method": "municipio_centroid",
-    "updated_at": 1791556991
+    "lat": -29.6438229,
+    "lng": -54.3531134,
+    "method": "nominatim_address",
+    "updated_at": 1791558940
   },
   "CDV01024_95760000_SAO SEBASTIAO DO CAI": {
     "lat": -29.5577151,
@@ -2118,130 +2118,130 @@
     "updated_at": 1791557851
   },
   "CDV01156_95760000_SAO SEBASTIAO DO CAI": {
-    "lat": -29.5885,
-    "lng": -51.3749,
-    "method": "municipio_centroid",
-    "updated_at": 1791556996
+    "lat": -29.5934404,
+    "lng": -51.359743,
+    "method": "nominatim_bairro",
+    "updated_at": 1791557930
   },
   "CDV00157_95760000_SAO SEBASTIAO DO CAI": {
-    "lat": -29.5885,
-    "lng": -51.3749,
-    "method": "municipio_centroid",
-    "updated_at": 1791557000
+    "lat": -29.6220605,
+    "lng": -51.3115168,
+    "method": "nominatim_bairro",
+    "updated_at": 1791557979
   },
   "CDV00597_95760000_SAO SEBASTIAO DO CAI": {
-    "lat": -29.5885,
-    "lng": -51.3749,
-    "method": "municipio_centroid",
-    "updated_at": 1791557002
+    "lat": -29.5577151,
+    "lng": -51.3602081,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558127
   },
   "CDV00814_95760000_SAO SEBASTIAO DO CAI": {
-    "lat": -29.5885,
-    "lng": -51.3749,
-    "method": "municipio_centroid",
-    "updated_at": 1791557003
+    "lat": -29.5891813,
+    "lng": -51.3734713,
+    "method": "nominatim_cep",
+    "updated_at": 1791558360
   },
   "CDV00215_93806050_SAPIRANGA": {
-    "lat": -29.6349,
-    "lng": -51.0064,
-    "method": "municipio_centroid",
-    "updated_at": 1791557005
+    "lat": -29.643672,
+    "lng": -50.9928442,
+    "method": "nominatim_address",
+    "updated_at": 1791558027
   },
   "CDV00748_93800000_SAPIRANGA": {
-    "lat": -29.6349,
-    "lng": -51.0064,
-    "method": "municipio_centroid",
-    "updated_at": 1791557006
+    "lat": -29.6439687,
+    "lng": -51.009483,
+    "method": "nominatim_address",
+    "updated_at": 1791558193
   },
   "CDV00897_93800104_SAPIRANGA": {
-    "lat": -29.6349,
-    "lng": -51.0064,
-    "method": "municipio_centroid",
-    "updated_at": 1791557008
+    "lat": -29.6472417,
+    "lng": -51.01105,
+    "method": "nominatim_address",
+    "updated_at": 1791558713
   },
   "CDV00845_93806338_SAPIRANGA": {
-    "lat": -29.6349,
-    "lng": -51.0064,
-    "method": "municipio_centroid",
-    "updated_at": 1791557011
+    "lat": -29.6439288,
+    "lng": -50.9954349,
+    "method": "nominatim_address",
+    "updated_at": 1791558969
   },
   "CDV00035_93230390_SAPUCAIA DO SUL": {
-    "lat": -29.8276,
-    "lng": -51.145,
-    "method": "municipio_centroid",
-    "updated_at": 1791557012
+    "lat": -29.7945396,
+    "lng": -51.1645618,
+    "method": "nominatim_address",
+    "updated_at": 1791557975
   },
   "CDV00239_93230390_SAPUCAIA DO SUL": {
-    "lat": -29.8276,
-    "lng": -51.145,
-    "method": "municipio_centroid",
-    "updated_at": 1791557014
+    "lat": -29.805483,
+    "lng": -51.1004054,
+    "method": "nominatim_address",
+    "updated_at": 1791558147
   },
   "CDV00663_93230020_SAPUCAIA DO SUL": {
-    "lat": -29.8276,
-    "lng": -51.145,
-    "method": "municipio_centroid",
-    "updated_at": 1791557016
+    "lat": -29.852642,
+    "lng": -51.1304599,
+    "method": "nominatim_address",
+    "updated_at": 1791558153
   },
   "CDV00572_93212110_SAPUCAIA DO SUL": {
-    "lat": -29.8276,
-    "lng": -51.145,
-    "method": "municipio_centroid",
-    "updated_at": 1791557018
+    "lat": -29.8112793,
+    "lng": -51.1735058,
+    "method": "nominatim_address",
+    "updated_at": 1791558163
   },
   "CDV00834_93218270_SAPUCAIA DO SUL": {
-    "lat": -29.8276,
-    "lng": -51.145,
-    "method": "municipio_centroid",
-    "updated_at": 1791557019
+    "lat": -29.8202899,
+    "lng": -51.1456772,
+    "method": "nominatim_address",
+    "updated_at": 1791558187
   },
   "CDV01155_92230390_SAPUCAIA DO SUL": {
-    "lat": -29.8276,
-    "lng": -51.145,
-    "method": "municipio_centroid",
-    "updated_at": 1791557023
+    "lat": -29.8680843,
+    "lng": -51.1011283,
+    "method": "nominatim_address",
+    "updated_at": 1791558204
   },
   "CDV00750_93230390_SAPUCAIA DO SUL": {
-    "lat": -29.8276,
-    "lng": -51.145,
-    "method": "municipio_centroid",
-    "updated_at": 1791557025
+    "lat": -29.805483,
+    "lng": -51.1004054,
+    "method": "nominatim_address",
+    "updated_at": 1791558342
   },
   "CDV00621_93224290_SAPUCAIA DO SUL": {
-    "lat": -29.8276,
-    "lng": -51.145,
-    "method": "municipio_centroid",
-    "updated_at": 1791557026
+    "lat": -29.8372318,
+    "lng": -51.1448624,
+    "method": "nominatim_address",
+    "updated_at": 1791558439
   },
   "CDV00029_93230390_SAPUCAIA DO SUL": {
-    "lat": -29.8276,
-    "lng": -51.145,
-    "method": "municipio_centroid",
-    "updated_at": 1791557028
+    "lat": -29.8178344,
+    "lng": -51.1686128,
+    "method": "nominatim_address",
+    "updated_at": 1791558700
   },
   "CDV01014_99560000_SARANDI": {
-    "lat": -27.942,
-    "lng": -52.9231,
-    "method": "municipio_centroid",
-    "updated_at": 1791557029
+    "lat": -27.9446178,
+    "lng": -52.9255403,
+    "method": "nominatim_address",
+    "updated_at": 1791558462
   },
   "CDV00896_99560000_SARANDI": {
-    "lat": -27.942,
-    "lng": -52.9231,
-    "method": "municipio_centroid",
-    "updated_at": 1791557031
+    "lat": -28.0172413,
+    "lng": -52.8866181,
+    "method": "nominatim_address",
+    "updated_at": 1791558704
   },
   "CDV00930_99560000_SARANDI": {
-    "lat": -27.942,
-    "lng": -52.9231,
-    "method": "municipio_centroid",
-    "updated_at": 1791557034
+    "lat": -27.9542619,
+    "lng": -52.9148492,
+    "method": "nominatim_address",
+    "updated_at": 1791558770
   },
   "CDV00815_98380000_SEBERI": {
-    "lat": -27.4829,
-    "lng": -53.4026,
-    "method": "municipio_centroid",
-    "updated_at": 1791557036
+    "lat": -27.4422849,
+    "lng": -53.4156878,
+    "method": "nominatim_address",
+    "updated_at": 1791559037
   },
   "CDV00861_99250000_SERAFINA CORREA": {
     "lat": -28.7247525,
@@ -2250,16 +2250,16 @@
     "updated_at": 1791557746
   },
   "CDV00089_99250000_SERAFINA CORREA": {
-    "lat": -28.7126,
-    "lng": -51.9352,
-    "method": "municipio_centroid",
-    "updated_at": 1791557039
+    "lat": -28.7081925,
+    "lng": -51.9302915,
+    "method": "nominatim_address",
+    "updated_at": 1791557943
   },
   "CDV00813_92850000_SERTAO SANTANA": {
-    "lat": -30.4562,
-    "lng": -51.6017,
-    "method": "municipio_centroid",
-    "updated_at": 1791557040
+    "lat": -30.4617134,
+    "lng": -51.6041991,
+    "method": "nominatim_cep",
+    "updated_at": 1791558804
   },
   "CDV00823_95863000_TABAI": {
     "lat": -29.6626952,
@@ -2268,100 +2268,100 @@
     "updated_at": 1791557733
   },
   "CDV00969_99950000_TAPEJARA": {
-    "lat": -28.0652,
-    "lng": -52.0097,
-    "method": "municipio_centroid",
-    "updated_at": 1791557045
+    "lat": -28.0923119,
+    "lng": -52.0466088,
+    "method": "nominatim_bairro",
+    "updated_at": 1791557925
   },
   "CDV00094_99950000_TAPEJARA": {
-    "lat": -28.0652,
-    "lng": -52.0097,
-    "method": "municipio_centroid",
-    "updated_at": 1791557046
+    "lat": -28.0580479,
+    "lng": -52.0098568,
+    "method": "nominatim_cep",
+    "updated_at": 1791558781
   },
   "CDV01134_96760000_TAPES": {
-    "lat": -30.6683,
-    "lng": -51.3991,
-    "method": "municipio_centroid",
-    "updated_at": 1791557048
+    "lat": -30.6727302,
+    "lng": -51.4107019,
+    "method": "nominatim_address",
+    "updated_at": 1791558581
   },
   "CDV00790_95601000_TAQUARA": {
-    "lat": -29.6505,
-    "lng": -50.7753,
-    "method": "municipio_centroid",
-    "updated_at": 1791557050
+    "lat": -29.6629054,
+    "lng": -50.7754541,
+    "method": "nominatim_address",
+    "updated_at": 1791558084
   },
   "CDV01143_95603184_TAQUARA": {
-    "lat": -29.6505,
-    "lng": -50.7753,
-    "method": "municipio_centroid",
-    "updated_at": 1791557052
+    "lat": -29.6635095,
+    "lng": -50.7765763,
+    "method": "nominatim_address",
+    "updated_at": 1791558150
   },
   "CDV01168_95601274_TAQUARA": {
-    "lat": -29.6505,
-    "lng": -50.7753,
-    "method": "municipio_centroid",
-    "updated_at": 1791557054
+    "lat": -29.665512,
+    "lng": -50.7878283,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558371
   },
   "CDV01103_95600850_TAQUARA": {
-    "lat": -29.6505,
-    "lng": -50.7753,
-    "method": "municipio_centroid",
-    "updated_at": 1791557058
+    "lat": -29.6608742,
+    "lng": -50.7924319,
+    "method": "nominatim_address",
+    "updated_at": 1791558411
   },
   "CDV00310_95600000_TAQUARA": {
-    "lat": -29.6505,
-    "lng": -50.7753,
-    "method": "municipio_centroid",
-    "updated_at": 1791557059
+    "lat": -29.6687391,
+    "lng": -50.7800305,
+    "method": "nominatim_address",
+    "updated_at": 1791558599
   },
   "CDV00935_95603212_TAQUARA": {
-    "lat": -29.6505,
-    "lng": -50.7753,
-    "method": "municipio_centroid",
-    "updated_at": 1791557061
+    "lat": -29.6603187,
+    "lng": -50.7752681,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558709
   },
   "CDV00833_95600000_TAQUARA": {
-    "lat": -29.6505,
-    "lng": -50.7753,
-    "method": "municipio_centroid",
-    "updated_at": 1791557062
+    "lat": -29.7577022,
+    "lng": -50.9382967,
+    "method": "nominatim_address",
+    "updated_at": 1791558862
   },
   "CDV01162_95860000_TAQUARI": {
-    "lat": -29.7943,
-    "lng": -51.8653,
-    "method": "municipio_centroid",
-    "updated_at": 1791557064
+    "lat": -29.752405,
+    "lng": -51.8179123,
+    "method": "nominatim_address",
+    "updated_at": 1791558568
   },
   "CDV01086_95860000_TAQUARI": {
-    "lat": -29.7943,
-    "lng": -51.8653,
-    "method": "municipio_centroid",
-    "updated_at": 1791557065
+    "lat": -29.7825897,
+    "lng": -51.8540925,
+    "method": "nominatim_address",
+    "updated_at": 1791558619
   },
   "CDV00756_98500000_TENENTE PORTELA": {
-    "lat": -27.3711,
-    "lng": -53.7585,
-    "method": "municipio_centroid",
-    "updated_at": 1791557068
+    "lat": -27.3680753,
+    "lng": -53.7652827,
+    "method": "nominatim_address",
+    "updated_at": 1791559056
   },
   "CDV00078_95890000_TEUTONIA": {
-    "lat": -29.4482,
-    "lng": -51.8044,
-    "method": "municipio_centroid",
-    "updated_at": 1791557070
+    "lat": -29.4469288,
+    "lng": -51.8095216,
+    "method": "nominatim_address",
+    "updated_at": 1791558402
   },
   "CDV01163_95890000_TEUTONIA": {
-    "lat": -29.4482,
-    "lng": -51.8044,
-    "method": "municipio_centroid",
-    "updated_at": 1791557072
+    "lat": -29.4580665,
+    "lng": -51.8116479,
+    "method": "nominatim_address",
+    "updated_at": 1791558722
   },
   "CDV00831_99345000_TIO HUGO": {
-    "lat": -28.5712,
-    "lng": -52.5955,
-    "method": "municipio_centroid",
-    "updated_at": 1791557073
+    "lat": -28.5763249,
+    "lng": -52.5972708,
+    "method": "nominatim_address",
+    "updated_at": 1791558500
   },
   "CDV00141_95560000_TORRES": {
     "lat": -29.3619978,
@@ -2370,16 +2370,16 @@
     "updated_at": 1791557866
   },
   "CDV01064_95590000_TRAMANDAI": {
-    "lat": -29.9841,
-    "lng": -50.1322,
-    "method": "municipio_centroid",
-    "updated_at": 1791557076
+    "lat": -30.0570029,
+    "lng": -50.1701965,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558786
   },
   "CDV00713_99725000_TRES ARROIOS": {
     "lat": -27.5003,
     "lng": -52.1448,
     "method": "municipio_centroid",
-    "updated_at": 1791557079
+    "updated_at": 1791558326
   },
   "CDV01001_98910000_TRES DE MAIO": {
     "lat": -27.7789239,
@@ -2394,40 +2394,40 @@
     "updated_at": 1791557766
   },
   "CDV00793_98600000_TRES PASSOS": {
-    "lat": -27.4555,
-    "lng": -53.9296,
-    "method": "municipio_centroid",
-    "updated_at": 1791557083
+    "lat": -27.5084485,
+    "lng": -53.8856215,
+    "method": "nominatim_address",
+    "updated_at": 1791557986
   },
   "CDV00710_99615000_TRINDADE DO SUL": {
-    "lat": -27.5239,
-    "lng": -52.8956,
-    "method": "municipio_centroid",
-    "updated_at": 1791557085
+    "lat": -29.0498038,
+    "lng": -55.1382636,
+    "method": "nominatim_address",
+    "updated_at": 1791558166
   },
   "CDV00937_99615000_TRINDADE DO SUL": {
-    "lat": -27.5239,
-    "lng": -52.8956,
-    "method": "municipio_centroid",
-    "updated_at": 1791557086
+    "lat": -27.5205623,
+    "lng": -52.8967788,
+    "method": "nominatim_cep",
+    "updated_at": 1791558548
   },
   "CDV01077_95201020_VACARIA": {
-    "lat": -28.5079,
-    "lng": -50.9418,
-    "method": "municipio_centroid",
-    "updated_at": 1791557111
+    "lat": -28.5080025,
+    "lng": -50.9328546,
+    "method": "nominatim_address",
+    "updated_at": 1791558421
   },
   "CDV01090_95206000_VACARIA": {
-    "lat": -28.5079,
-    "lng": -50.9418,
-    "method": "municipio_centroid",
-    "updated_at": 1791557112
+    "lat": -28.5036553,
+    "lng": -50.9218239,
+    "method": "nominatim_bairro",
+    "updated_at": 1791558623
   },
   "CDV00889_95206203_VACARIA": {
-    "lat": -28.5079,
-    "lng": -50.9418,
-    "method": "municipio_centroid",
-    "updated_at": 1791557113
+    "lat": -28.5042602,
+    "lng": -50.9197822,
+    "method": "nominatim_address",
+    "updated_at": 1791558672
   },
   "CDV00271_95800000_VENANCIO AIRES": {
     "lat": -29.6652679,
@@ -2436,94 +2436,94 @@
     "updated_at": 1791557811
   },
   "CDV00744_95800000_VENANCIO AIRES": {
-    "lat": -29.6143,
-    "lng": -52.1932,
-    "method": "municipio_centroid",
-    "updated_at": 1791557117
+    "lat": -29.5782844,
+    "lng": -52.1135957,
+    "method": "nominatim_address",
+    "updated_at": 1791558316
   },
   "CDV00016_95800000_VENANCIO AIRES": {
-    "lat": -29.6143,
-    "lng": -52.1932,
-    "method": "municipio_centroid",
-    "updated_at": 1791557119
+    "lat": -29.5917056,
+    "lng": -52.1931969,
+    "method": "nominatim_cep",
+    "updated_at": 1791559030
   },
   "CDV01080_95800000_VENANCIO AIRES": {
-    "lat": -29.6143,
-    "lng": -52.1932,
-    "method": "municipio_centroid",
-    "updated_at": 1791557122
+    "lat": -29.6236257,
+    "lng": -52.1845648,
+    "method": "nominatim_bairro",
+    "updated_at": 1791559005
   },
   "CDV01153_95330000_VERANOPOLIS": {
-    "lat": -28.9312,
-    "lng": -51.5516,
-    "method": "municipio_centroid",
-    "updated_at": 1791557123
+    "lat": -28.949892,
+    "lng": -51.5573274,
+    "method": "nominatim_address",
+    "updated_at": 1791558469
   },
   "CDV01030_95330000_VERANOPOLIS": {
-    "lat": -28.9312,
-    "lng": -51.5516,
-    "method": "municipio_centroid",
-    "updated_at": 1791557125
+    "lat": -28.9377619,
+    "lng": -51.5409596,
+    "method": "nominatim_cep",
+    "updated_at": 1791558662
   },
   "CDV01159_94510420_VIAMAO": {
-    "lat": -30.0819,
-    "lng": -51.0194,
-    "method": "municipio_centroid",
-    "updated_at": 1791557127
+    "lat": -30.0502305,
+    "lng": -51.0623344,
+    "method": "nominatim_address",
+    "updated_at": 1791558067
   },
   "CDV00892_94510420_VIAMAO": {
-    "lat": -30.0819,
-    "lng": -51.0194,
-    "method": "municipio_centroid",
-    "updated_at": 1791557128
+    "lat": -30.0488526,
+    "lng": -51.0736266,
+    "method": "nominatim_address",
+    "updated_at": 1791558182
   },
   "CDV00340_94470000_VIAMAO": {
-    "lat": -30.0819,
-    "lng": -51.0194,
-    "method": "municipio_centroid",
-    "updated_at": 1791557130
+    "lat": -30.0782152,
+    "lng": -51.1092033,
+    "method": "nominatim_address",
+    "updated_at": 1791558234
   },
   "CDV00032_94475000_VIAMAO": {
-    "lat": -30.0819,
-    "lng": -51.0194,
-    "method": "municipio_centroid",
-    "updated_at": 1791557134
+    "lat": -30.0782152,
+    "lng": -51.1092033,
+    "method": "nominatim_address",
+    "updated_at": 1791558304
   },
   "CDV00772_94470000_VIAMAO": {
-    "lat": -30.0819,
-    "lng": -51.0194,
-    "method": "municipio_centroid",
-    "updated_at": 1791557135
+    "lat": -30.0567795,
+    "lng": -51.1064113,
+    "method": "nominatim_name",
+    "updated_at": 1791558474
   },
   "CDV00863_94510420_VIAMAO": {
-    "lat": -30.0819,
-    "lng": -51.0194,
-    "method": "municipio_centroid",
-    "updated_at": 1791557137
+    "lat": -30.0484177,
+    "lng": -51.0779793,
+    "method": "nominatim_address",
+    "updated_at": 1791559063
   },
   "CDV00956_99615000_TRINDADE DO SUL": {
-    "lat": -27.5239,
-    "lng": -52.8956,
-    "method": "municipio_centroid",
-    "updated_at": 1791557150
+    "lat": -27.5205623,
+    "lng": -52.8967788,
+    "method": "nominatim_cep",
+    "updated_at": 1791558965
   },
   "CDV00857_95840000_TRIUNFO": {
-    "lat": -29.9291,
-    "lng": -51.7075,
-    "method": "municipio_centroid",
-    "updated_at": 1791557152
+    "lat": -29.94323,
+    "lng": -51.7169106,
+    "method": "nominatim_cep",
+    "updated_at": 1791558104
   },
   "CDV00113_95840000_TRIUNFO": {
-    "lat": -29.9291,
-    "lng": -51.7075,
-    "method": "municipio_centroid",
-    "updated_at": 1791557153
+    "lat": -29.6938293,
+    "lng": -51.6966332,
+    "method": "nominatim_address",
+    "updated_at": 1791558682
   },
   "CDV00989_95840000_TRIUNFO": {
-    "lat": -29.9291,
-    "lng": -51.7075,
-    "method": "municipio_centroid",
-    "updated_at": 1791557155
+    "lat": -29.94323,
+    "lng": -51.7169106,
+    "method": "nominatim_cep",
+    "updated_at": 1791559068
   },
   "CDV01127_97502860_URUGUAIANA": {
     "lat": -29.7683959,
@@ -2532,9 +2532,9 @@
     "updated_at": 1791557881
   },
   "CDV00688_97504130_URUGUAIANA": {
-    "lat": -29.7614,
-    "lng": -57.0853,
-    "method": "municipio_centroid",
-    "updated_at": 1791557157
+    "lat": -29.7828396,
+    "lng": -57.0886091,
+    "method": "nominatim_address",
+    "updated_at": 1791558396
   }
 }
