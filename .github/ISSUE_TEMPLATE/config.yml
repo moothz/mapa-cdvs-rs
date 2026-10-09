@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "🔒 Reportar Vulnerabilidade de Segurança"
+    url: "https://github.com/moothz/mapa-cdvs-rs/security/policy"
+    about: "Para questões de segurança e vulnerabilidades, consulte nossa política de segurança."

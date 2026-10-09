@@ -1,0 +1,78 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-and-lint:
+    name: Testes & Qualidade
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v7
+
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-cov ruff
+
+      - name: Executar Lint com Ruff
+        run: |
+          ruff check .
+
+      - name: Executar Suíte de Testes (Pytest)
+        run: |
+          pytest tests/ -v --cov=scripts --cov-report=term-missing
+
+      - name: Validar Sintaxe e Schemas JSON / OpenAPI
+        run: |
+          python -c "
+          import json, glob, sys
+          files = glob.glob('data/*.json') + ['src/api/openapi.json', 'src/api/index.json']
+          for f in files:
+              try:
+                  with open(f, 'r', encoding='utf-8') as fp:
+                      json.load(fp)
+                  print(f'✔ Válido: {f}')
+              except Exception as e:
+                  print(f'❌ Erro em {f}: {e}', file=sys.stderr)
+                  sys.exit(1)
+          "
+
+  docker-build:
+    name: Validação Docker & Compose
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v7
+
+      - name: Configurar Docker Buildx
+        uses: docker/setup-buildx-action@v4
+
+      - name: Validar sintaxe do Docker Compose
+        run: |
+          docker compose config
+
+      - name: Build da imagem Docker (Scraper & API)
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: ./Dockerfile
+          push: false
+          tags: mapa-cdvs-rs:test
+          build-args: |
+            BASE_IMAGE=public.ecr.aws/docker/library/python:3.14-alpine
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

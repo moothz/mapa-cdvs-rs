@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C environments
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Environment Variables
+.env
+!.env.example
+
+# Temporary / OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Logs
+*.log
+
+# Node (se usado)
+node_modules/
+
+# Arquivos de dados sensíveis e gerados em tempo de execução
+data/suggestions.json
+data/scraper_state.json
+data/metadata.json

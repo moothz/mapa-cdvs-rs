@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa CDVs RS - Centros de Desmanche Credenciados DETRAN-RS</title>
+  <meta name="description" content="Localize facilmente Centros de Desmanche de Veículos (CDVs) credenciados pelo DETRAN-RS no mapa interativo e encontre os mais próximos de você.">
+  <link rel="canonical" href="https://cdvsrs.moothz.win/">
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cdvsrs.moothz.win/">
+  <meta property="og:title" content="Mapa CDVs RS - Centros de Desmanche Credenciados DETRAN-RS">
+  <meta property="og:description" content="Encontre autopeças com procedência legal e rastreabilidade nos CDVs credenciados pelo DETRAN-RS mais próximos de você.">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="assets/mapa-cdv.png">
+
+  <!-- Preconnect para otimização de DNS e recursos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://a.tile.openstreetmap.org">
+  <link rel="preconnect" href="https://b.tile.openstreetmap.org">
+  <link rel="preconnect" href="https://c.tile.openstreetmap.org">
+
+  <!-- Fontes Google: Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Leaflet CSS & MarkerCluster CSS com Subresource Integrity (SRI) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" integrity="sha384-pmjIAcz2bAn0xukfxADbZIb3t8oRT9Sv0rvO+BR5Csr6Dhqq+nZs59P0pPKQJkEV" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" integrity="sha384-wgw+aLYNQ7dlhK47ZPK7FRACiq7ROZwgFNg0m04avm4CaXS+Z9Y7nMu8yNjBKYC+" crossorigin="anonymous" />
+
+  <!-- Estilos customizados -->
+  <link rel="stylesheet" href="styles.css?v=3.3">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Cabeçalho Institucional -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="logo-badge">
+          <img src="assets/mapa-cdv.png" alt="Logo Mapa CDVs RS" class="logo-img">
+        </div>
+        <div class="header-title">
+          <h1>Mapa dos CDVs Credenciados</h1>
+          <p>Centros de Desmanche de Veículos • Rio Grande do Sul</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="status-badge" id="stats-badge" title="Total de CDVs cadastrados">
+          <span class="dot"></span>
+          <span id="total-cdvs-count">Carregando...</span>
+        </div>
+        <a href="https://github.com/moothz/mapa-cdvs-rs" target="_blank" rel="noopener noreferrer" class="btn-github" title="Ver código no GitHub">
+          <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+          </svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Controles Mobile (Alternar Mapa / Lista) -->
+    <div class="mobile-tabs" id="mobile-tabs">
+      <button class="mobile-tab-btn active" id="tab-btn-list" onclick="setMobileView('list')">
+        📋 Lista de CDVs (<span id="mobile-count">0</span>)
+      </button>
+      <button class="mobile-tab-btn" id="tab-btn-map" onclick="setMobileView('map')">
+        🗺️ Mapa Interativo
+      </button>
+    </div>
+
+    <!-- Conteúdo Principal (Split View) -->
+    <main class="main-content">
+      <!-- Painel Lateral: Filtros e Lista -->
+      <aside class="sidebar" id="sidebar-panel">
+        <!-- Barra de Busca Unificada e Ação GPS -->
+        <section class="search-box">
+          <div class="search-input-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="text-search" placeholder="Buscar por nome, cidade ou código DETRAN..." autocomplete="off">
+            <button type="button" class="btn-clear" id="btn-clear-search" onclick="clearSearchText()" title="Limpar busca" style="display: none;">✕</button>
+          </div>
+          <div class="location-toolbar">
+            <button type="button" class="btn-location" id="btn-gps" onclick="toggleUserGPSLocation()">
+              <span class="btn-icon">🎯</span>
+              <span id="btn-gps-text">Usar minha localização (GPS)</span>
+            </button>
+          </div>
+        </section>
+
+        <!-- Filtros Rápidos (Favoritos & Já Vistos) -->
+        <div class="filter-chips">
+          <button type="button" class="chip active" id="chip-filter-all" onclick="setQuickFilter('all')">Todos</button>
+          <button type="button" class="chip" id="chip-filter-favorites" onclick="setQuickFilter('favorites')">❤️ Favoritos (<span id="fav-count">0</span>)</button>
+          <button type="button" class="chip" id="chip-filter-unseen" onclick="setQuickFilter('unseen')">👁️ Ocultar vistos</button>
+        </div>
+
+        <!-- Resumo dos Resultados -->
+        <div class="results-header">
+          <span id="results-count">Exibindo 0 CDVs</span>
+          <span id="sort-info" class="sort-info">Ordem alfabética</span>
+        </div>
+
+        <!-- Lista de Cards com Botão Voltar ao Topo -->
+        <div class="cdv-list-container">
+          <div class="cdv-list" id="cdv-list">
+            <div class="loading-state">
+              <div class="spinner"></div>
+              <p>Carregando credenciados do Detran-RS...</p>
+            </div>
+          </div>
+          <button type="button" class="btn-back-to-top" id="btn-back-to-top" onclick="scrollToTopList()" title="Voltar ao topo da lista" aria-label="Voltar ao topo da lista">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 15l-6-6-6 6"/>
+            </svg>
+            <span>Voltar ao topo</span>
+          </button>
+        </div>
+
+        <!-- Rodapé Legal / Disclaimer Centralizado -->
+        <footer class="app-footer">
+          <p class="disclaimer">
+            <strong>Aviso de Utilidade Pública:</strong> Este é um agregador independente sem qualquer vínculo oficial ou comercial com o DETRAN-RS. Desenvolvido para facilitar a visualização geográfica e busca de credenciados por proximidade.
+          </p>
+          <div class="footer-links">
+            <a href="https://pecalegal.detran.rs.gov.br/cdv-portal/mod-consulta/credenciados.xhtml" target="_blank" rel="noopener noreferrer">
+              🏛️ Portal Oficial Peça Legal RS
+            </a>
+            •
+            <a href="/api/docs" target="_blank" rel="noopener noreferrer">
+              ⚡ API
+            </a>
+          </div>
+          <div class="footer-copy">
+            Licença Livre MIT • Mantido por <a href="https://github.com/moothz" target="_blank" rel="noopener noreferrer">@moothz</a>
+          </div>
+        </footer>
+      </aside>
+
+      <!-- Painel do Mapa Interativo -->
+      <section class="map-container" id="map-panel">
+        <div id="map"></div>
+        <div class="map-controls-overlay">
+          <button type="button" class="btn-map-control" onclick="resetMapView()" title="Centralizar mapa em todo o Rio Grande do Sul">
+            🗺️ Ver todo o RS
+          </button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Modal de Ação de Contato (Abrir / Copiar) -->
+  <div class="modal-backdrop" id="contact-modal" style="display: none;" onclick="closeModalOnBackdrop(event, 'contact-modal')">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="contact-modal-title">💬 Opções de Contato</h3>
+        <button type="button" class="btn-close-modal" onclick="closeContactModal()" aria-label="Fechar">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-target-name" id="contact-modal-target-name"></p>
+        <div class="contact-number-display" id="contact-modal-number"></div>
+        <p class="contact-modal-hint" id="contact-modal-hint">Escolha uma ação para o número selecionado:</p>
+
+        <!-- Opção de Mensagem WhatsApp Predefinida -->
+        <div id="wa-message-container" class="wa-message-container" style="display: none;">
+          <div class="form-checkbox wa-checkbox-wrapper">
+            <input type="checkbox" id="wa-include-msg" checked>
+            <label for="wa-include-msg"><strong>Incluir Mensagem</strong></label>
+          </div>
+          <p class="wa-message-hint">Predefina uma mensagem para enviar automaticamente ao número, ela será salva</p>
+          <textarea
+            id="wa-custom-msg"
+            class="wa-message-textarea"
+            rows="3"
+            placeholder="Olá, estou procurando a rebimboca da parafuseta para o meu Ford Santana, vocês teriam?"
+          ></textarea>
+        </div>
+      </div>
+      <div class="modal-footer contact-modal-actions">
+        <button type="button" class="btn-modal-action btn-modal-primary" id="btn-contact-open">
+          🚀 Abrir
+        </button>
+        <button type="button" class="btn-modal-action btn-modal-secondary" id="btn-contact-copy">
+          📋 Copiar Número
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Sugestão de Contato -->
+  <div class="modal-backdrop" id="suggest-modal" style="display: none;" onclick="closeModalOnBackdrop(event, 'suggest-modal')">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>💡 Sugerir Número de Contato</h3>
+        <button type="button" class="btn-close-modal" onclick="closeSuggestModal()" aria-label="Fechar">✕</button>
+      </div>
+      <form id="suggest-form" onsubmit="submitSuggestion(event)">
+        <div class="modal-body">
+          <p class="modal-target-name" id="suggest-modal-target-name"></p>
+          <input type="hidden" id="suggest-cdv-code" value="">
+
+          <div class="form-group">
+            <label for="suggest-type">Tipo de Contato: *</label>
+            <select id="suggest-type" class="form-select-type" onchange="handleSuggestTypeChange(this.value)">
+              <option value="whatsapp">💬 WhatsApp</option>
+              <option value="phone">📞 Telefone / Celular</option>
+              <option value="instagram">📸 Instagram</option>
+              <option value="facebook">👥 Facebook</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="suggest-contact-name">Nome do Contato ou Setor: *</label>
+            <input type="text" id="suggest-contact-name" placeholder="Ex: Peças, Vendedor Carlos, Atendimento..." required maxlength="100">
+          </div>
+
+          <div class="form-group" id="suggest-phone-group">
+            <label for="suggest-phone" id="suggest-phone-label">Telefone / Celular com DDD: *</label>
+            <input type="tel" id="suggest-phone" placeholder="(54) 99999-9999" maxlength="18">
+            <small class="form-help" id="suggest-phone-help">Informe telefone fixo ou celular com DDD (zero inicial será removido automaticamente).</small>
+          </div>
+
+          <div class="form-group" id="suggest-social-group" style="display: none;">
+            <label for="suggest-social-val" id="suggest-social-label">Perfil ou Link: *</label>
+            <input type="text" id="suggest-social-val" placeholder="@nome_do_perfil ou https://..." maxlength="150">
+            <small class="form-help" id="suggest-social-help">Informe o @usuário ou o link completo da página.</small>
+          </div>
+
+          <div class="form-checkbox" id="suggest-whatsapp-check-group">
+            <input type="checkbox" id="suggest-is-whatsapp" checked>
+            <label for="suggest-is-whatsapp">Este número recebe mensagens no WhatsApp</label>
+          </div>
+
+          <div id="suggest-error" class="form-error" style="display: none;"></div>
+          <div id="suggest-success" class="form-success" style="display: none;"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-modal-action btn-modal-secondary" onclick="closeSuggestModal()">Cancelar</button>
+          <button type="submit" class="btn-modal-action btn-modal-primary" id="btn-submit-suggest">
+            Enviar Sugestão
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast de Notificações Rápidas -->
+  <div id="toast-notification" class="toast" style="display: none;"></div>
+
+  <!-- Leaflet JS & MarkerCluster JS com Subresource Integrity (SRI) -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" integrity="sha384-eXVCORTRlv4FUUgS/xmOyr66XBVraen8ATNLMESp92FKXLAMiKkerixTiBvXriZr" crossorigin="anonymous"></script>
+
+  <!-- Lógica da Aplicação -->
+  <script src="app.js?v=3.3"></script>
+</body>
+</html>
