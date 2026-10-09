@@ -220,15 +220,64 @@ def run_bootstrap():
     save_cdvs(cdvs)
     print(f"[Scraper] Bootstrap concluído! Total final de CDVs: {len(cdvs)}")
 
+def run_refine(max_items: int = None):
+    """
+    Refina as coordenadas dos CDVs existentes que estao marcados apenas com municipio_centroid
+    utilizando a busca precisa por Nome e Endereco.
+    """
+    print("[Scraper] Iniciando refinamento de coordenadas para precisão máxima...")
+    cities_rs = load_cities_rs()
+    geocache = load_geocache()
+    cdvs = load_cdvs()
+
+    # Prioriza os que estão com municipio_centroid
+    candidates = [
+        item for item in cdvs.values() 
+        if item.get('geo_method') in ('municipio_centroid', 'rs_default', None)
+    ]
+    print(f"[Scraper] Encontrados {len(candidates)} CDVs para refinamento de precisão.")
+
+    refined_count = 0
+    for idx, cdv in enumerate(candidates):
+        if max_items and idx >= max_items:
+            break
+
+        nome = cdv.get('nome')
+        codigo = cdv.get('codigo')
+        print(f"[{idx+1}/{len(candidates)}] Refinando {codigo} - {nome}...")
+
+        lat, lng, method = geocode_cdv(cdv, cities_rs, geocache, force_precise=True)
+        if method != 'municipio_centroid':
+            cdv['lat'] = lat
+            cdv['lng'] = lng
+            cdv['geo_method'] = method
+            refined_count += 1
+            print(f"  -> Sucesso ({method}): {lat}, {lng}")
+        else:
+            print("  -> Permanece centróide do município")
+
+        # Salva periodicamente
+        if (idx + 1) % 5 == 0:
+            save_geocache(geocache)
+            save_cdvs(cdvs)
+
+    save_geocache(geocache)
+    save_cdvs(cdvs)
+    print(f"[Scraper] Refinamento concluído! {refined_count} CDVs com coordenadas de alta precisão.")
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Coletor de CDVs credenciados DETRAN-RS")
     parser.add_argument('--page', type=int, help="Número da página específica para coletar")
     parser.add_argument('--bootstrap', action='store_true', help="Coleta todas as páginas para gerar snapshot inicial")
     parser.add_argument('--once', action='store_true', help="Coleta a próxima página da fila")
+    parser.add_argument('--refine', action='store_true', help="Refina CDVs existentes com busca precisa de endereço")
+    parser.add_argument('--limit', type=int, help="Limite de itens para refinar")
     args = parser.parse_args()
 
     if args.bootstrap:
         run_bootstrap()
+    elif args.refine:
+        run_refine(args.limit)
     elif args.page is not None:
         run_single_page(args.page)
     else:

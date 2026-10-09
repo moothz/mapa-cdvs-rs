@@ -42,6 +42,10 @@ scrape-full:
 	@echo "Disparando varredura completa sob demanda com delay educado..."
 	docker compose exec scraper python -m scripts.scraper --full
 
+refine:
+	@echo "Refinando coordenadas dos CDVs com busca de alta precisão por endereço..."
+	docker compose exec scraper python -m scripts.scraper --refine
+
 status:
 	@echo "Status dos containers:"
 	docker compose ps
